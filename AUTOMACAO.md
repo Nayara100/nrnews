@@ -28,9 +28,17 @@ Para mudar fontes, estilo ou quantidade, edite só este arquivo.
 
 Como escolher entre elas:
 - Leia os feeds de todas as fontes e junte as matérias das últimas 24h num só lugar antes de escolher.
-- **Varie a editoria:** veja as 3 notícias mais recentes de `noticias.json`. Se nenhuma for de Marketing,
-  prefira uma de Marketing (Meio & Mensagem ou Propmark) quando houver uma boa. Não publique três
-  seguidas da mesma editoria se houver alternativa relevante.
+- **Rodízio de editorias (obrigatório):** as 4 editorias (Marketing, Economia, Política, Negócios)
+  precisam aparecer antes de qualquer uma se repetir. Veja o campo `ed` das 3 primeiras notícias de
+  `noticias.json` (a primeira é a mais recente). A notícia de agora tem que ser de uma editoria que
+  **não** está entre essas 3. Se mais de uma estiver faltando, escolha a que foi usada há mais tempo.
+  Só se não houver nenhuma matéria nova e relevante nas editorias que faltam, use a editoria usada
+  há mais tempo que tiver uma boa matéria, e explique isso no resumo final.
+  - Marketing: Meio & Mensagem e Propmark são as fontes principais.
+  - Política: só **decisões de governo, Congresso ou Justiça que afetam empresas e o bolso**
+    (impostos, regras do Simples/MEI, orçamento, regulação, programas como o Desenrola). Nunca
+    campanha, pesquisa eleitoral, candidatos ou brigas partidárias. Fontes: Metrópoles (Brasil),
+    Agência Brasil, g1 e Folha.
 - **Varie a fonte:** entre matérias de relevância parecida, prefira uma fonte diferente da usada na
   notícia mais recente.
 - Se o mesmo fato aparece em várias fontes, escolha a matéria mais completa e confira os números
