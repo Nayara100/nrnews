@@ -15,7 +15,9 @@ CHROMES = [
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
     # Chromium que já vem instalado no ambiente de nuvem do Claude. O headless shell
     # respeita o tamanho exato da janela; o chrome comum cortava o rodapé lá.
-    *sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/chrome-*/*headless-shell"), reverse=True),
+    *sorted((f for f in glob.glob("/opt/pw-browsers/chromium_headless_shell-*/**/*", recursive=True)
+             if os.path.basename(f) in ("headless_shell", "chrome-headless-shell") and os.access(f, os.X_OK)),
+            reverse=True),
     *sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"), reverse=True),
     shutil.which("google-chrome") or "", shutil.which("chromium") or "", shutil.which("chromium-browser") or "",
 ]
