@@ -41,7 +41,13 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:co
 .logo b{font-weight:500;font-size:30px;letter-spacing:-.5px}
 .logo span{font-weight:300;font-size:16px}
 .logo svg{position:absolute;left:38px;top:-4px;width:14px;height:14px;fill:var(--lilac)}
-.date{font-size:14px;color:var(--muted)}
+.date{font-size:14px;color:var(--muted);white-space:nowrap}
+.bar-r{display:flex;align-items:center;gap:14px}
+.burger{display:none;flex-direction:column;align-items:center;justify-content:center;gap:5px;width:44px;height:44px;padding:0;border:1px solid var(--line);border-radius:12px;background:transparent;cursor:pointer}
+.burger span{display:block;width:18px;height:2px;border-radius:1px;background:var(--text);transition:transform .2s ease,opacity .2s ease}
+header.open .burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+header.open .burger span:nth-child(2){opacity:0}
+header.open .burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 .chips{display:flex;gap:8px;overflow-x:auto;padding:0 0 14px;scrollbar-width:none}
 .chips::-webkit-scrollbar{display:none}
 .chip{border:1px solid var(--line);background:transparent;border-radius:999px;padding:6px 16px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;color:var(--muted)}
@@ -88,6 +94,13 @@ footer{border-top:1px solid var(--line);padding:28px 0 36px;font-size:13px;color
 footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 
 @media (max-width:860px){
+  .burger{display:flex}
+  .chips{display:none;flex-direction:column;overflow:visible;padding:4px 0 18px}
+  header.open .chips{display:flex}
+  .chip{text-align:left;padding:10px 18px;font-size:16px}
+}
+@media (max-width:480px){
+  .date .wd{display:none}
   main .wrap{grid-template-columns:1fr;gap:40px}
   .hero .wrap{padding-top:48px;padding-bottom:72px}
 }
@@ -102,7 +115,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
   <div class="wrap">
     <div class="bar">
       <a class="logo" href="#" aria-label="NR News, início"><b>NR</b><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 0 L11 9 L20 10 L11 11 L10 20 L9 11 L0 10 L9 9 Z"/></svg><span>news</span></a>
-      <span class="date" id="today"></span>
+      <div class="bar-r">
+        <span class="date" id="today"></span>
+        <button class="burger" id="burger" aria-expanded="false" aria-controls="chips" aria-label="Abrir editorias"><span></span><span></span><span></span></button>
+      </div>
     </div>
     <nav class="chips" aria-label="Filtrar por editoria" id="chips"></nav>
   </div>
@@ -144,12 +160,18 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 const ED = {"Negócios":"var(--neg)","Marketing":"var(--mkt)","Economia":"var(--eco)","Política":"var(--pol)"};
 let NEWS = []; // as notícias ficam em noticias.json
 const fmt = d => new Date(d+"T12:00:00").toLocaleDateString("pt-BR",{day:"numeric",month:"long"});
-document.getElementById("today").textContent = new Date().toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"});
+document.getElementById("today").innerHTML = `<span class="wd">${new Date().toLocaleDateString("pt-BR",{weekday:"long"})}, </span>${new Date().toLocaleDateString("pt-BR",{day:"numeric",month:"long"})}`;
 
 // faixas de luz do destaque
 const st=document.getElementById("streaks");
 let seed=7; const rnd=()=>{seed=(seed*9301+49297)%233280;return seed/233280};
 for(let i=0;i<30;i++){const s=document.createElement("i");s.style.left=(rnd()*100)+"%";s.style.width=(6+rnd()*34)+"px";s.style.height=(35+rnd()*45)+"%";s.style.opacity=(.35+rnd()*.65).toFixed(2);st.appendChild(s)}
+
+// menu hambúrguer das editorias (mobile)
+const header=document.querySelector("header"), burger=document.getElementById("burger");
+const menu=on=>{header.classList.toggle("open",on);burger.setAttribute("aria-expanded",on);burger.setAttribute("aria-label",on?"Fechar editorias":"Abrir editorias")};
+burger.onclick=()=>menu(!header.classList.contains("open"));
+document.addEventListener("keydown",e=>{if(e.key==="Escape")menu(false)});
 
 let filter="Todas";
 const chips=document.getElementById("chips");
@@ -157,7 +179,7 @@ const chips=document.getElementById("chips");
   const b=document.createElement("button");b.className="chip";b.dataset.f=n;b.textContent=n;
   if(ED[n]) b.style.setProperty("--c",ED[n]);
   b.setAttribute("aria-pressed",n===filter);
-  b.onclick=()=>{filter=n;sel=null;chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===n));render()};
+  b.onclick=()=>{filter=n;sel=null;menu(false);chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===n));render()};
   chips.appendChild(b);
 });
 document.getElementById("eds").innerHTML=Object.entries(ED).map(([n,c])=>`<li style="--c:${c}"><span></span>${n}</li>`).join("");
