@@ -13,7 +13,9 @@ import argparse, glob, os, shutil, subprocess, urllib.parse
 CAMPOS = ("ed", "date", "title", "lead", "src")
 CHROMES = [
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-    # Chromium que já vem instalado no ambiente de nuvem do Claude
+    # Chromium que já vem instalado no ambiente de nuvem do Claude. O headless shell
+    # respeita o tamanho exato da janela; o chrome comum cortava o rodapé lá.
+    *sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/chrome-*/*headless-shell"), reverse=True),
     *sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"), reverse=True),
     shutil.which("google-chrome") or "", shutil.which("chromium") or "", shutil.which("chromium-browser") or "",
 ]

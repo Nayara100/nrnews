@@ -45,10 +45,14 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
    de `noticias.json` e gera `criativos/AAAA-MM-DD-titulo.png` e `.txt`.
    Se sair com código 3, a matéria já existe: volte ao passo 3 e escolha outra, ou pare.
 7. **Confira o criativo:** abra o PNG gerado e verifique se o texto não está cortado nem
-   sobreposto. Se estiver, encurte `criativo.title`/`criativo.lead`, desfaça as mudanças
+   sobreposto, se o rodapé (fonte e @nrnews) aparece inteiro e se a fonte é a Poppins
+   (arredondada, como nos criativos anteriores), e não Arial/Helvetica. Se algo disso falhar
+   depois de uma nova tentativa, **não poste no Instagram**: faça o commit só da notícia no site
+   e explique o problema no resumo. Se estiver, encurte `criativo.title`/`criativo.lead`, desfaça as mudanças
    (`git checkout -- noticias.json && git clean -fd criativos/`) e rode de novo.
 8. **Commit e push** direto na branch `main` (a Vercel publica o site sozinha):
-   `git add noticias.json criativos/ && git commit -m "Publica notícia: <título curto>" && git push origin main`
+   `git add noticias.json criativos/ && git commit -m "Publica notícia: <título curto>" && git push origin HEAD:main`
+   (use `HEAD:main`: o repositório pode vir com o HEAD solto).
    Não commite o `nova.json`.
 9. **Poste no Instagram:** `python3 automacao/postar_instagram.py criativos/AAAA-MM-DD-titulo.png`
    (o PNG gerado no passo 6). O script espera a Vercel publicar a imagem e posta com a legenda do
