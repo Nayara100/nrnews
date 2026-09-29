@@ -21,8 +21,9 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
 
 ## Passo a passo
 
-1. **Prepare o ambiente** (só se ainda não houver Chrome/Chromium instalado):
-   `pip install playwright && python3 -m playwright install --with-deps chromium`
+1. **Prepare o ambiente:** o `criativos/gerar.py` usa sozinho o Chromium que já vem instalado em
+   `/opt/pw-browsers`. Só se ele falhar por falta de navegador, rode
+   `pip install playwright && python3 -m playwright install --with-deps chromium`.
 2. **Veja o que já foi publicado:** leia `noticias.json`. Nunca publique uma matéria cujo `url`
    já esteja lá, nem outra matéria sobre o mesmo fato.
 3. **Busque na fonte:** abra a página inicial e as seções de economia/negócios. Escolha a matéria

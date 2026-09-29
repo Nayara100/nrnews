@@ -6,12 +6,15 @@ Uso: python3 criativos/gerar.py saida.png --ed Economia --date 2026-09-29 \
 
 Usa o Google Chrome/Chromium instalado; se não houver, usa o Playwright
 (pip install playwright && python3 -m playwright install --with-deps chromium).
+No ambiente de nuvem do Claude, usa o Chromium que já vem em /opt/pw-browsers.
 """
-import argparse, os, shutil, subprocess, urllib.parse
+import argparse, glob, os, shutil, subprocess, urllib.parse
 
 CAMPOS = ("ed", "date", "title", "lead", "src")
 CHROMES = [
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    # Chromium que já vem instalado no ambiente de nuvem do Claude
+    *sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"), reverse=True),
     shutil.which("google-chrome") or "", shutil.which("chromium") or "", shutil.which("chromium-browser") or "",
 ]
 
