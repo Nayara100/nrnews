@@ -91,7 +91,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
   main .wrap{grid-template-columns:1fr;gap:40px}
   .hero .wrap{padding-top:48px;padding-bottom:72px}
 }
-@media (prefers-reduced-motion:reduce){.body{transition:none}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+#heroInner.swap{animation:rise .45s ease}
+.row:hover .h{text-decoration:underline;text-decoration-color:var(--c);text-underline-offset:5px}
+@media (prefers-reduced-motion:reduce){#heroInner.swap{animation:none}}
 </style>
 </head>
 <body>
@@ -154,29 +157,34 @@ const chips=document.getElementById("chips");
   const b=document.createElement("button");b.className="chip";b.dataset.f=n;b.textContent=n;
   if(ED[n]) b.style.setProperty("--c",ED[n]);
   b.setAttribute("aria-pressed",n===filter);
-  b.onclick=()=>{filter=n;chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===n));render()};
+  b.onclick=()=>{filter=n;sel=null;chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===n));render()};
   chips.appendChild(b);
 });
 document.getElementById("eds").innerHTML=Object.entries(ED).map(([n,c])=>`<li style="--c:${c}"><span></span>${n}</li>`).join("");
 
+let sel=null;
 const fonte = n => n.url ? `<a href="${n.url}" target="_blank" rel="noopener">${n.src}</a>` : n.src;
 function render(){
-  const list=NEWS.filter(n=>filter==="Todas"||n.ed===filter).sort((a,b)=>b.date.localeCompare(a.date));
+  const list=NEWS.map((n,id)=>({...n,id})).filter(n=>filter==="Todas"||n.ed===filter).sort((a,b)=>b.date.localeCompare(a.date));
   const hero=document.getElementById("heroInner"), feed=document.getElementById("feed");
   if(!list.length){hero.innerHTML="";feed.innerHTML=`<li class="empty">Ainda não tem notícia nessa editoria. Escolha outra ali em cima.</li>`;return}
-  const [top,...rest]=list;
+  const top=list.find(n=>n.id===sel)||list[0];
+  const rest=list.filter(n=>n!==top);
   hero.style.setProperty("--c",ED[top.ed]);
   hero.innerHTML=`<span class="pill">${top.ed}</span><h1>${top.title}</h1><span class="rule"></span><p>${top.lead} ${top.body.join(" ")}</p>
     <div class="meta">${fmt(top.date)}, fonte: ${fonte(top)}</div>`;
-  feed.innerHTML=(filter==="Todas"?rest:list.slice(1)).map((n,i)=>`
+  hero.classList.remove("swap"); void hero.offsetWidth; hero.classList.add("swap");
+  feed.innerHTML=rest.map(n=>`
     <li class="item" style="--c:${ED[n.ed]}">
-      <button class="row" aria-expanded="false" aria-controls="b${i}">
+      <button class="row" data-id="${n.id}" aria-label="Ver notícia: ${n.title}">
         <span class="dot" aria-hidden="true"></span>
         <span><span class="h">${n.title}</span><span class="meta"><span>${n.ed}</span><span>${fmt(n.date)}</span></span></span>
       </button>
-      <div class="body" id="b${i}"><div><p>${n.lead}</p>${n.body.map(p=>`<p>${p}</p>`).join("")}<div class="src">Fonte: ${fonte(n)}</div></div></div>
     </li>`).join("") || `<li class="empty">Por enquanto, essa é a única notícia dessa editoria.</li>`;
-  feed.querySelectorAll(".row").forEach(r=>r.onclick=()=>{const it=r.parentElement;const o=it.classList.toggle("open");r.setAttribute("aria-expanded",o)});
+  feed.querySelectorAll(".row").forEach(r=>r.onclick=()=>{
+    sel=+r.dataset.id; render();
+    window.scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+  });
 }
 fetch("noticias.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{NEWS=d;render()});
 </script>
