@@ -50,6 +50,12 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
 8. **Commit e push** direto na branch `main` (a Vercel publica o site sozinha):
    `git add noticias.json criativos/ && git commit -m "Publica notícia: <título curto>" && git push origin main`
    Não commite o `nova.json`.
+9. **Poste no Instagram:** `python3 automacao/postar_instagram.py criativos/AAAA-MM-DD-titulo.png`
+   (o PNG gerado no passo 6). O script espera a Vercel publicar a imagem e posta com a legenda do
+   `.txt`. Se ele falhar, **não tente de novo em loop**: registre o erro no resumo final. Se o erro
+   for de token (código 190), avise no resumo que o token do Instagram precisa ser renovado.
+10. **Resumo final:** título publicado, link da fonte, caminho do criativo e link do post no
+    Instagram — ou o motivo de não ter publicado.
 
 ## Regras de redação (obrigatórias)
 
