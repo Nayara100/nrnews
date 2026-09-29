@@ -3,10 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>NR News | Criativo</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
+/* Poppins salva no repositório (criativos/fontes, licença OFL): o criativo não depende de internet */
+@font-face{font-family:"PoppinsNR";font-weight:300;src:url("fontes/Poppins-Light.ttf")}
+@font-face{font-family:"PoppinsNR";font-weight:400;src:url("fontes/Poppins-Regular.ttf")}
+@font-face{font-family:"PoppinsNR";font-weight:500;src:url("fontes/Poppins-Medium.ttf")}
+@font-face{font-family:"PoppinsNR";font-weight:700;src:url("fontes/Poppins-Bold.ttf")}
 /* Modelo do criativo de Instagram (1080x1350).
    Os dados vêm pela URL: ?ed=Economia&date=2026-09-29&title=...&lead=...&src=... */
 :root{
@@ -16,7 +18,7 @@
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg)}
 .card{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--bg);color:var(--text);
-  font-family:"Poppins",sans-serif;-webkit-font-smoothing:antialiased;padding:0 90px}
+  font-family:"PoppinsNR",sans-serif;-webkit-font-smoothing:antialiased;padding:0 90px}
 .streaks{position:absolute;inset:0;pointer-events:none;
   -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 30%);mask-image:linear-gradient(to top,#000 0%,transparent 30%)}
 .streaks i{position:absolute;bottom:0;filter:blur(20px);background:rgba(var(--streak),.42)}
@@ -76,6 +78,7 @@ document.fonts.ready.then(() => {
   const h = document.getElementById("title");
   let fs = 78;
   while (fs > 56 && h.getBoundingClientRect().height > fs*1.2*3 + 2) { fs -= 2; h.style.setProperty("--fs", fs+"px"); }
+  document.body.dataset.fonte = document.fonts.check('700 40px "PoppinsNR"') ? "poppins" : "faltando";
   document.body.dataset.ready = "1";
 });
 </script>
