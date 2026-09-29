@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>NR News | Criativo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Modelo do criativo de Instagram (1080x1350).
+   Os dados vêm pela URL: ?ed=Economia&date=2026-09-29&title=...&lead=...&src=... */
+:root{
+  --bg:#050309; --text:#ffffff; --muted:#b9aed0; --lead:#ddd6e8;
+  --lilac:#c4a0f5; --streak:150,90,230; --chip-ink:#180c2c;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg)}
+.card{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--bg);color:var(--text);
+  font-family:"Poppins",sans-serif;-webkit-font-smoothing:antialiased;padding:0 90px}
+.streaks{position:absolute;inset:0;pointer-events:none;
+  -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 30%);mask-image:linear-gradient(to top,#000 0%,transparent 30%)}
+.streaks i{position:absolute;bottom:0;filter:blur(20px);background:rgba(var(--streak),.42)}
+
+.top{position:absolute;left:90px;right:90px;top:96px;display:flex;justify-content:space-between;align-items:baseline}
+.logo{position:relative;display:flex;align-items:baseline;gap:30px}
+.logo b{font-weight:500;font-size:56px;letter-spacing:-1px;line-height:1}
+.logo span{font-weight:300;font-size:30px;position:relative;top:10px}
+.logo svg{position:absolute;left:74px;top:-20px;width:20px;height:20px;fill:var(--lilac)}
+.date{font-size:26px;color:var(--muted);font-weight:400}
+
+.main{position:absolute;left:90px;right:90px;top:330px}
+.pill{display:inline-block;border-radius:999px;padding:7px 24px;font-size:25px;font-weight:500;background:var(--c);color:var(--chip-ink)}
+h1{text-wrap:balance;font-weight:700;font-size:var(--fs,78px);line-height:1.2;letter-spacing:-.01em;margin:26px 0 30px}
+.rule{display:block;width:90px;height:5px;border-radius:3px;background:var(--c);margin:0 0 42px}
+.lead{text-wrap:pretty;font-weight:300;font-size:36px;line-height:1.45;color:var(--lead);margin:0}
+
+.foot{position:absolute;left:90px;right:90px;bottom:70px;display:flex;justify-content:space-between;font-size:26px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="card" id="card">
+  <div class="streaks" id="streaks" aria-hidden="true"></div>
+  <div class="top">
+    <div class="logo"><b>NR</b><svg viewBox="0 0 20 20"><path d="M10 0 L11 9 L20 10 L11 11 L10 20 L9 11 L0 10 L9 9 Z"/></svg><span>news</span></div>
+    <div class="date" id="date"></div>
+  </div>
+  <div class="main">
+    <span class="pill" id="ed"></span>
+    <h1 id="title"></h1>
+    <span class="rule"></span>
+    <p class="lead" id="lead"></p>
+  </div>
+  <div class="foot"><span id="src"></span><span>@nrnews</span></div>
+</div>
+<script>
+const ED = {"Negócios":"#c4a0f5","Marketing":"#ff78be","Economia":"#40c48c","Política":"#6fa8ff"};
+const q = new URLSearchParams(location.search);
+const ed = q.get("ed") || "Negócios";
+document.getElementById("card").style.setProperty("--c", ED[ed] || ED["Negócios"]);
+document.getElementById("ed").textContent = ed;
+const [y,m,d] = (q.get("date") || new Date().toISOString().slice(0,10)).split("-");
+document.getElementById("date").textContent = `${d}.${m}.${y}`;
+// evita palavra de uma letra (a, e, o) ou "R$" sozinha no fim da linha
+const cola = t => (t || "").replace(/(^|\s)(\S|R\$) /g, "$1$2\u00a0");
+document.getElementById("title").textContent = cola(q.get("title"));
+document.getElementById("lead").textContent = cola(q.get("lead"));
+document.getElementById("src").textContent = "Fonte: " + (q.get("src") || "");
+
+// faixas de luz no rodapé (mesmo gerador do site)
+const st = document.getElementById("streaks");
+let seed = 7; const rnd = () => { seed = (seed*9301+49297)%233280; return seed/233280 };
+for (let i=0;i<26;i++){const s=document.createElement("i");s.style.left=(rnd()*100)+"%";s.style.width=(8+rnd()*26)+"px";s.style.height=(14+rnd()*16)+"%";s.style.opacity=(.35+rnd()*.65).toFixed(2);st.appendChild(s)}
+
+// títulos longos: reduz a fonte até caber em 3 linhas
+document.fonts.ready.then(() => {
+  const h = document.getElementById("title");
+  let fs = 78;
+  while (fs > 56 && h.getBoundingClientRect().height > fs*1.2*3 + 2) { fs -= 2; h.style.setProperty("--fs", fs+"px"); }
+  document.body.dataset.ready = "1";
+});
+</script>
+</body>
+</html>

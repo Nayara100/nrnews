@@ -139,53 +139,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 
 <script>
 const ED = {"Negócios":"var(--neg)","Marketing":"var(--mkt)","Economia":"var(--eco)","Política":"var(--pol)"};
-const NEWS = [
-  {ed:"Economia", date:"2026-09-29",
-   title:"Desemprego cai para 5,3% e Brasil bate recorde de gente trabalhando",
-   lead:"A taxa do trimestre encerrado em agosto ficou 0,3 ponto abaixo da registrada até maio, segundo o IBGE.",
-   body:["São 281 mil pessoas a menos procurando emprego em relação ao trimestre anterior. O número de ocupados é o maior desde o início da pesquisa, e hoje 58,9% das pessoas em idade de trabalhar estão empregadas.","A renda média ficou em R$\u00a03.777, estável no trimestre e 3,7% maior que há um ano. A informalidade subiu um pouco, de 37,3% para 37,5% dos trabalhadores."],
-   src:"IBGE, via Metrópoles"},
-  {ed:"Negócios", date:"2026-09-29",
-   title:"AstraZeneca investe US$\u00a02 bilhões em empresa de tratamentos contra o câncer",
-   lead:"A farmacêutica vai ficar com cerca de 12% da americana Summit Therapeutics, e as duas vão testar remédios em conjunto.",
-   body:["O investimento vem junto com uma parceria para estudos clínicos que combinam tratamentos das duas empresas contra tipos de câncer gastrointestinal. Os testes devem começar em breve.","As ações da AstraZeneca subiram 2% em Londres depois do anúncio."],
-   src:"ADVFN"},
-  {ed:"Negócios", date:"2026-09-29",
-   title:"Airbus faz o primeiro voo do seu novo avião de carga",
-   lead:"O A350F começou a fase de testes e deve entrar em operação em 2027.",
-   body:["O voo inaugural marca o início da campanha de testes que o modelo precisa cumprir antes de ser liberado para as companhias aéreas."],
-   src:"ADVFN"},
-  {ed:"Marketing", date:"2026-09-25",
-   title:"João Gomes vira embaixador da Copa Energia e música dele vira jingle",
-   lead:"A marca estreou no território musical transformando em tema de campanha uma música que o cantor já tinha lançado.",
-   body:["A faixa \u201cSom da Energia\u201d saiu primeiro sem nenhuma ligação com a empresa e só depois foi revelada como tema oficial da campanha, criada pela agência Purpple.","A ideia é aproximar a marca do dia a dia dos brasileiros."],
-   src:"Meio & Mensagem"},
-  {ed:"Negócios", date:"2026-09-26",
-   title:"Nubank negocia compra de banco britânico por até R$\u00a069 bilhões",
-   lead:"O alvo é o Monzo, um dos maiores bancos digitais do Reino Unido. Seria a porta de entrada do Nubank na Europa.",
-   body:["As conversas estão em fase inicial e o negócio pode avaliar o Monzo entre £ 8 bilhões e £ 10 bilhões, algo entre R$ 55 bilhões e R$ 69 bilhões.","O Monzo fechou o ano fiscal de 2026 com mais de 15 milhões de clientes. O Nubank diz que não comenta rumores de mercado."],
-   src:"Bloomberg e Sky News"},
-  {ed:"Economia", date:"2026-09-28",
-   title:"Mercado prevê Selic em 13,50% no fim de 2026",
-   lead:"A previsão de inflação para o ano subiu de 4,92% para 4,99%.",
-   body:["O Boletim Focus, divulgado toda segunda-feira pelo Banco Central, manteve a expectativa para a taxa básica de juros no fim do ano.","Na prática, o crédito deve continuar caro por mais um tempo."],
-   src:"Banco Central (Boletim Focus)"},
-  {ed:"Marketing", date:"2026-09-26",
-   title:"Propaganda de bets tem até 5 de outubro pra sair do ar",
-   lead:"Anúncios, campanhas e marcas em patrocínios esportivos precisam ser retirados.",
-   body:["A medida provisória que proíbe as apostas online no Brasil dá às empresas do setor até as 23h59 de 5 de outubro para tirar toda a publicidade do ar.","Os clubes de futebol estão entre os mais afetados: em 2025, os patrocínios de apostas somaram R$ 1,1 bilhão, cerca de um terço das receitas comerciais dos times."],
-   src:"Propmark e Portal Anativa"},
-  {ed:"Negócios", date:"2026-09-23",
-   title:"Rodada de Negócios volta a Santo André após três anos",
-   lead:"O encontro entre grandes empresas e fornecedores acontece em 22 de outubro, no Parque Tecnológico.",
-   body:["O evento é organizado pelo Ciesp com as regionais do ABC e já tem 35 grandes empresas confirmadas buscando fornecedores. As inscrições vão até 18 de outubro.","Na edição anterior, foram mais de 1.600 reuniões de negócios."],
-   src:"Diário do Grande ABC e ABCD Jornal"},
-  {ed:"Marketing", date:"2026-09-22",
-   title:"Agora dá pra agendar posts direto pelo site do Instagram",
-   lead:"Feed e Reels podem ser programados com até 30 dias de antecedência, sem ferramenta externa.",
-   body:["O recurso está disponível na versão do Instagram para computador. Os Stories ainda ficam de fora e continuam dependendo do Meta Business Suite para agendamento."],
-   src:"Agência Sertão"}
-];
+let NEWS = []; // as notícias ficam em noticias.json
 const fmt = d => new Date(d+"T12:00:00").toLocaleDateString("pt-BR",{day:"numeric",month:"long"});
 document.getElementById("today").textContent = new Date().toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"});
 
@@ -205,6 +159,7 @@ const chips=document.getElementById("chips");
 });
 document.getElementById("eds").innerHTML=Object.entries(ED).map(([n,c])=>`<li style="--c:${c}"><span></span>${n}</li>`).join("");
 
+const fonte = n => n.url ? `<a href="${n.url}" target="_blank" rel="noopener">${n.src}</a>` : n.src;
 function render(){
   const list=NEWS.filter(n=>filter==="Todas"||n.ed===filter).sort((a,b)=>b.date.localeCompare(a.date));
   const hero=document.getElementById("heroInner"), feed=document.getElementById("feed");
@@ -212,18 +167,18 @@ function render(){
   const [top,...rest]=list;
   hero.style.setProperty("--c",ED[top.ed]);
   hero.innerHTML=`<span class="pill">${top.ed}</span><h1>${top.title}</h1><span class="rule"></span><p>${top.lead} ${top.body.join(" ")}</p>
-    <div class="meta">${fmt(top.date)}, fonte: ${top.src}</div>`;
+    <div class="meta">${fmt(top.date)}, fonte: ${fonte(top)}</div>`;
   feed.innerHTML=(filter==="Todas"?rest:list.slice(1)).map((n,i)=>`
     <li class="item" style="--c:${ED[n.ed]}">
       <button class="row" aria-expanded="false" aria-controls="b${i}">
         <span class="dot" aria-hidden="true"></span>
         <span><span class="h">${n.title}</span><span class="meta"><span>${n.ed}</span><span>${fmt(n.date)}</span></span></span>
       </button>
-      <div class="body" id="b${i}"><div><p>${n.lead}</p>${n.body.map(p=>`<p>${p}</p>`).join("")}<div class="src">Fonte: ${n.src}</div></div></div>
+      <div class="body" id="b${i}"><div><p>${n.lead}</p>${n.body.map(p=>`<p>${p}</p>`).join("")}<div class="src">Fonte: ${fonte(n)}</div></div></div>
     </li>`).join("") || `<li class="empty">Por enquanto, essa é a única notícia dessa editoria.</li>`;
   feed.querySelectorAll(".row").forEach(r=>r.onclick=()=>{const it=r.parentElement;const o=it.classList.toggle("open");r.setAttribute("aria-expanded",o)});
 }
-render();
+fetch("noticias.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{NEWS=d;render()});
 </script>
 </body>
 </html>
