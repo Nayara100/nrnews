@@ -165,10 +165,12 @@ document.getElementById("eds").innerHTML=Object.entries(ED).map(([n,c])=>`<li st
 let sel=null;
 const fonte = n => n.url ? `<a href="${n.url}" target="_blank" rel="noopener">${n.src}</a>` : n.src;
 function render(){
-  const list=NEWS.map((n,id)=>({...n,id})).filter(n=>filter==="Todas"||n.ed===filter).sort((a,b)=>b.date.localeCompare(a.date));
+  const all=NEWS.map((n,id)=>({...n,id})).filter(n=>filter==="Todas"||n.ed===filter).sort((a,b)=>b.date.localeCompare(a.date));
+  const hoje=new Date().toLocaleDateString("en-CA",{timeZone:"America/Sao_Paulo"}); // AAAA-MM-DD em Brasília
+  const list=all.filter(n=>n.date===hoje); // "Últimas notícias" mostra só as de hoje
   const hero=document.getElementById("heroInner"), feed=document.getElementById("feed");
-  if(!list.length){hero.innerHTML="";feed.innerHTML=`<li class="empty">Ainda não tem notícia nessa editoria. Escolha outra ali em cima.</li>`;return}
-  const top=list.find(n=>n.id===sel)||list[0];
+  if(!all.length){hero.innerHTML="";feed.innerHTML=`<li class="empty">Ainda não tem notícia nessa editoria. Escolha outra ali em cima.</li>`;return}
+  const top=list.find(n=>n.id===sel)||list[0]||all[0]; // sem notícia hoje, o destaque fica com a mais recente
   const rest=list.filter(n=>n!==top);
   hero.style.setProperty("--c",ED[top.ed]);
   hero.innerHTML=`<span class="pill">${top.ed}</span><h1>${top.title}</h1><span class="rule"></span><p>${top.lead} ${top.body.join(" ")}</p>
@@ -180,7 +182,7 @@ function render(){
         <span class="dot" aria-hidden="true"></span>
         <span><span class="h">${n.title}</span><span class="meta"><span>${n.ed}</span><span>${fmt(n.date)}</span></span></span>
       </button>
-    </li>`).join("") || `<li class="empty">Por enquanto, essa é a única notícia dessa editoria.</li>`;
+    </li>`).join("") || `<li class="empty">${list.length?"Por enquanto, essa é a única notícia de hoje dessa editoria.":"Ainda não saiu notícia hoje. As próximas chegam às 8h, 13h e 18h."}</li>`;
   feed.querySelectorAll(".row").forEach(r=>r.onclick=()=>{
     sel=+r.dataset.id; render();
     window.scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
