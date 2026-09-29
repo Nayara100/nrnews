@@ -5,10 +5,40 @@ Para mudar fontes, estilo ou quantidade, edite só este arquivo.
 
 ## Configuração
 
-- **Fontes:** https://www.metropoles.com/
+- **Fontes:** as da tabela abaixo (use os feeds RSS: são mais rápidos e mostram a data de cada matéria).
 - **Notícias por execução:** 1
 - **Editorias aceitas:** Negócios, Marketing, Economia, Política
 - **Fuso horário:** America/Sao_Paulo (use a data de hoje nesse fuso)
+
+## Fontes
+
+| Fonte | Foco | Feed RSS | Nome em `src` |
+|---|---|---|---|
+| Metrópoles | Economia e negócios no Brasil | https://www.metropoles.com/brasil/feed e https://www.metropoles.com/brasil/economia-br/feed | Metrópoles |
+| g1 Economia | Economia, emprego, consumo | https://g1.globo.com/rss/g1/economia/ | g1 |
+| Valor Econômico | Empresas, mercado, finanças | https://valor.globo.com/rss/valor | Valor Econômico |
+| InfoMoney | Mercado, investimentos, empresas | https://www.infomoney.com.br/feed/ | InfoMoney |
+| Folha Mercado | Economia e mercado | https://feeds.folha.uol.com.br/mercado/rss091.xml | Folha de S.Paulo |
+| Meio & Mensagem | Marketing, publicidade, mídia | https://www.meioemensagem.com.br/feed | Meio & Mensagem |
+| Propmark | Marketing, publicidade, agências | https://propmark.com.br/feed/ | Propmark |
+| Exame | Negócios, empresas, carreira | https://exame.com/feed/ | Exame |
+| NeoFeed | Negócios, investimentos, startups | https://neofeed.com.br/feed/ | NeoFeed |
+| Startups.com.br | Startups e inovação | https://startups.com.br/feed/ | Startups |
+| Agência Brasil | Dados oficiais (IBGE, BC, governo) | https://agenciabrasil.ebc.com.br/rss/economia/feed.xml | Agência Brasil |
+
+Como escolher entre elas:
+- Leia os feeds de todas as fontes e junte as matérias das últimas 24h num só lugar antes de escolher.
+- **Varie a editoria:** veja as 3 notícias mais recentes de `noticias.json`. Se nenhuma for de Marketing,
+  prefira uma de Marketing (Meio & Mensagem ou Propmark) quando houver uma boa. Não publique três
+  seguidas da mesma editoria se houver alternativa relevante.
+- **Varie a fonte:** entre matérias de relevância parecida, prefira uma fonte diferente da usada na
+  notícia mais recente.
+- Se o mesmo fato aparece em várias fontes, escolha a matéria mais completa e confira os números
+  numa segunda fonte. Se as fontes divergirem num número, deixe esse número de fora.
+- Se a matéria estiver bloqueada por paywall e você não conseguir ler os fatos completos, use outra
+  fonte sobre o mesmo fato ou escolha outra notícia.
+- Ignore conteúdo patrocinado (ex.: links com `conteudo-especial`, "publieditorial", "oferecido por").
+- Se um feed não abrir, siga com os outros e cite a falha no resumo final.
 
 ## O que o NR News publica
 
@@ -26,17 +56,17 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
    `pip install playwright && python3 -m playwright install --with-deps chromium`.
 2. **Veja o que já foi publicado:** leia `noticias.json`. Nunca publique uma matéria cujo `url`
    já esteja lá, nem outra matéria sobre o mesmo fato.
-3. **Busque na fonte:** abra a página inicial e as seções de economia/negócios. Escolha a matéria
-   mais relevante e **recente** (publicada nas últimas 24h) que se encaixe nas editorias.
-   Abra a matéria e anote os fatos e números.
+3. **Busque nas fontes:** leia os feeds da seção "Fontes". Escolha a matéria mais relevante e
+   **recente** (publicada nas últimas 24h) que se encaixe nas editorias, seguindo as regras de
+   variedade. Abra a matéria e anote os fatos e números.
 4. **Se nada relevante e novo tiver sido publicado, pare aqui** sem fazer commit. É melhor não
    publicar do que publicar algo fraco ou repetido.
 5. **Escreva a notícia** num arquivo temporário `nova.json` (formato em `automacao/publicar.py`):
    - `title`: até ~70 caracteres, direto, com o fato principal.
    - `lead`: 1 frase que complementa o título.
    - `body`: 1 ou 2 parágrafos curtos, com números e contexto e, se couber, o que muda na prática.
-   - `src`: nome do veículo (ex.: "Metrópoles"). Se o dado for de um órgão citado na matéria,
-     use "Órgão, via Metrópoles" (ex.: "IBGE, via Metrópoles").
+   - `src`: nome do veículo, como na coluna "Nome em `src`" (ex.: "Meio & Mensagem"). Se o dado
+     for de um órgão citado na matéria, use "Órgão, via Veículo" (ex.: "IBGE, via g1").
    - `url`: link da matéria original.
    - `criativo.title`: versão curta do título para o Instagram, com **até 50 caracteres**.
    - `criativo.lead`: 1 ou 2 frases, com **até 130 caracteres**.
