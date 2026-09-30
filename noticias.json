@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-09-30",
+    "title": "Contas do governo têm déficit de R$ 13,6 bilhões em agosto",
+    "lead": "O resultado foi melhor que o de agosto de 2025 e que a previsão do mercado, mas o ano ainda acumula rombo maior.",
+    "body": [
+      "O Governo Central fechou agosto com déficit primário de R$ 13,6 bilhões, segundo o Tesouro Nacional. Em agosto de 2025, o saldo negativo foi de R$ 15,5 bilhões, e o mercado esperava R$ 16 bilhões. Descontada a inflação, a receita líquida subiu 3,5% e as despesas, 1,9%.",
+      "De janeiro a agosto, o déficit chegou a R$ 94,9 bilhões, contra R$ 85,9 bilhões no mesmo período de 2025. A arrecadação da Receita Federal cresceu 5,6% acima da inflação, e a da Previdência subiu 6,3%, com ajuda do mercado de trabalho. Do lado dos gastos, R$ 4,9 bilhões foram para o fundo das campanhas eleitorais."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/governo-central-registra-deficit-de-r-136-bilhoes-em-agosto"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-09-30",
     "title": "Mercado Pago substitui o Itaú como banco oficial do The Town",
