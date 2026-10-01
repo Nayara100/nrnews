@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Política",
+    "date": "2026-10-01",
+    "title": "Pix por aproximação deixa de ter teto de R$ 500",
+    "lead": "A regra do Banco Central vale a partir desta quinta; o cliente poderá pedir ao banco um novo limite.",
+    "body": [
+      "O Banco Central retirou o teto específico de R$ 500 por transação do Pix por aproximação. A mudança foi definida na Instrução Normativa BCB nº 746, publicada em junho, e passa a valer em 1º de outubro. Também alcança pagamentos por Código QR, chaves de acesso e operações iniciadas pela jornada sem redirecionamento do Open Finance.",
+      "Na prática, não há um novo teto único: o limite passa a depender da conta de cada cliente e das regras de segurança do banco. Quem quiser pagar valores maiores poderá pedir o aumento pelo aplicativo, e as instituições devem oferecer uma ferramenta para gerenciar esse limite. O Pix por aproximação usa a tecnologia NFC e está disponível desde fevereiro de 2025."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pix-por-aproximacao-deixa-de-ter-teto-de-r-500-partir-desta-quinta"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-09-30",
     "title": "Selbetti compra a Botdesigner e reforça atuação na saúde",
