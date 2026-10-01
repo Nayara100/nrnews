@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-01",
+    "title": "Produção de petróleo do Brasil bate recorde pelo 3º mês seguido",
+    "lead": "O país extraiu 4,615 milhões de barris por dia em agosto, segundo a ANP.",
+    "body": [
+      "A produção de petróleo do Brasil chegou a 4,615 milhões de barris por dia em agosto. É 2,6% mais do que em julho e 18,4% mais do que em agosto de 2025. O número supera o recorde anterior, de 4,498 milhões de barris por dia, registrado em julho.",
+      "A ANP diz que o avanço vem dos grandes campos do pré-sal, em especial Búzios e Mero, na Bacia de Santos. A produção de gás natural também subiu: 220,55 milhões de metros cúbicos por dia, alta de 2,6% sobre julho e de 16,8% em um ano."
+    ],
+    "src": "ANP, via g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/10/01/producao-de-petroleo-brasil.ghtml"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-10-01",
     "title": "Justiça dos EUA libera a fusão entre Paramount e Warner Bros.",
