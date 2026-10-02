@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-02",
+    "title": "Produção industrial cai 0,6% em agosto, aponta o IBGE",
+    "lead": "É a terceira queda em quatro meses; juros altos e dívidas das famílias pesam no setor.",
+    "body": [
+      "A produção da indústria brasileira recuou 0,6% em agosto, na comparação com julho, segundo a Pesquisa Industrial Mensal do IBGE, divulgada nesta sexta-feira (2). Em julho, o setor havia crescido 0,1%, depois de perdas de 1% em maio e de 1,6% em junho. Nos últimos quatro meses, a queda acumulada é de 3,1%.",
+      "Dezesseis dos 25 ramos pesquisados tiveram queda, e as quatro grandes categorias econômicas recuaram. Os bens de consumo semi e não duráveis caíram 1,7% e os duráveis, 1%. Os bens de capital, como máquinas e equipamentos, recuaram 0,6%. Para o IBGE, os juros ainda elevados aumentam o endividamento das famílias e levam as empresas a adiar investimentos. No ano, a indústria acumula alta de 0,8%."
+    ],
+    "src": "IBGE, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-industrial-cai-06-de-julho-para-agosto-diz-ibge"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-10-02",
     "title": "IA já influencia a jornada de compra de 82% dos consumidores",
