@@ -22,7 +22,6 @@ sys.path.insert(0, os.path.join(RAIZ, "criativos"))
 from gerar import gerar  # noqa: E402
 
 EDITORIAS = {"Negócios", "Marketing", "Economia", "Política"}
-MAX_NOTICIAS = 60  # o site mostra só as mais recentes
 
 def slug(t):
     t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower()
@@ -50,7 +49,7 @@ def main():
 
     item = {k: nova[k] for k in ("ed", "date", "title", "lead", "body", "src", "url")}
     noticias = [item] + noticias
-    json.dump(noticias[:MAX_NOTICIAS], open(arq, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    json.dump(noticias, open(arq, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     open(arq, "a", encoding="utf-8").write("\n")
 
     print("publicada:", item["title"])

@@ -96,6 +96,13 @@ h2{font-size:22px;font-weight:600;margin:0 0 8px}
 .body p{margin:0 0 12px;max-width:62ch;font-weight:300;font-size:16.5px}
 .body .src{font-size:13px;color:var(--muted);margin-bottom:26px}
 .empty{padding:40px 0;color:var(--muted)}
+.pager{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;margin:32px 0 0}
+.pager[hidden]{display:none}
+.pager button{min-width:42px;height:42px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);font-size:14px;font-weight:500;cursor:pointer}
+.pager button[aria-current="page"]{background:var(--c,var(--lilac));border-color:var(--c,var(--lilac));color:var(--chip-ink)}
+.pager button:disabled{opacity:.35;cursor:default}
+.pager .gap{color:var(--muted);padding:0 2px}
+.pager .count{flex-basis:100%;text-align:center;font-size:13px;color:var(--muted);margin-top:4px}
 
 /* lateral */
 aside{display:flex;flex-direction:column;gap:28px}
@@ -157,6 +164,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
     <section aria-labelledby="t-feed">
       <h2 id="t-feed">Últimas notícias</h2>
       <ul class="feed" id="feed"></ul>
+      <nav class="pager" id="pager" aria-label="Páginas da editoria" hidden></nav>
     </section>
     <aside>
       <div class="box">
@@ -206,36 +214,62 @@ const chips=document.getElementById("chips");
   const b=document.createElement("button");b.className="chip";b.dataset.f=n;b.textContent=n;
   if(ED[n]) b.style.setProperty("--c",ED[n]);
   b.setAttribute("aria-pressed",n===filter);
-  b.onclick=()=>{filter=n;sel=null;menu(false);chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===n));render()};
+  b.onclick=()=>{filter=n;sel=null;page=1;menu(false);chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===n));render()};
   chips.appendChild(b);
 });
 document.getElementById("eds").innerHTML=Object.entries(ED).map(([n,c])=>`<li style="--c:${c}"><span></span>${n}</li>`).join("");
 
-let sel=null;
+let sel=null, page=1;
+const POR_PAGINA=10; // notícias por página dentro de uma editoria
 const fonte = n => n.url ? `<a href="${n.url}" target="_blank" rel="noopener">${n.src}</a>` : n.src;
 function render(){
   const all=NEWS.map((n,id)=>({...n,id})).filter(n=>filter==="Todas"||n.ed===filter).sort((a,b)=>b.date.localeCompare(a.date));
   const hoje=new Date().toLocaleDateString("en-CA",{timeZone:"America/Sao_Paulo"}); // AAAA-MM-DD em Brasília
-  const list=all.filter(n=>n.date===hoje); // "Últimas notícias" mostra só as de hoje
-  const hero=document.getElementById("heroInner"), feed=document.getElementById("feed");
+  const editoria=filter!=="Todas";
+  // "Todas" mostra só as notícias de hoje; numa editoria aparece todo o histórico dela, em páginas
+  const list=editoria?all:all.filter(n=>n.date===hoje);
+  const hero=document.getElementById("heroInner"), feed=document.getElementById("feed"), pager=document.getElementById("pager");
+  document.getElementById("t-feed").textContent=editoria?`${filter}: todas as notícias`:"Últimas notícias";
+  pager.hidden=true;
   if(!all.length){hero.innerHTML="";feed.innerHTML=`<li class="empty">Ainda não tem notícia nessa editoria. Escolha outra ali em cima.</li>`;return}
   const top=list.find(n=>n.id===sel)||list[0]||all[0]; // sem notícia hoje, o destaque fica com a mais recente
-  const rest=list.filter(n=>n!==top);
+  let rest=list.filter(n=>n!==top);
   hero.style.setProperty("--c",ED[top.ed]);
   hero.innerHTML=`<span class="pill">${top.ed}</span><h1>${top.title}</h1><span class="rule"></span><p>${top.lead} ${top.body.join(" ")}</p>
     <div class="meta">${fmt(top.date)}, fonte: ${fonte(top)}</div>`;
   hero.classList.remove("swap"); void hero.offsetWidth; hero.classList.add("swap");
+  if(editoria){
+    const total=Math.max(1,Math.ceil(rest.length/POR_PAGINA));
+    page=Math.min(Math.max(page,1),total);
+    rest=rest.slice((page-1)*POR_PAGINA,page*POR_PAGINA);
+    if(total>1) paginacao(pager,total,ED[filter]);
+  }
   feed.innerHTML=rest.map((n,i)=>`
     <li class="item" style="--c:${ED[n.ed]}">
       <button class="row" data-id="${n.id}" aria-label="Ver notícia: ${n.title}">
         <span class="dot" style="--d:${(i*0.45).toFixed(2)}s" aria-hidden="true"></span>
         <span><span class="h">${n.title}</span><span class="meta"><span>${n.ed}</span><span>${fmt(n.date)}</span></span></span>
       </button>
-    </li>`).join("") || `<li class="empty">${list.length?"Por enquanto, essa é a única notícia de hoje dessa editoria.":"Ainda não saiu notícia hoje. As próximas chegam às 9h, 13h e 17h."}</li>`;
+    </li>`).join("") || `<li class="empty">${editoria?"Por enquanto, essa é a única notícia dessa editoria.":list.length?"Por enquanto, essa é a única notícia de hoje.":"Ainda não saiu notícia hoje. As próximas chegam ao longo do dia."}</li>`;
   feed.querySelectorAll(".row").forEach(r=>r.onclick=()=>{
     sel=+r.dataset.id; render();
     try{const n=NEWS[sel]; gtag('event','ver_noticia',{editoria:n.ed,titulo:n.title})}catch(e){}
     window.scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+  });
+}
+// paginação numerada das editorias: 1 … 4 5 6 … 12
+function paginacao(pager,total,cor){
+  const nums=[...new Set([1,page-1,page,page+1,total])].filter(n=>n>=1&&n<=total).sort((a,b)=>a-b);
+  let html=`<button data-p="${page-1}" ${page===1?"disabled":""} aria-label="Página anterior">‹</button>`, ant=0;
+  for(const n of nums){
+    if(n-ant>1) html+=`<span class="gap" aria-hidden="true">…</span>`;
+    html+=`<button data-p="${n}" ${n===page?'aria-current="page"':""} aria-label="Página ${n}">${n}</button>`; ant=n;
+  }
+  html+=`<button data-p="${page+1}" ${page===total?"disabled":""} aria-label="Próxima página">›</button><span class="count">Página ${page} de ${total}</span>`;
+  pager.innerHTML=html; pager.style.setProperty("--c",cor); pager.hidden=false;
+  pager.querySelectorAll("button[data-p]").forEach(b=>b.onclick=()=>{
+    page=+b.dataset.p; render();
+    document.getElementById("t-feed").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
   });
 }
 // aviso de cookies
