@@ -1,5 +1,29 @@
 [
   {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "Apuração do primeiro turno começa às 17h",
+    "lead": "Para vencer já neste domingo, candidatos a presidente e governador precisam de mais de 50% dos votos válidos.",
+    "body": [
+      "Os resultados começam a ser divulgados às 17h, pelo horário de Brasília, quando as urnas fecham. Votos válidos são os dados a candidatos: brancos e nulos ficam fora da conta. Se ninguém passar de 50% na disputa para presidente ou governador, os dois mais votados voltam às urnas no segundo turno, em 25 de outubro. Senadores e deputados são eleitos já no primeiro turno.",
+      "Os números oficiais vêm do TSE, que divulga a totalização no site resultados.tse.jus.br e no aplicativo Resultados, para Android e iOS. O app Boletim na Mão, integrado ao e-Título, permite comparar o boletim de cada urna com o total divulgado pelo tribunal."
+    ],
+    "src": "TSE, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-acompanhe-apuracao-em-tempo-real-pela-agencia-brasil"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "Brasil vai às urnas com 158,7 milhões de eleitores no primeiro turno",
+    "lead": "Eleitores escolhem presidente, governadores, senadores e deputados, com votação das 8h às 17h, pelo horário de Brasília.",
+    "body": [
+      "Dos 158,7 milhões de eleitores aptos, mais de 136 milhões são obrigados a votar e pouco mais de 22 milhões podem votar se quiserem. Estão em disputa os cargos de presidente, governador, duas vagas de senador, deputado federal e deputado estadual ou distrital.",
+      "O horário é o mesmo em todo o país pelo relógio de Brasília. Nos estados com outro fuso, a votação começa e termina em outro horário local: em Rondônia, Mato Grosso, Mato Grosso do Sul e Roraima, por exemplo, as seções abrem às 7h. Uma resolução do TSE prevê transporte coletivo urbano e intermunicipal de graça no dia da votação, e capitais como São Paulo, Rio de Janeiro, Belo Horizonte e Salvador oferecem o passe livre."
+    ],
+    "src": "TSE, via g1",
+    "url": "https://g1.globo.com/politica/noticia/2026/10/04/eleicoes-2026-mais-de-158-milhoes-de-brasileiros-podem-ir-as-urnas-neste-domingo.ghtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-10-04",
     "title": "IPOs em Wall Street esfriam e várias empresas adiam estreia",
