@@ -1,5 +1,53 @@
 [
   {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "Nikolas Ferreira vira o deputado federal mais votado da história",
+    "lead": "Com mais de 2 milhões de votos em Minas Gerais, ele superou o recorde de 1,84 milhão de 2018.",
+    "body": [
+      "Nikolas Ferreira (PL-MG) passou de 2 milhões de votos quando pouco mais de 61% das urnas de Minas Gerais estavam apuradas. Com isso, superou o recorde de 1,84 milhão de votos para deputado federal, de Eduardo Bolsonaro (PL-SP) em 2018.",
+      "Em 2022, Nikolas tinha recebido cerca de 1,49 milhão de votos para a Câmara dos Deputados. O total final deste ano só sai com o fim da apuração."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/politica/nikolas-ferreira-bate-recorde-e-vira-deputado-federal-mais-votado-da-historia-do-pais/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "Quem não votou no primeiro turno pode votar no segundo",
+    "lead": "O TSE trata cada turno como uma eleição separada, com justificativa e multa próprias.",
+    "body": [
+      "Faltar ao primeiro turno não impede ninguém de votar em 25 de outubro, das 8h às 17h, pelo horário de Brasília. Quem faltar aos dois turnos precisa justificar cada um e, se não justificar, pagar duas multas. O voto é obrigatório de 18 a 70 anos.",
+      "O prazo para justificar a falta deste domingo vai até 3 de dezembro de 2026, pelo app e-Título, pelo Sistema Justifica, pelo Autoatendimento Eleitoral ou no cartório. Sem justificativa, a multa é de R$ 3,51, paga por Pix, cartão ou boleto. Quem fica irregular não consegue, por exemplo, tirar passaporte, tomar posse em cargo público ou fazer matrícula em escola pública, e o título é cancelado após três turnos seguidos sem voto nem justificativa."
+    ],
+    "src": "TSE, via Valor Econômico",
+    "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/04/quem-nao-votou-no-primeiro-turno-pode-votar-no-segundo.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "TSE troca 1.861 urnas durante o primeiro turno, 0,34% do total",
+    "lead": "São Paulo foi o estado com mais substituições: 334 urnas trocadas ao longo do dia.",
+    "body": [
+      "A Justiça Eleitoral usou 499.248 urnas eletrônicas neste domingo. Até as 15h30, 1.543 já tinham sido substituídas; no fim da votação, o total chegou a 1.861, o equivalente a 0,34% dos equipamentos.",
+      "São Paulo liderou as trocas, com 334 urnas, e o Distrito Federal teve 19. Quando uma urna apresenta problema, ela é trocada por outra de reserva e a votação continua na mesma seção."
+    ],
+    "src": "TSE, via Metrópoles",
+    "url": "https://www.metropoles.com/brasil/tse-registra-troca-de-1-861-urnas-durante-o-1-turno-das-eleicoes"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "É falso que apertar “confirma” cedo demais anula o voto na urna",
+    "lead": "Mensagem que circula no WhatsApp desde 2022 voltou às redes; o TSE desmentiu em nota no sábado.",
+    "body": [
+      "A mensagem diz que o eleitor perde o voto se apertar a tecla verde enquanto a tela mostra “Confira seu voto”. Não é verdade. Desde 2022, a urna exibe esse aviso por um segundo antes de liberar a tecla “Confirma”, para o eleitor conferir o número e o nome do candidato.",
+      "Segundo o TSE, apertar a tecla nesse intervalo não tem efeito: depois do segundo de conferência, basta apertar de novo para concluir o voto. A frase “Confirma seu voto”, citada na mensagem falsa, nem aparece na urna. A mesma corrente já tinha circulado nas eleições de 2022 e 2024."
+    ],
+    "src": "TSE, via g1",
+    "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/04/e-fake-que-urna-anula-voto-se-eleitor-aperta-confirma-quando-tela-exibe-mensagem-para-conferir-candidato-escolhido.ghtml"
+  },
+  {
     "ed": "Economia",
     "date": "2026-10-04",
     "title": "Juro alto é o maior desafio da economia para o próximo governo",
