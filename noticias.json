@@ -2,6 +2,42 @@
   {
     "ed": "Economia",
     "date": "2026-10-04",
+    "title": "Ações brasileiras disparam no exterior depois do primeiro turno",
+    "lead": "O EWZ, principal fundo de ações do Brasil negociado nos EUA, subia cerca de 7% no after-market.",
+    "body": [
+      "No after-market de Nova York, às 22h16 deste domingo, os recibos de ações (ADRs) do Bradesco subiam 9,32%, os do Itaú, 7,92%, os da Vale, 5,16%, e os da Petrobras, 5,08%. O EWZ, fundo que replica o índice MSCI Brazil, subia cerca de 7%.",
+      "Segundo o Valor Econômico, um fundo que acompanha o Ibovespa negociado no Japão abriu em alta de quase 8%. Analistas atribuem o movimento à vantagem de Flávio Bolsonaro no primeiro turno, maior do que a indicada pelas pesquisas."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/ewz-sobe-7-no-aftermarket-apos-resultado-do-1o-turno-liderado-por-flavio/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "Abstenções, brancos e nulos somam 24,63% do eleitorado",
+    "lead": "Na disputa para presidente, 39,1 milhões de eleitores não votaram ou não escolheram um candidato.",
+    "body": [
+      "Segundo dados do TSE às 21h20, com 99,18% das seções apuradas, foram 33.174.473 abstenções, 2.286.039 votos em branco e 3.639.045 votos nulos para presidente. Somados, eles equivalem a 24,63% dos 158,7 milhões de eleitores aptos.",
+      "Brancos e nulos não contam como votos válidos: ficam fora do cálculo das porcentagens e não anulam a eleição, mesmo que passem de 50%. A abstenção é a ausência do eleitor no dia da votação."
+    ],
+    "src": "TSE, via g1",
+    "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/04/abstencoes-brancos-e-nulos-disputa-presidencial-1-turno-2026.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "Celina Leão fica a 168 votos de vencer no primeiro turno no DF",
+    "lead": "A governadora teve 49,93% dos votos válidos e vai disputar o segundo turno contra Leandro Grass (PT).",
+    "body": [
+      "Com 100% das urnas apuradas, Celina Leão (PP) somou 825.530 votos. Se tivesse 825.698, teria passado de 50% dos votos válidos e encerrado a disputa pelo governo do Distrito Federal já neste domingo.",
+      "Ela vai enfrentar Leandro Grass (PT), ex-presidente do Iphan, que ficou com 569.930 votos, ou 34,47% dos válidos. A nova votação será em 25 de outubro."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/politica/celina-leao-fica-a-168-votos-de-vencer-a-eleicao-para-o-governo-do-df-no-1o-turno/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-04",
     "title": "Analistas esperam alta da Bolsa e queda do dólar após o primeiro turno",
     "lead": "A vantagem de Flávio Bolsonaro maior que a prevista nas pesquisas deve animar o mercado nesta segunda.",
     "body": [
