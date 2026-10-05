@@ -1,5 +1,41 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-04",
+    "title": "Analistas esperam alta da Bolsa e queda do dólar após o primeiro turno",
+    "lead": "A vantagem de Flávio Bolsonaro maior que a prevista nas pesquisas deve animar o mercado nesta segunda.",
+    "body": [
+      "Para analistas ouvidos pelo InfoMoney, a vitória de Flávio no primeiro turno, por uma margem maior que a indicada nas pesquisas, deve levar a Bolsa para cima, fortalecer o real e derrubar os juros futuros nesta segunda-feira. A aposta é de um próximo governo com mais disciplina nas contas públicas. O movimento seria o inverso do de 2022, quando Lula terminou o primeiro turno à frente.",
+      "As ações de empresas mais endividadas e ligadas ao ciclo da economia, como varejo e locação de veículos, aparecem entre as que podem subir mais, junto com estatais como o Banco do Brasil. Os analistas lembram que a alta só se sustenta se o vencedor apresentar medidas concretas de ajuste fiscal, e que debates e novos fatos até 25 de outubro ainda podem mudar o cenário."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/apos-resultado-do-1o-turno-das-eleicoes-como-os-mercados-vao-reagir-nesta-segunda/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "Tarcísio tem a maior votação da história para governador de SP",
+    "lead": "Reeleito no primeiro turno, ele passou de 14,1 milhões de votos e superou a própria marca de 2022.",
+    "body": [
+      "Com 97,71% das urnas apuradas, Tarcísio de Freitas (Republicanos) somava 14.148.348 votos, acima dos 13.480.643 que ele mesmo teve no segundo turno de 2022, até então o recorde do estado. Ele venceu Fernando Haddad (PT) já no primeiro turno; a vitória foi confirmada às 19h39, com 90% das urnas apuradas.",
+      "Antes de Tarcísio, as maiores votações para o governo paulista eram de José Serra (PSDB), com 12.381.038 votos em 2006, e de Geraldo Alckmin (PSDB), com 12.230.807 em 2014."
+    ],
+    "src": "TSE, via g1",
+    "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/04/tarcisio-de-freitas-tem-maior-votacao-da-historia-de-sp-e-supera-14-milhoes-de-votos.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-04",
+    "title": "Erika Hilton é a mulher mais votada da história para a Câmara",
+    "lead": "A deputada do PSOL passou de 1,5 milhão de votos em São Paulo; Lucas Pavanato (PL) bateu o recorde do estado.",
+    "body": [
+      "Erika Hilton (PSOL), de 33 anos, foi reeleita deputada federal com mais de 1,5 milhão de votos em São Paulo e se tornou a mulher mais votada da história numa eleição para a Câmara dos Deputados. Em 2022, ela tinha sido eleita com 256.903 votos.",
+      "No mesmo estado, Lucas Pavanato (PL) passou de 2,8 milhões de votos e virou o deputado federal mais votado da história de São Paulo. Os 70 deputados federais paulistas eleitos neste domingo começam o mandato em 2027."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/04/quem-e-erika-hilton-a-mulher-mais-votada-da-historia-do-brasil-para-a-camara-dos-deputados.ghtml"
+  },
+  {
     "ed": "Política",
     "date": "2026-10-04",
     "title": "Flávio Bolsonaro e Lula vão disputar o segundo turno, em 25 de outubro",
