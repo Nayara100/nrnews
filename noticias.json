@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-05",
+    "title": "Setor de serviços volta a encolher em setembro, mostra PMI",
+    "lead": "O índice caiu a 49,2 pontos, de 50,5 em agosto, no ritmo mais forte de retração desde outubro de 2025.",
+    "body": [
+      "O PMI de serviços do Brasil, calculado pela S&P Global, ficou em 49,2 em setembro. Valores abaixo de 50 indicam contração. Em agosto, o índice estava em 50,5. A queda da demanda reduziu a atividade, os novos pedidos e o número de funcionários nas empresas do setor.",
+      "As empresas citaram incertezas políticas e econômicas, falta de investimentos e greves. Mesmo assim, ficaram mais otimistas com o crescimento nos próximos meses, por esperarem um cenário melhor depois da eleição. A S&P Global avalia que um eventual segundo turno pode atrasar a volta da confiança e dos investimentos."
+    ],
+    "src": "S&P Global, via Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/10/servicos-do-brasil-voltam-a-contrair-em-setembro-aponta-pmi.shtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-10-05",
     "title": "Setembro tem a maior venda de veículos novos da história",
