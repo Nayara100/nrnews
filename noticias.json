@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Marketing",
+    "date": "2026-10-05",
+    "title": "ChatGPT vai exibir anúncios enquanto gera imagens",
+    "lead": "O novo formato da OpenAI aparece separado da imagem criada e será identificado como publicidade.",
+    "body": [
+      "A OpenAI apresentou um formato de anúncio que aparece enquanto o ChatGPT gera uma imagem. O anúncio fica separado da imagem criada e é marcado como conteúdo publicitário. Os testes começam nos Estados Unidos.",
+      "A plataforma alcança 1,2 bilhão de pessoas por semana. Junto com o formato, a empresa ampliou as parcerias de medição para anunciantes, como Hightouch, Tealium e LiveRamp (conversão), AppsFlyer e Adjust (cliques) e Haus e Measured (incrementalidade). DoubleVerify e Integral Ad Science estão em fase de testes para segurança de marca."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/midia/chatgpt-ganha-novo-formato-de-anuncio-e-aprimora-metricas"
+  },
+  {
     "ed": "Economia",
     "date": "2026-10-05",
     "title": "Setor de serviços volta a encolher em setembro, mostra PMI",
