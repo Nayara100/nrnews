@@ -14,14 +14,14 @@
   {
     "ed": "Política",
     "date": "2026-10-04",
-    "title": "Abstenções, brancos e nulos somam 24,63% do eleitorado",
-    "lead": "Na disputa para presidente, 39,1 milhões de eleitores não votaram ou não escolheram um candidato.",
+    "title": "Abstenção bate recorde e chega a 21,08%, a maior desde 1998",
+    "lead": "Mais de 33,4 milhões de eleitores não foram votar no primeiro turno.",
     "body": [
-      "Segundo dados do TSE às 21h20, com 99,18% das seções apuradas, foram 33.174.473 abstenções, 2.286.039 votos em branco e 3.639.045 votos nulos para presidente. Somados, eles equivalem a 24,63% dos 158,7 milhões de eleitores aptos.",
-      "Brancos e nulos não contam como votos válidos: ficam fora do cálculo das porcentagens e não anulam a eleição, mesmo que passem de 50%. A abstenção é a ausência do eleitor no dia da votação."
+      "Com 99,91% das urnas apuradas, 33.428.584 eleitores não compareceram, o equivalente a 21,08% do eleitorado. É a taxa mais alta desde 1998, quando 21,5% não votaram, e mantém a sequência de recordes: em 2022, a abstenção foi de 20,93%, e em 2018, de 20,33%.",
+      "Nove estados ficaram acima da média nacional. Os maiores índices foram em Mato Grosso do Sul (23,87%), Rio de Janeiro (23,32%) e Minas Gerais (22,77%). Somadas aos votos brancos e nulos para presidente, as ausências chegaram a 24,63% do eleitorado, segundo parcial do TSE às 21h20."
     ],
     "src": "TSE, via g1",
-    "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/04/abstencoes-brancos-e-nulos-disputa-presidencial-1-turno-2026.ghtml"
+    "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/04/abstencao-chega-a-208percent-no-1o-turno-e-bate-recorde-compare-com-ultimas-quatro-eleicoes.ghtml"
   },
   {
     "ed": "Política",
@@ -77,7 +77,7 @@
     "title": "Flávio Bolsonaro e Lula vão disputar o segundo turno, em 25 de outubro",
     "lead": "Flávio terminou o primeiro turno à frente, ao contrário do que indicava a maioria das pesquisas.",
     "body": [
-      "Nenhum dos dois candidatos passou de 50% dos votos válidos, e a eleição para presidente será decidida em 25 de outubro. O senador Flávio Bolsonaro (PL) terminou a votação deste domingo em primeiro lugar, à frente do presidente Lula (PT).",
+      "Nenhum dos dois candidatos passou de 50% dos votos válidos, e a eleição para presidente será decidida em 25 de outubro. O senador Flávio Bolsonaro (PL) terminou a votação deste domingo em primeiro lugar. Às 22h10, segundo o TSE, ele tinha 47,07% dos votos válidos, mais de 56 milhões, contra 45,12% do presidente Lula (PT), mais de 53,7 milhões.",
       "Datafolha, Quaest, AtlasIntel e CNT/MDA mostravam Lula numericamente à frente no primeiro turno; a Palver era uma das pesquisas que apontavam o senador na liderança. As simulações de segundo turno já indicavam uma disputa apertada. A partir desta segunda-feira, as duas campanhas disputam os eleitores dos outros 11 candidatos."
     ],
     "src": "InfoMoney",
@@ -86,14 +86,14 @@
   {
     "ed": "Política",
     "date": "2026-10-04",
-    "title": "Ao menos 14 estados já definiram o governador no primeiro turno",
-    "lead": "Tarcísio foi reeleito em São Paulo; Tocantins, Espírito Santo, Rio Grande do Norte e Acre terão segundo turno.",
+    "title": "Vinte estados definem o governador já no primeiro turno",
+    "lead": "Tarcísio foi reeleito em São Paulo; Rio de Janeiro, Distrito Federal e outros cinco estados terão segundo turno.",
     "body": [
-      "Foram eleitos no primeiro turno Tarcísio (Republicanos) em São Paulo, Cleitinho (Republicanos) em Minas Gerais, Sergio Moro (PL) no Paraná, Jorginho Mello (PL) em Santa Catarina, Zucco (PL) no Rio Grande do Sul, Daniel Vilela (MDB) em Goiás, Eduardo Riedel (PP) em Mato Grosso do Sul e Otaviano Pivetta (Republicanos) em Mato Grosso. Também venceram Rafael Fonteles (PT) no Piauí, Lucas Ribeiro (PP) na Paraíba, Fábio Mitidieri (PSD) em Sergipe, Dr. Furlan (PSD) no Amapá, Marcos Rogério (PL) em Rondônia e Arthur Henrique (PL) em Roraima.",
-      "Em Tocantins, Espírito Santo, Rio Grande do Norte e Acre, nenhum candidato passou de 50% dos votos válidos, e a disputa vai para 25 de outubro. Nos demais estados, a definição depende do fim da apuração. Os eleitos tomam posse em 1º de janeiro de 2027, para mandatos de quatro anos."
+      "A disputa para governador terminou no primeiro turno em 20 estados: oito do Nordeste, quatro do Norte, três do Sul, três do Centro-Oeste e dois do Sudeste. Entre os eleitos estão Tarcísio (Republicanos) em São Paulo, Cleitinho (Republicanos) em Minas Gerais, Sergio Moro (PL) no Paraná, Jerônimo Rodrigues (PT) na Bahia, Elmano de Freitas (PT) no Ceará, Raquel Lyra em Pernambuco, JHC (PSDB) em Alagoas e Dr. Daniel (Podemos) no Pará.",
+      "Rio de Janeiro, Distrito Federal, Amazonas, Espírito Santo, Rio Grande do Norte, Acre e Tocantins terão segundo turno em 25 de outubro. Os eleitos tomam posse em 1º de janeiro de 2027, para mandatos de quatro anos."
     ],
-    "src": "TSE, via g1",
-    "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/04/eleicoes-2026-governadores-eleitos-no-1o-turno.ghtml"
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/veja-os-20-estados-onde-o-governador-foi-eleito-no-1o-turno"
   },
   {
     "ed": "Política",
