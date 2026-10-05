@@ -1,6 +1,42 @@
 [
   {
     "ed": "Economia",
+    "date": "2026-10-05",
+    "title": "Mercado eleva a previsão da inflação de 2026 para 5,01%",
+    "lead": "É a terceira alta seguida da projeção do Boletim Focus, que já supera o teto da meta.",
+    "body": [
+      "O Boletim Focus desta segunda-feira (5), do Banco Central, mostra que o mercado financeiro agora espera inflação de 5,01% em 2026. Na semana anterior, a projeção era de 4,99%. Para 2027, a estimativa passou de 4,31% para 4,30%, e para 2028 ficou em 3,8%.",
+      "A meta oficial é de 3%, com tolerância de 1,5 ponto percentual para cima ou para baixo, ou seja, até 4,5%. A previsão para este ano segue acima desse limite. A projeção de crescimento do PIB em 2026 caiu de 1,86% para 1,85%. Os analistas mantiveram a Selic em 13,5% ao ano no fim de 2026 e o dólar em R$ 5,20."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/focus-mercado-eleva-previsao-da-inflacao-para-501-em-2026"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-05",
+    "title": "Hellmann's lança a maior campanha da marca em 2026",
+    "lead": "Com o tema \"Só a verdadeira faz história\", ação vai da TV aos pontos de venda e segue até dezembro.",
+    "body": [
+      "A Hellmann's começou a veicular \"Só a verdadeira faz história\", descrita como a maior campanha publicitária da marca em 2026. Criada pela agência Euphoria Creative, ela inclui TV aberta, mídias digitais, redes sociais, marketing de influência e ações nos pontos de venda.",
+      "O comercial principal usa uma releitura da música \"Vem Quente que Eu Estou Fervendo\" e acompanha a embalagem da maionese em diferentes cenários e gerações. A marca quer reforçar a preferência e o pioneirismo na categoria de condimentos sem fazer uma campanha nostálgica. Novos conteúdos serão lançados em etapas, até uma fase dedicada às festas de fim de ano, período em que cresce o preparo de refeições para reuniões familiares."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/comunicacao/hellmanns-investe-em-legado-no-brasil-para-nova-campanha"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-05",
+    "title": "Apostadores têm até hoje para sacar o saldo das bets",
+    "lead": "Sites e aplicativos de apostas saem do ar à meia-noite de terça (6), pela medida provisória que proíbe o setor.",
+    "body": [
+      "Os brasileiros têm até esta segunda-feira (5) para acessar as bets e sacar o dinheiro depositado. Segundo o Ministério da Fazenda, havia R$ 1,7 bilhão em contas de apostas até 25 de setembro, quando o presidente Lula assinou a medida provisória que proíbe a atividade no país. Prêmios de apostas com resultado apurado até o fim do prazo também devem ser pagos. As apostas sem resultado até lá serão consideradas inexistentes, e as empresas terão de devolver o valor depositado.",
+      "A partir da meia-noite de terça (6), os sites e aplicativos precisam sair do ar, e os apostadores não poderão mais consultar saldos. As empresas terão dois dias para enviar à Fazenda e aos bancos a lista de apostadores e os valores devidos. Quem descumprir as regras paga multa diária de R$ 200 mil. Quem não resgatar o dinheiro terá o saldo individualizado pelos bancos, por ordem do Banco Central, e a devolução será mediada pela Caixa. Muitos apostadores foram à Justiça por receio de que as casas não tenham recursos, e a associação ANJL diz que as bets legalizadas vão cumprir a medida."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/negocios/2026/10/apostadores-tem-ate-segunda-5-para-sacar-dinheiro-depositado-em-bets-entenda.shtml"
+  },
+  {
+    "ed": "Economia",
     "date": "2026-10-04",
     "title": "Ações brasileiras disparam no exterior depois do primeiro turno",
     "lead": "O EWZ, principal fundo de ações do Brasil negociado nos EUA, subia cerca de 7% no after-market.",
