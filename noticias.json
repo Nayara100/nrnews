@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-06",
+    "title": "BC passa a divulgar todo mês dados sobre reajustes salariais",
+    "lead": "Os indicadores mostram quantos acordos coletivos deram aumento acima, abaixo ou igual à inflação.",
+    "body": [
+      "O Banco Central vai publicar todo mês um conjunto de indicadores sobre os reajustes negociados em convenções coletivas de trabalho. Os dados vêm do sistema Mediador, do Ministério do Trabalho e Emprego, e trazem os percentuais de aumento e a parcela de acordos acima, abaixo ou em linha com a inflação. Haverá números nominais e reais, estes já descontando a inflação.",
+      "A ideia é acompanhar melhor o mercado de trabalho e seu efeito sobre os preços. Um estudo do BC mostra que ganhos reais de salário são mais comuns quando o desemprego é baixo, como ocorreu entre 2012 e 2014 e voltou a ocorrer a partir de 2023. Os dados cobrem todas as regiões e setores como indústria, comércio e serviços, e ficam no Sistema Gerenciador de Séries Temporais do BC."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-cria-indicador-para-acompanhar-reajustes-salariais-negociados"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-10-06",
     "title": "Uber compra a ezCater por US$ 2,3 bilhões para vender mais catering",
