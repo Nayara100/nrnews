@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-08",
+    "title": "Pix passa de 1 bilhão de chaves cadastradas em setembro",
+    "lead": "Dados do Banco Central mostram alta de cerca de 80 milhões de chaves desde o fim de 2025.",
+    "body": [
+      "O Pix chegou a 1 bilhão de chaves cadastradas no Banco Central em setembro. Em agosto, eram 998 milhões. No fim de 2025, o total era de 920 milhões.",
+      "Do total, 956,7 milhões de chaves são de pessoas físicas e 51,2 milhões, de empresas. Mais da metade (526 milhões) são chaves aleatórias. Depois vêm celular (166 milhões), CPF (153 milhões) e e-mail (144,5 milhões)."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/pix/noticia/2026/10/08/numero-de-chaves-pix-ultrapassa-marca-de-1-bilhao-em-setembro-revela-banco-central.ghtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-10-08",
     "title": "Brasil deve vender 3 milhões de smartphones a menos em 2026",
