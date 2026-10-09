@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-09",
+    "title": "IPCA sobe 0,82% em setembro e passa do teto da meta em 12 meses",
+    "lead": "Fim do desconto do Bônus de Itaipu fez a conta de luz subir 7,98% e puxou a inflação.",
+    "body": [
+      "A inflação oficial, medida pelo IPCA, subiu 0,82% em setembro, informou o IBGE. Em agosto, o índice tinha recuado 0,32%. No acumulado de 12 meses, a alta chegou a 4,58%, acima do teto da meta do governo, de 4,5%. Em agosto, esse acumulado era de 4,22%.",
+      "O grupo Habitação foi o que mais pesou, por causa da energia elétrica residencial, que subiu 7,98% depois do fim do desconto do Bônus de Itaipu. Alimentação e bebidas avançou 0,83%, após três meses seguidos de queda, e Transportes subiu 0,89%, com alta nas passagens aéreas e nos combustíveis."
+    ],
+    "src": "IBGE, via g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/10/09/ipca-setembro.ghtml"
+  },
+  {
     "ed": "Política",
     "date": "2026-10-09",
     "title": "Governo libera R$ 7,52 bi para subsidiar diesel e outros combustíveis",
