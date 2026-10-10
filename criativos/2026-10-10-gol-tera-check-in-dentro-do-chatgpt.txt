@@ -1,0 +1,8 @@
+A Gol vai permitir que o passageiro faça check-in e emita o cartão de embarque direto no ChatGPT ✈️
+
+A integração é exclusiva com o assistente da OpenAI e chega a todos os usuários, inclusive da versão gratuita, em 19 de outubro. Não há custo extra. Basta digitar @gol no ChatGPT, fazer o login e gerar o cartão com QR Code. A empresa pretende incluir novos serviços nos próximos meses.
+
+Fonte: Meio & Mensagem
+Leia mais em nrnews.vercel.app
+
+#marketing #inteligenciaartificial #aviacao #nrnews

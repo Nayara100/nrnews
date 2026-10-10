@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Marketing",
+    "date": "2026-10-10",
+    "title": "Gol vai permitir check-in dentro do ChatGPT a partir de 19 de outubro",
+    "lead": "A companhia aérea lança uma integração com a OpenAI que emite o cartão de embarque direto no assistente, sem custo extra.",
+    "body": [
+      "A Gol anunciou que seus passageiros poderão consultar viagens, escolher assento, fazer check-in e emitir o cartão de embarque dentro do ChatGPT. A integração é exclusiva com o assistente da OpenAI e está em testes restritos. Em 19 de outubro, ela passa a valer para todos os usuários, inclusive os da versão gratuita, sem custo adicional.",
+      "Para usar, basta digitar @gol no ChatGPT, pelo aplicativo ou pela web. O passageiro faz o login no ambiente oficial da Gol e recebe o cartão de embarque digital com QR Code, que pode ser baixado ou salvo na carteira do celular. A empresa diz que o ChatGPT não terá acesso às credenciais nem a dados sensíveis dos clientes e que segue a LGPD. Nos próximos meses, a Gol pretende incluir novos serviços no plugin."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/gol-permitira-fazer-check-in-pelo-chatgpt"
+  },
+  {
     "ed": "Economia",
     "date": "2026-10-10",
     "title": "Brinquedo fica mais barato, mas Dia das Crianças deve ser fraco",
