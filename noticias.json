@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Política",
+    "date": "2026-10-10",
+    "title": "Governo zera tributos da gasolina e libera R$ 7,5 bi para o diesel",
+    "lead": "Um decreto amplia o corte de impostos sobre a gasolina, e uma medida provisória reforça os subsídios aos combustíveis.",
+    "body": [
+      "O governo federal zerou por 30 dias, com possibilidade de prorrogação, o PIS/Pasep, a Cofins e a Cide-Combustíveis sobre a importação e a venda de gasolina. Com isso, o corte total nos tributos federais passou de R$ 0,63 para R$ 0,89 por litro. A desoneração do etanol hidratado, de R$ 0,19 por litro, também foi prorrogada.",
+      "Uma medida provisória publicada na sexta-feira (9) libera R$ 7,5 bilhões para o Ministério de Minas e Energia. Desse valor, R$ 6,17 bilhões vão para subvenção à produção e à importação de diesel rodoviário, e R$ 1,35 bilhão para outros derivados de petróleo. O objetivo é conter o efeito da alta do petróleo, ligada aos conflitos no Oriente Médio. O governo espera que o corte chegue ao preço na bomba, e a ANP vai acompanhar os preços e pagar as subvenções."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/10/09/governo-publica-mp-que-libera-r-75-bilhoes-para-segurar-precos-dos-combustiveis.ghtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-10-09",
     "title": "CSN fecha acordo para vender operação alemã por € 550 milhões",
