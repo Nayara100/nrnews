@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-10",
+    "title": "Dólar fecha a R$ 4,98 e Ibovespa bate novo recorde, acima de 209 mil pontos",
+    "lead": "A moeda caiu 4,44% na semana, e a Bolsa subiu 8,82% no mesmo período.",
+    "body": [
+      "O dólar comercial fechou a sexta-feira (9) em queda de 0,78%, cotado a R$ 4,985, abaixo de R$ 5 pela segunda sessão seguida. Na semana, a moeda recuou 4,44% e, no ano, a baixa chega a 9,18%.",
+      "O Ibovespa subiu 1,38% e fechou aos 209.066,90 pontos, novo recorde de encerramento. Na semana, a alta foi de 8,82%. O petróleo Brent para dezembro avançou 0,42% e fechou a US$ 104,72 por barril."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
+  },
+  {
     "ed": "Política",
     "date": "2026-10-10",
     "title": "86% das notas fiscais obrigadas já destacam a CBS, diz Receita",
