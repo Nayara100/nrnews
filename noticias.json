@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Negócios",
+    "date": "2026-10-12",
+    "title": "Meta lança Muse Wonder, seu modelo de IA mais avançado",
+    "lead": "A empresa de Mark Zuckerberg quer ganhar espaço diante de OpenAI e Anthropic e vender assinaturas.",
+    "body": [
+      "A Meta anunciou nesta segunda-feira (12) dois modelos de inteligência artificial: o Muse Wonder e o Muse Wonder Full. Segundo a empresa, são os mais avançados que ela já desenvolveu. O Muse Wonder será integrado em breve ao Muse, o assistente pessoal de IA da Meta, a princípio para quem paga assinatura. O Muse Wonder Full, mais potente, já está disponível para assinantes do Muse Code, ferramenta de programação.",
+      "O lançamento vem depois de um ano de grandes investimentos e de contratações de pesquisadores de outras empresas. Mark Zuckerberg disse que a Meta chegou à fronteira da IA e que não vai desacelerar. Na prática, a Meta tenta transformar os gastos com IA em receita por meio de assinaturas."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/tecnologia/noticia/2026/10/12/meta-lanca-muse-wonder-seus-modelos-de-ia-mais-avancados-para-pressionar-openai-e-anthropic.ghtml"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-10-12",
     "title": "Agências apostam em ferramentas próprias com IA para se diferenciar",
