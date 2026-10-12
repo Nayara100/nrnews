@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-12",
+    "title": "Petróleo Brent fecha a US$ 106,65 e sobe com ataques no Oriente Médio",
+    "lead": "Barril chegou ao maior nível em duas semanas depois de novos ataques dos houthis à Arábia Saudita.",
+    "body": [
+      "O petróleo Brent para dezembro fechou a segunda-feira (12) em alta de 1,84%, a US$ 106,65 o barril. O WTI para novembro subiu 2,06%, a US$ 93,74. As cotações ficaram nos maiores níveis em duas semanas.",
+      "A alta veio depois de novos ataques dos houthis à Arábia Saudita no fim de semana. A passagem de navios pelo Estreito de Ormuz e pelo Mar Vermelho segue prejudicada. O anúncio de Donald Trump de que Ucrânia e Rússia vão parar de atacar instalações de energia segurou uma alta maior. O UBS WM avalia que a oferta global de petróleo deve continuar restrita."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/financas/noticia/2026/10/12/petroleo-fecha-em-alta-e-supera-us-106-com-tensoes-no-oriente-medio.ghtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-10-12",
     "title": "Meta lança Muse Wonder, seu modelo de IA mais avançado",
