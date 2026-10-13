@@ -11,6 +11,8 @@ nova.json:
   "src": "Metrópoles", "url": "https://www.metropoles.com/...",
   "criativo": {"title": "...", "lead": "..."},   # versão curta para o Instagram
   "legenda": "...",                               # legenda do post
+  "foto_materia": {"img": "https://...jpg",      # opcional: foto principal da própria matéria
+                   "credito": "Divulgação/Empresa"},# e o crédito escrito nela (só se liberado)
   "foto": "https://agenciabrasil.ebc.com.br/...", # opcional: matéria da Agência Brasil ou
                                                   # da Agência Senado de onde vem a foto
   "tema": "mercado"                               # opcional: ilustração usada se não houver foto
@@ -24,7 +26,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, "criativos"))
 from gerar import gerar, temas  # noqa: E402
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from foto import baixar  # noqa: E402
+from foto import baixar, baixar_da_materia  # noqa: E402
 
 EDITORIAS = {"Negócios", "Marketing", "Economia", "Política"}
 
@@ -50,7 +52,11 @@ def main():
 
     base = os.path.join(RAIZ, "criativos", f"{nova['date']}-{slug(nova['criativo']['title'])}")
     dados = {"ed": nova["ed"], "date": nova["date"], "src": nova["src"], **nova["criativo"]}
-    foto = baixar(nova["foto"]) if nova.get("foto") else None
+    # ordem: foto da própria matéria → foto de agência → ilustração do tema → sem foto
+    fm = nova.get("foto_materia") or {}
+    foto = baixar_da_materia(nova["url"], fm["img"], fm.get("credito", "")) if fm.get("img") else None
+    if not foto and nova.get("foto"):
+        foto = baixar(nova["foto"])
     if foto:
         # alterna os layouts com foto: A (foto em cima) e B (foto de fundo)
         dados.update(img=foto[0], credito=foto[1], v="AB"[len(noticias) % 2])

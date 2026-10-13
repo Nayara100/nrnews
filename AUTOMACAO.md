@@ -79,6 +79,9 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
    - `criativo.title`: versão curta do título para o Instagram, com **até 50 caracteres**.
    - `criativo.lead`: 1 ou 2 frases, com **até 130 caracteres**.
    - `legenda`: legenda do Instagram no formato abaixo.
+   - `foto_materia` (opcional): `{"img": "<link da foto principal>", "credito": "<crédito>"}`, com a
+     foto principal da **própria matéria** e o crédito escrito embaixo dela, se o crédito for
+     liberado. Veja a seção "Fotos do criativo".
    - `foto` (opcional): link de uma matéria da **Agência Brasil** ou da **Agência Senado** sobre o
      mesmo fato ou tema, de onde vem a foto do criativo. Veja a seção "Fotos do criativo".
    - `tema`: **sempre preencha.** Ilustração própria usada quando não houver foto liberada. Um de:
@@ -107,8 +110,28 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
 ## Fotos do criativo
 
 O criativo tem dois layouts com foto, que se alternam sozinhos (A: foto em cima; B: foto de fundo).
-A ordem é: **foto de agência → ilustração do `tema` → layout sem foto**. Para ter foto, informe em
-`foto` o link de uma matéria de uma destas fontes:
+A ordem é: **foto da própria matéria → foto de agência → ilustração do `tema` → layout sem foto**.
+
+### 1. Foto da própria matéria (`foto_materia`)
+Na matéria que você está noticiando, ache a **foto principal** (a primeira, no topo do texto) e
+leia o **crédito escrito embaixo dela** (legenda/figcaption: "Foto: ...", "Imagem: ...", "Crédito: ...").
+Copie o crédito **exatamente como está na página**, sem acrescentar nada.
+
+| Crédito | Pode usar? |
+|---|---|
+| Divulgação, "Divulgação/Empresa" | ✅ material enviado à imprensa para ser publicado |
+| Agência Brasil, Agência Senado, Agência Câmara / Câmara dos Deputados, Agência Gov, gov.br, ministérios, "/PR" (Planalto), Banco Central, IBGE | ✅ órgãos públicos que liberam a reprodução com crédito |
+| Reuters, AFP, AP, Getty, Bloomberg, EFE, Folhapress, Estadão Conteúdo, Agência O Globo, fotógrafo do próprio veículo, banco de imagens (Adobe Stock, iStock, Shutterstock, Freepik), "Reprodução", redes sociais, imagem de IA, sem crédito | ❌ não use: informe só `tema` |
+
+- Não chute: se a página tiver vários créditos (comum no g1, que lista créditos de outras matérias)
+  e você não tiver certeza de qual é o da foto principal, **não use** `foto_materia`.
+- Use a maior versão da foto disponível na página (de preferência com 1200 px ou mais de largura).
+- O `automacao/publicar.py` confere sozinho que o crédito é liberado, que ele aparece mesmo na
+  matéria e que a foto está na página. Se algo não bater, ele recusa e segue para a foto de agência
+  ou a ilustração do `tema`. Isso não é erro: siga normalmente.
+
+### 2. Foto de agência (`foto`)
+Se a matéria não tiver foto liberada, informe em `foto` o link de uma matéria de uma destas fontes:
 
 | Fonte | Feed para achar a matéria | Regra de uso |
 |---|---|---|
@@ -122,8 +145,9 @@ A ordem é: **foto de agência → ilustração do `tema` → layout sem foto**.
   Foto da Reuters, de campanha, de divulgação ou com "proibida reprodução" é recusada, e o
   criativo sai com a ilustração do `tema`. Isso não é erro: siga normalmente.
 - As ilustrações de `criativos/ilustracoes/` são do NR News e não levam crédito na arte.
-- **Nunca** use foto de outros veículos (g1, Folha, Valor, Metrópoles etc.), de bancos de imagem
-  ou de redes sociais.
+- **Nunca** use foto feita por outros veículos (fotógrafo do g1, Folha, Valor, Metrópoles etc.),
+  de agências de notícias pagas, de bancos de imagem ou de redes sociais. A única exceção é a
+  foto da própria matéria com crédito liberado (item 1).
 - No passo 7, confira também se a foto combina com a notícia e se o texto está legível sobre ela.
   Se a foto não combinar, rode de novo sem o campo `foto` (sai a ilustração do `tema`).
 
