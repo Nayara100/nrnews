@@ -21,6 +21,7 @@ Todo push na branch `main` publica o site sozinho na Vercel (1–2 min). Não ex
 | `automacao/CRIAR_ROTINA.md` | Roteiro para criar a rotina agendada numa conta do Claude. |
 | `criativos/modelo.html` | Modelo visual do post do Instagram (1080×1350): layout A (foto em cima), B (foto de fundo) e sem foto. |
 | `criativos/gerar.py` | Transforma o modelo em PNG. |
+| `criativos/ilustracoes/` | Ilustrações próprias por tema, usadas quando não há foto liberada. A cor (`ACCENT`) é trocada pela da editoria. |
 | `criativos/fontes/` | Fonte Poppins (licença OFL). O criativo não depende de internet. |
 | `criativos/AAAA-MM-DD-*.png/.txt` | Criativos e legendas já gerados. Ficam públicos em `nrnews.vercel.app/criativos/...`. |
 

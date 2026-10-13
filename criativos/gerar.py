@@ -5,15 +5,32 @@ Uso: python3 criativos/gerar.py saida.png --ed Economia --date 2026-09-29 \
        --title "..." --lead "..." --src "..." [--img foto.jpg --credito "Nome/Agência Brasil" --v A]
 
 Com --img, sai o layout com foto: A (foto em cima) ou B (foto de fundo).
+Sem foto, --tema usa uma ilustração própria de criativos/ilustracoes/ (layout A, sem crédito).
 
 Usa o Google Chrome/Chromium instalado; se não houver, usa o Playwright
 (pip install playwright && python3 -m playwright install --with-deps chromium).
 No ambiente de nuvem do Claude, usa o Chromium que já vem em /opt/pw-browsers.
 """
-import argparse, glob, os, shutil, subprocess, urllib.parse
+import argparse, glob, os, shutil, subprocess, tempfile, urllib.parse
 
 CAMPOS = ("ed", "date", "title", "lead", "src")
-OPCIONAIS = ("img", "credito", "v")
+OPCIONAIS = ("img", "credito", "v", "tema")
+PASTA = os.path.dirname(os.path.abspath(__file__))
+ILUSTRACOES = os.path.join(PASTA, "ilustracoes")
+CORES = {"Negócios": "#c4a0f5", "Marketing": "#ff78be", "Economia": "#40c48c", "Política": "#6fa8ff"}  # = ED no modelo.html
+
+def temas():
+    return sorted(f[:-4] for f in os.listdir(ILUSTRACOES) if f.endswith(".svg"))
+
+def ilustracao(tema, ed):
+    """Copia a ilustração do tema pintada com a cor da editoria. Devolve o caminho ou None."""
+    arq = os.path.join(ILUSTRACOES, f"{tema}.svg")
+    if not os.path.exists(arq):
+        return None
+    svg = open(arq, encoding="utf-8").read().replace("ACCENT", CORES.get(ed, CORES["Negócios"]))
+    saida = os.path.join(tempfile.mkdtemp(prefix="nrilu-"), f"{tema}.svg")
+    open(saida, "w", encoding="utf-8").write(svg)
+    return saida
 CHROMES = [
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
     # Chromium que já vem instalado no ambiente de nuvem do Claude. O headless shell
@@ -26,8 +43,12 @@ CHROMES = [
 ]
 
 def gerar(saida, dados):
-    modelo = os.path.join(os.path.dirname(os.path.abspath(__file__)), "modelo.html")
+    modelo = os.path.join(PASTA, "modelo.html")
     params = {k: dados[k] for k in CAMPOS}
+    if not dados.get("img") and dados.get("tema"):
+        ilu = ilustracao(dados["tema"], dados["ed"])
+        if ilu:
+            dados = {**dados, "img": ilu, "credito": "", "v": "A"}
     if dados.get("img"):
         params["img"] = "file://" + urllib.parse.quote(os.path.abspath(dados["img"]))
         params["credito"] = dados.get("credito") or ""

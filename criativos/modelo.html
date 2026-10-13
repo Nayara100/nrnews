@@ -106,7 +106,8 @@ const img = q.get("img");
 if (img) {
   card.classList.add("comfoto", q.get("v") === "B" ? "vB" : "vA");
   document.getElementById("photo").style.backgroundImage = `url("${img}")`;
-  document.getElementById("cred").textContent = "Foto: " + (q.get("credito") || "");
+  // ilustração própria não leva crédito; foto de agência sempre leva
+  document.getElementById("cred").textContent = q.get("credito") ? "Foto: " + q.get("credito") : "";
 }
 
 // faixas de luz no rodapé (mesmo gerador do site), só no layout sem foto

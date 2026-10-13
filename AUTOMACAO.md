@@ -81,6 +81,9 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
    - `legenda`: legenda do Instagram no formato abaixo.
    - `foto` (opcional): link de uma matéria da **Agência Brasil** ou da **Agência Senado** sobre o
      mesmo fato ou tema, de onde vem a foto do criativo. Veja a seção "Fotos do criativo".
+   - `tema`: **sempre preencha.** Ilustração própria usada quando não houver foto liberada. Um de:
+     `agro`, `combustivel`, `comercio`, `congresso`, `dinheiro`, `empresas`, `energia`, `imoveis`,
+     `juros`, `justica`, `mercado`, `redes`, `tecnologia`, `trabalho`, `varejo`.
 6. **Publique:** `python3 automacao/publicar.py nova.json`. Isso adiciona a notícia no topo
    de `noticias.json` e gera `criativos/AAAA-MM-DD-titulo.png` e `.txt`.
    Se sair com código 3, a matéria já existe: volte ao passo 3 e escolha outra, ou pare.
@@ -103,8 +106,9 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
 
 ## Fotos do criativo
 
-O criativo tem dois layouts com foto, que se alternam sozinhos (A: foto em cima; B: foto de fundo),
-e um layout sem foto. Para ter foto, informe em `foto` o link de uma matéria de uma destas fontes:
+O criativo tem dois layouts com foto, que se alternam sozinhos (A: foto em cima; B: foto de fundo).
+A ordem é: **foto de agência → ilustração do `tema` → layout sem foto**. Para ter foto, informe em
+`foto` o link de uma matéria de uma destas fontes:
 
 | Fonte | Feed para achar a matéria | Regra de uso |
 |---|---|---|
@@ -116,11 +120,12 @@ e um layout sem foto. Para ter foto, informe em `foto` o link de uma matéria de
 - O `automacao/publicar.py` baixa a foto e confere o crédito sozinho: só aceita foto de fotógrafo
   da própria agência ("Nome/Agência Brasil" ou "Nome/Agência Senado") e coloca o crédito na arte.
   Foto da Reuters, de campanha, de divulgação ou com "proibida reprodução" é recusada, e o
-  criativo sai no layout sem foto. Isso não é erro: siga normalmente.
+  criativo sai com a ilustração do `tema`. Isso não é erro: siga normalmente.
+- As ilustrações de `criativos/ilustracoes/` são do NR News e não levam crédito na arte.
 - **Nunca** use foto de outros veículos (g1, Folha, Valor, Metrópoles etc.), de bancos de imagem
   ou de redes sociais.
 - No passo 7, confira também se a foto combina com a notícia e se o texto está legível sobre ela.
-  Se a foto não combinar, rode de novo sem o campo `foto`.
+  Se a foto não combinar, rode de novo sem o campo `foto` (sai a ilustração do `tema`).
 
 ## Regras de redação (obrigatórias)
 

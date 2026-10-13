@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="660" viewBox="0 0 1080 660">
+<defs>
+<radialGradient id="glow" cx="65%" cy="40%" r="70%"><stop offset="0" stop-color="ACCENT" stop-opacity=".45"/><stop offset="1" stop-color="#050309" stop-opacity="0"/></radialGradient>
+<linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="ACCENT"/><stop offset="1" stop-color="ACCENT" stop-opacity=".12"/></linearGradient>
+<linearGradient id="soft" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="ACCENT" stop-opacity=".55"/><stop offset="1" stop-color="ACCENT" stop-opacity=".05"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1080" height="660" fill="#0b0814"/><rect width="1080" height="660" fill="url(#glow)"/>
+<g stroke="#fff" stroke-opacity=".06"><path d="M0 220H1080M0 340H1080M0 460H1080M0 580H1080M180 0V660M360 0V660M540 0V660M720 0V660M900 0V660"/></g>
+<rect x="390" y="210" width="300" height="300" rx="30" fill="url(#soft)" stroke="ACCENT" stroke-width="6"/>
+<rect x="455" y="275" width="170" height="170" rx="16" fill="#0b0814" stroke="#fff" stroke-opacity=".6" stroke-width="4"/>
+<text x="540" y="385" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="72" fill="#fff">IA</text>
+<g stroke="ACCENT" stroke-width="8" stroke-linecap="round"><path d="M450 210V160M540 210V160M630 210V160M450 510V560M540 510V560M630 510V560M390 270H340M390 360H340M390 450H340M690 270H740M690 360H740M690 450H740"/></g>
+<g fill="#fff"><circle cx="450" cy="150" r="10"/><circle cx="630" cy="570" r="10"/><circle cx="330" cy="360" r="10"/><circle cx="750" cy="270" r="10"/></g>
+</svg>
