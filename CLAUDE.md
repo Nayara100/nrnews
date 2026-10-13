@@ -16,9 +16,10 @@ Todo push na branch `main` publica o site sozinho na Vercel (1–2 min). Não ex
 | `noticias.json` | Lista de notícias, a mais recente primeiro. Campos: `ed`, `date` (AAAA-MM-DD), `title`, `lead`, `body` (lista de parágrafos), `src`, `url`. |
 | `AUTOMACAO.md` | Manual que a rotina segue a cada execução: fontes, rodízio de editorias, regras de redação, formato da legenda. |
 | `automacao/publicar.py` | Adiciona uma notícia em `noticias.json` e gera o criativo + legenda. Bloqueia `url` repetida. |
+| `automacao/foto.py` | Baixa a foto de uma matéria da Agência Brasil ou da Agência Senado, só se o crédito for da própria agência. Usado pelo `publicar.py`. |
 | `automacao/postar_instagram.py` | Posta um criativo no Instagram pela API da Meta (usa `INSTAGRAM_ACCESS_TOKEN` e `INSTAGRAM_USER_ID` do ambiente). |
 | `automacao/CRIAR_ROTINA.md` | Roteiro para criar a rotina agendada numa conta do Claude. |
-| `criativos/modelo.html` | Modelo visual do post do Instagram (1080×1350). |
+| `criativos/modelo.html` | Modelo visual do post do Instagram (1080×1350): layout A (foto em cima), B (foto de fundo) e sem foto. |
 | `criativos/gerar.py` | Transforma o modelo em PNG. |
 | `criativos/fontes/` | Fonte Poppins (licença OFL). O criativo não depende de internet. |
 | `criativos/AAAA-MM-DD-*.png/.txt` | Criativos e legendas já gerados. Ficam públicos em `nrnews.vercel.app/criativos/...`. |
@@ -72,9 +73,10 @@ Gere com um **nome novo** (ex.: sufixo `-v2`), porque o link antigo pode estar e
 Renomeie o `.txt` para combinar e remova o PNG antigo.
 
 ### Mudar o visual do criativo (cores, textos fixos, @ do rodapé, tamanhos)
-Edite `criativos/modelo.html`. O @ do rodapé está em `<span>@nrnews</span>` (a conta real é
-`@_nrnews`). Cores das editorias: objeto `ED` no script. Depois **gere uma imagem de teste**
-(`python3 criativos/gerar.py /tmp/teste.png --ed Economia --date 2026-01-01 --title "Título de teste com tamanho real" --lead "Resumo de teste com duas frases." --src "Fonte"`)
+Edite `criativos/modelo.html`. O @ do rodapé está em `<b>@_nrnews</b>`. As regras de quais fotos
+podem ser usadas ficam no `AUTOMACAO.md` (seção "Fotos do criativo"). Cores das editorias: objeto `ED` no script. Depois **gere uma imagem de teste**
+(`python3 criativos/gerar.py /tmp/teste.png --ed Economia --date 2026-01-01 --title "Título de teste com tamanho real" --lead "Resumo de teste com duas frases." --src "Fonte"`;
+para testar com foto, acrescente `--img foto.jpg --credito "Nome/Agência Brasil" --v A` ou `--v B`)
 e mostre à pessoa antes do commit. Mantenha as `@font-face` da Poppins local e o
 `data-fonte`/`data-ready`, que a rotina usa para conferir o criativo.
 

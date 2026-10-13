@@ -79,6 +79,8 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
    - `criativo.title`: versão curta do título para o Instagram, com **até 50 caracteres**.
    - `criativo.lead`: 1 ou 2 frases, com **até 130 caracteres**.
    - `legenda`: legenda do Instagram no formato abaixo.
+   - `foto` (opcional): link de uma matéria da **Agência Brasil** ou da **Agência Senado** sobre o
+     mesmo fato ou tema, de onde vem a foto do criativo. Veja a seção "Fotos do criativo".
 6. **Publique:** `python3 automacao/publicar.py nova.json`. Isso adiciona a notícia no topo
    de `noticias.json` e gera `criativos/AAAA-MM-DD-titulo.png` e `.txt`.
    Se sair com código 3, a matéria já existe: volte ao passo 3 e escolha outra, ou pare.
@@ -98,6 +100,27 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
    for de token (código 190), avise no resumo que o token do Instagram precisa ser renovado.
 10. **Resumo final:** título publicado, link da fonte, caminho do criativo e link do post no
     Instagram — ou o motivo de não ter publicado.
+
+## Fotos do criativo
+
+O criativo tem dois layouts com foto, que se alternam sozinhos (A: foto em cima; B: foto de fundo),
+e um layout sem foto. Para ter foto, informe em `foto` o link de uma matéria de uma destas fontes:
+
+| Fonte | Feed para achar a matéria | Regra de uso |
+|---|---|---|
+| Agência Brasil | https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml | "Reprodução autorizada para veículos de comunicação com fins jornalísticos, mediante indicação da fonte." |
+| Agência Senado | https://www12.senado.leg.br/noticias/rss.xml | "A reprodução de matérias e fotografias é livre, desde que não haja descaracterização de conteúdo, mediante a citação da Agência Senado e do autor." |
+
+- Escolha a matéria cuja foto combine com a notícia (a pessoa citada, o lugar, o produto ou o tema).
+  Ela pode ser de outro dia, desde que a foto continue fazendo sentido.
+- O `automacao/publicar.py` baixa a foto e confere o crédito sozinho: só aceita foto de fotógrafo
+  da própria agência ("Nome/Agência Brasil" ou "Nome/Agência Senado") e coloca o crédito na arte.
+  Foto da Reuters, de campanha, de divulgação ou com "proibida reprodução" é recusada, e o
+  criativo sai no layout sem foto. Isso não é erro: siga normalmente.
+- **Nunca** use foto de outros veículos (g1, Folha, Valor, Metrópoles etc.), de bancos de imagem
+  ou de redes sociais.
+- No passo 7, confira também se a foto combina com a notícia e se o texto está legível sobre ela.
+  Se a foto não combinar, rode de novo sem o campo `foto`.
 
 ## Regras de redação (obrigatórias)
 

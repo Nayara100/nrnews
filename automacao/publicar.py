@@ -10,8 +10,9 @@ nova.json:
   "title": "...", "lead": "...", "body": ["...", "..."],
   "src": "Metrópoles", "url": "https://www.metropoles.com/...",
   "criativo": {"title": "...", "lead": "..."},   # versão curta para o Instagram
-  "legenda": "..."                                # legenda do post
-}
+  "legenda": "...",                               # legenda do post
+  "foto": "https://agenciabrasil.ebc.com.br/..."  # opcional: matéria da Agência Brasil ou
+}                                                 # da Agência Senado de onde vem a foto
 
 Sai com código 3 (sem alterar nada) se a matéria já foi publicada.
 """
@@ -20,6 +21,8 @@ import json, os, re, sys, unicodedata
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, "criativos"))
 from gerar import gerar  # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from foto import baixar  # noqa: E402
 
 EDITORIAS = {"Negócios", "Marketing", "Economia", "Política"}
 
@@ -44,7 +47,12 @@ def main():
         sys.exit(3)
 
     base = os.path.join(RAIZ, "criativos", f"{nova['date']}-{slug(nova['criativo']['title'])}")
-    gerar(base + ".png", {"ed": nova["ed"], "date": nova["date"], "src": nova["src"], **nova["criativo"]})
+    dados = {"ed": nova["ed"], "date": nova["date"], "src": nova["src"], **nova["criativo"]}
+    foto = baixar(nova["foto"]) if nova.get("foto") else None
+    if foto:
+        # alterna os layouts com foto: A (foto em cima) e B (foto de fundo)
+        dados.update(img=foto[0], credito=foto[1], v="AB"[len(noticias) % 2])
+    gerar(base + ".png", dados)
     open(base + ".txt", "w", encoding="utf-8").write(nova["legenda"].strip() + "\n")
 
     item = {k: nova[k] for k in ("ed", "date", "title", "lead", "body", "src", "url")}
@@ -54,6 +62,7 @@ def main():
 
     print("publicada:", item["title"])
     print("criativo:", os.path.relpath(base + ".png", RAIZ))
+    print("foto:", f"{foto[1]} (layout {dados['v']})" if foto else "sem foto (layout sem foto)")
     print("legenda:", os.path.relpath(base + ".txt", RAIZ))
 
 if __name__ == "__main__":
