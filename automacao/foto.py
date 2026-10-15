@@ -56,7 +56,7 @@ def achar(url):
     else:
         c = re.search(r'credito="([^"]{3,90})"', pag)
     credito = _limpa(c.group(1)) if c else ""
-    credito = re.sub(r"\s*/\s*", "/", credito)
+    credito = re.sub(r"\s*/\s*", "/", credito).rstrip(" .;,")
     if not credito.endswith("/" + agencia) or PROIBIDO.search(credito):
         return None
     return foto, credito
@@ -83,7 +83,7 @@ def baixar_da_materia(materia, img, credito, saida=None):
     """Baixa a foto principal da própria matéria, se o crédito for liberado.
     Confere que o crédito e a foto aparecem mesmo na página. Devolve (caminho, credito) ou None."""
     credito = re.sub(r"^\s*(foto|imagem|cr[ée]dito)s?\s*:\s*", "", credito or "", flags=re.I).strip()
-    credito = re.sub(r"\s*/\s*", "/", credito)
+    credito = re.sub(r"\s*/\s*", "/", credito).rstrip(" .;,")
     if not credito_liberado(credito):
         print("foto: crédito não liberado:", credito or "(vazio)", file=sys.stderr)
         return None
