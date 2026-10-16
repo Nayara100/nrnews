@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-16",
+    "title": "Prévia do PIB do BC sobe 0,3% em agosto, primeira alta em três meses",
+    "lead": "O IBC-Br reverteu a queda de 0,3% de julho, segundo o Banco Central.",
+    "body": [
+      "O Índice de Atividade Econômica do Banco Central (IBC-Br), conhecido como prévia do PIB, avançou 0,3% em agosto na comparação com julho, já descontados os efeitos sazonais. É a primeira alta em três meses. Em julho, o indicador tinha recuado 0,3%.",
+      "Na comparação com agosto de 2025, o crescimento foi de 1,2%. O IBC-Br é uma das referências do BC ao decidir sobre a taxa básica de juros: uma economia mais aquecida tende a pressionar a inflação e a dificultar cortes na Selic."
+    ],
+    "src": "Banco Central, via g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/10/16/previa-do-pib-do-banco-central-tem-crescimento-de-03percent-em-agosto.ghtml"
+  },
+  {
     "ed": "Política",
     "date": "2026-10-16",
     "title": "Congresso promulga fim da escala 6x1; regra 5x2 vale em 60 dias",
