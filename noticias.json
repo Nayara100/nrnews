@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-17",
+    "title": "Petróleo Brent volta a US$ 110, maior valor desde maio",
+    "lead": "A alta vem do temor de que as tensões no Oriente Médio e os ataques a refinarias reduzam a oferta.",
+    "body": [
+      "O barril do petróleo Brent, referência internacional, chegou a US$ 110 na sexta-feira (16), pela primeira vez desde maio. Investidores temem que o aumento das tensões no Oriente Médio restrinja ainda mais a oferta global.",
+      "Pesam também os ataques da Ucrânia a refinarias russas, que levantam dúvidas sobre quanto diesel a Rússia conseguirá fornecer ao mercado externo. Petróleo mais caro tende a pressionar o preço dos combustíveis e os custos de empresas de transporte e indústria."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/10/16/petroleo-dispara-e-brent-chega-a-us-110-pela-1a-vez-desde-maio-veja-o-que-pressiona-os-precos.ghtml"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-10-17",
     "title": "IVC abre auditoria de eventos para empresas não filiadas",
