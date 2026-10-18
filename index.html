@@ -23,19 +23,19 @@
 <style>
 :root{
   --bg:#050309; --surface:#0f0a19; --text:#ffffff; --muted:#b9aed0; --line:#231a35;
-  --lilac:#c4a0f5; --streak:150,90,230; --neg:#c4a0f5; --mkt:#ff78be; --eco:#40c48c; --pol:#6fa8ff;
+  --lilac:#c4a0f5; --streak:150,90,230; --neg:#c4a0f5; --mkt:#ff78be; --eco:#40c48c; --pol:#6fa8ff; --mun:#5ad2eb;
   --chip-ink:#180c2c; color-scheme:dark;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#050309; --surface:#0f0a19; --text:#ffffff; --muted:#b9aed0; --line:#231a35;
-    --lilac:#c4a0f5; --streak:150,90,230; --neg:#c4a0f5; --mkt:#ff78be; --eco:#40c48c; --pol:#6fa8ff;
+    --lilac:#c4a0f5; --streak:150,90,230; --neg:#c4a0f5; --mkt:#ff78be; --eco:#40c48c; --pol:#6fa8ff; --mun:#5ad2eb;
     --chip-ink:#180c2c;
   }
 }
 :root[data-theme="dark"]{
   --bg:#050309; --surface:#0f0a19; --text:#ffffff; --muted:#b9aed0; --line:#231a35;
-  --lilac:#c4a0f5; --streak:150,90,230; --neg:#c4a0f5; --mkt:#ff78be; --eco:#40c48c; --pol:#6fa8ff;
+  --lilac:#c4a0f5; --streak:150,90,230; --neg:#c4a0f5; --mkt:#ff78be; --eco:#40c48c; --pol:#6fa8ff; --mun:#5ad2eb;
   --chip-ink:#180c2c;
 }
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -192,7 +192,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
   <div><button id="ckNo">Agora não</button><button class="ok" id="ckOk">Aceitar</button></div>
 </div>
 <script>
-const ED = {"Negócios":"var(--neg)","Marketing":"var(--mkt)","Economia":"var(--eco)","Política":"var(--pol)"};
+const ED = {"Negócios":"var(--neg)","Marketing":"var(--mkt)","Economia":"var(--eco)","Política":"var(--pol)","Mundo":"var(--mun)"};
 let NEWS = []; // as notícias ficam em noticias.json
 const fmt = d => new Date(d+"T12:00:00").toLocaleDateString("pt-BR",{day:"numeric",month:"long"});
 document.getElementById("today").innerHTML = `<span class="wd">${new Date().toLocaleDateString("pt-BR",{weekday:"long"})}, </span>${new Date().toLocaleDateString("pt-BR",{day:"numeric",month:"long"})}`;

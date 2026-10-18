@@ -5,7 +5,7 @@ Uso: python3 automacao/publicar.py nova.json
 
 nova.json:
 {
-  "ed": "Economia",                      # Negócios | Marketing | Economia | Política
+  "ed": "Economia",                      # Negócios | Marketing | Economia | Política | Mundo
   "date": "2026-09-29",
   "title": "...", "lead": "...", "body": ["...", "..."],
   "src": "Metrópoles", "url": "https://www.metropoles.com/...",
@@ -28,7 +28,7 @@ from gerar import gerar, temas  # noqa: E402
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from foto import baixar, baixar_da_materia  # noqa: E402
 
-EDITORIAS = {"Negócios", "Marketing", "Economia", "Política"}
+EDITORIAS = {"Negócios", "Marketing", "Economia", "Política", "Mundo"}
 
 def slug(t):
     t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower()

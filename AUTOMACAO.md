@@ -8,6 +8,7 @@ Para mudar fontes, estilo ou quantidade, edite só este arquivo.
 - **Fontes:** as da tabela abaixo (use os feeds RSS: são mais rápidos e mostram a data de cada matéria).
 - **Notícias por execução:** 1
 - **Editorias aceitas:** Negócios, Marketing, Economia, Política
+  (existe também a editoria **Mundo**, para notícias gerais publicadas manualmente pelo chat; a rotina não usa)
 - **Fuso horário:** America/Sao_Paulo (use a data de hoje nesse fuso)
 
 ## Fontes

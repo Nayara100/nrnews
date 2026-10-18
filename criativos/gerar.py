@@ -17,7 +17,7 @@ CAMPOS = ("ed", "date", "title", "lead", "src")
 OPCIONAIS = ("img", "credito", "v", "tema")
 PASTA = os.path.dirname(os.path.abspath(__file__))
 ILUSTRACOES = os.path.join(PASTA, "ilustracoes")
-CORES = {"Negócios": "#c4a0f5", "Marketing": "#ff78be", "Economia": "#40c48c", "Política": "#6fa8ff"}  # = ED no modelo.html
+CORES = {"Negócios": "#c4a0f5", "Marketing": "#ff78be", "Economia": "#40c48c", "Política": "#6fa8ff", "Mundo": "#5ad2eb"}  # = ED no modelo.html
 
 def temas():
     return sorted(f[:-4] for f in os.listdir(ILUSTRACOES) if f.endswith(".svg"))
