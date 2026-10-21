@@ -223,16 +223,16 @@ let sel=null, page=1;
 const POR_PAGINA=10; // notícias por página dentro de uma editoria
 const fonte = n => n.url ? `<a href="${n.url}" target="_blank" rel="noopener">${n.src}</a>` : n.src;
 function render(){
-  const all=NEWS.map((n,id)=>({...n,id})).filter(n=>filter==="Todas"||n.ed===filter).sort((a,b)=>b.date.localeCompare(a.date));
-  const hoje=new Date().toLocaleDateString("en-CA",{timeZone:"America/Sao_Paulo"}); // AAAA-MM-DD em Brasília
+  // só entram as notícias das últimas 48 horas (hoje e ontem, no horário de Brasília); o histórico continua no noticias.json
+  const dia=ms=>new Date(ms).toLocaleDateString("en-CA",{timeZone:"America/Sao_Paulo"}); // AAAA-MM-DD em Brasília
+  const desde=dia(Date.now()-864e5);
+  const list=NEWS.map((n,id)=>({...n,id})).filter(n=>n.date>=desde&&(filter==="Todas"||n.ed===filter)).sort((a,b)=>b.date.localeCompare(a.date));
   const editoria=filter!=="Todas";
-  // "Todas" mostra só as notícias de hoje; numa editoria aparece todo o histórico dela, em páginas
-  const list=editoria?all:all.filter(n=>n.date===hoje);
   const hero=document.getElementById("heroInner"), feed=document.getElementById("feed"), pager=document.getElementById("pager");
-  document.getElementById("t-feed").textContent=editoria?`${filter}: todas as notícias`:"Últimas notícias";
+  document.getElementById("t-feed").textContent=editoria?`${filter}: últimas 48 horas`:"Últimas notícias";
   pager.hidden=true;
-  if(!all.length){hero.innerHTML="";feed.innerHTML=`<li class="empty">Ainda não tem notícia nessa editoria. Escolha outra ali em cima.</li>`;return}
-  const top=list.find(n=>n.id===sel)||list[0]||all[0]; // sem notícia hoje, o destaque fica com a mais recente
+  if(!list.length){hero.innerHTML="";feed.innerHTML=`<li class="empty">${editoria?"Nenhuma notícia dessa editoria nas últimas 48 horas. Escolha outra ali em cima.":"Nenhuma notícia nas últimas 48 horas. As próximas chegam ao longo do dia."}</li>`;return}
+  const top=list.find(n=>n.id===sel)||list[0];
   let rest=list.filter(n=>n!==top);
   hero.style.setProperty("--c",ED[top.ed]);
   hero.innerHTML=`<span class="pill">${top.ed}</span><h1>${top.title}</h1><span class="rule"></span><p>${top.lead} ${top.body.join(" ")}</p>
@@ -250,7 +250,7 @@ function render(){
         <span class="dot" style="--d:${(i*0.45).toFixed(2)}s" aria-hidden="true"></span>
         <span><span class="h">${n.title}</span><span class="meta"><span>${n.ed}</span><span>${fmt(n.date)}</span></span></span>
       </button>
-    </li>`).join("") || `<li class="empty">${editoria?"Por enquanto, essa é a única notícia dessa editoria.":list.length?"Por enquanto, essa é a única notícia de hoje.":"Ainda não saiu notícia hoje. As próximas chegam ao longo do dia."}</li>`;
+    </li>`).join("") || `<li class="empty">${editoria?"Por enquanto, essa é a única notícia dessa editoria nas últimas 48 horas.":"Por enquanto, essa é a única notícia das últimas 48 horas."}</li>`;
   feed.querySelectorAll(".row").forEach(r=>r.onclick=()=>{
     sel=+r.dataset.id; render();
     try{const n=NEWS[sel]; gtag('event','ver_noticia',{editoria:n.ed,titulo:n.title})}catch(e){}
