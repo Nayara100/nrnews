@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Negócios",
+    "date": "2026-10-24",
+    "title": "Bancos tentam conter gastos com IA depois de liberar orçamento sem controle",
+    "lead": "Só 12 dos 50 maiores bancos do mundo informam retorno financeiro da IA, segundo a Evident.",
+    "body": [
+      "Na pressa de adotar inteligência artificial, muitos bancos liberaram verba sem saber quanto ia custar. Agora, com as contas chegando, tentam colocar limites. Apenas 12 dos 50 maiores bancos globais monitorados pela Evident, empresa de análise de IA, atribuíram publicamente retornos projetados ou realizados ao uso da tecnologia.",
+      "O JPMorgan, que gasta cerca de US$ 700 milhões por ano com IA, fixou limite mensal de US$ 2.000 no uso do Claude Code para certos engenheiros. O Santander reduziu o custo de cada aprovação de empréstimo de cerca de € 5 para € 0,03 ao passar tarefas para modelos mais leves. O CIBC, do Canadá, restringiu o acesso a seus modelos mais caros, que podem custar C$ 3.000 por funcionário ao mês."
+    ],
+    "src": "Bloomberg, via InfoMoney",
+    "url": "https://www.infomoney.com.br/business/bancos-deram-cheque-em-branco-para-ia-e-agora-tentam-conter-gastos/"
+  },
+  {
     "ed": "Política",
     "date": "2026-10-24",
     "title": "Receita libera lote residual do IR: R$ 531,6 milhões para 184,5 mil contribuintes",
