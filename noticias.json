@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-25",
+    "title": "Brasil cai do 28º para o 62º lugar em ranking de crescimento da indústria",
+    "lead": "Estudo do Iedi aponta os juros altos como principal razão da queda entre 2024 e 2026.",
+    "body": [
+      "A indústria de transformação do Brasil ocupava o 28º lugar entre os países que mais crescem no segundo trimestre de 2024. No mesmo período deste ano, caiu para o 62º, segundo análise do Iedi com dados da Unido, a agência da ONU para o desenvolvimento industrial.",
+      "Entre o segundo trimestre de 2024 e o de 2026, a indústria de transformação mundial cresceu 7,6%, e a brasileira, só 0,84%. Para o economista-chefe do Iedi, Rafael Cagnin, a alta da Selic pesou porque encarece o crédito para investir e reduz a demanda por bens duráveis. Os mais afetados são os bens de capital, como máquinas e equipamentos, que acumulam queda de 5,3% na produção de janeiro a agosto."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/10/brasil-despenca-do-28o-para-o-62o-lugar-em-ranking-de-crescimento-da-industria.shtml"
+  },
+  {
     "ed": "Política",
     "date": "2026-10-25",
     "title": "STF prorroga a votação do segundo turno até as 19h em todo o país",
