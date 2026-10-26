@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Política",
+    "date": "2026-10-26",
+    "title": "BC exige autorização do cliente para oferecer crédito no Pix",
+    "lead": "Bancos só poderão fazer ofertas de empréstimo no Pix se o usuário consentir antes, com intervalo mínimo de 24 horas.",
+    "body": [
+      "O Banco Central regulamentou, por resolução, as ofertas de empréstimo feitas no ambiente do Pix. O cliente precisará dar consentimento prévio e específico, e deverá haver pelo menos 24 horas entre a habilitação e a primeira oferta. A regra vale a partir de 1º de julho de 2027.",
+      "As instituições também terão de oferecer um mecanismo claro para bloquear propagandas e ofertas ativas de crédito, a partir de 31 de março de 2027. Para clientes mais vulneráveis ou com risco de endividamento excessivo, a autorização será ainda mais rígida, e as ofertas só poderão servir para melhorar a situação do cliente, como renegociação ou portabilidade, sem novos recursos."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/pix/noticia/2026/10/26/oferta-de-credito-no-pix-dependera-de-autorizacao-previa-do-cliente-defina-banco-central.ghtml"
+  },
+  {
     "ed": "Economia",
     "date": "2026-10-26",
     "title": "Prazo para micro e pequenas empresas escolherem regime de IBS e CBS acaba sexta",
