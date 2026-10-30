@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-10-30",
+    "title": "Desemprego cai a 5,2% e é o menor para um 3º trimestre desde 2012",
+    "lead": "Segundo o IBGE, o país tem 103,6 milhões de pessoas ocupadas, o maior número da série histórica.",
+    "body": [
+      "A taxa de desocupação ficou em 5,2% no terceiro trimestre, segundo a Pnad Contínua, divulgada nesta sexta-feira (30) pelo IBGE. Era de 5,4% no trimestre anterior e de 5,6% no mesmo período de 2025. O país tem 5,6 milhões de desocupados, 417 mil a menos que um ano antes.",
+      "A população ocupada chegou a 103,6 milhões, o maior número da série histórica, e o nível de ocupação bateu recorde, com 59%. O rendimento real habitual ficou em R$ 3.790, estável no trimestre e 3,6% maior que um ano antes. A informalidade foi de 37,5% dos ocupados."
+    ],
+    "src": "IBGE, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-10-30",
     "title": "Binance sofre o maior ataque hacker já visto em criptomoedas",
