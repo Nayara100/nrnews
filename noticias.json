@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-01",
+    "title": "Petrobras reajusta querosene de aviação em 7,2% em novembro",
+    "lead": "É o terceiro aumento seguido do combustível, que sobe R$ 0,45 por litro para as distribuidoras.",
+    "body": [
+      "A Petrobras elevou em 7,2% o preço do querosene de aviação (QAV) vendido às distribuidoras a partir deste domingo (1º). O aumento equivale a R$ 0,45 por litro em relação ao mês anterior. Em outubro, o preço havia subido cerca de 12% em algumas das principais bases do país, e em setembro a alta média foi de aproximadamente 13,9%.",
+      "A empresa afirma que o reajuste acompanha a alta das cotações internacionais, num cenário de tensões no Oriente Médio e de menor capacidade de refino na Rússia e na Ucrânia. O preço é ajustado no início de cada mês, conforme os contratos. O combustível pesa nos custos das companhias aéreas, e o repasse às passagens depende de cada empresa."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/01/petrobras-querosene-aviacao-novembro.ghtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-01",
     "title": "União Europeia passa a cobrar € 2 por categoria em compras de fora do bloco",
