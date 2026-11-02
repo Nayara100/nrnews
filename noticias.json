@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Negócios",
+    "date": "2026-11-02",
+    "title": "AST SpaceMobile, rival da Starlink, quer levar satélite a celulares no Brasil",
+    "lead": "A Anatel liberou faixas de frequência para a empresa americana, que mira mais de 200 milhões de linhas móveis.",
+    "body": [
+      "A AST SpaceMobile, dos Estados Unidos, recebeu em 9 de outubro a aprovação da Anatel para usar 30 MHz na banda S. Também foi autorizada a usar até 20 MHz da faixa de 700 MHz, cedidos por Brisanet, Unifique, Iez! Telecom e Amazônia 5G. A empresa constrói quatro estações em terra no país.",
+      "A ideia é conectar o celular comum direto ao satélite, em áreas sem sinal 4G ou 5G. Segundo estimativas citadas pela empresa, cerca de metade das rodovias federais e estaduais e dois terços das terras agrícolas do país não têm cobertura. Preços, planos e data de lançamento ainda não foram definidos: cada operadora decidirá como oferecer o serviço. A Starlink, que atua com a Vivo, recebeu 15+15 MHz na mesma decisão."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/invest/mercados/rival-da-starlink-avanca-no-brasil-e-quer-levar-satelite-a-200-milhoes-de-celulares/"
+  },
+  {
     "ed": "Política",
     "date": "2026-11-01",
     "title": "Fux inclui ministérios e supermercados em audiência do STF sobre bets",
