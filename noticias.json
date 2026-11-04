@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Política",
+    "date": "2026-11-04",
+    "title": "Governo cria regras para barrar golpes por SMS; operadoras têm 90 dias",
+    "lead": "Empresas que enviam mensagens por código curto passarão a constar de um cadastro público, e SMS de remetentes não cadastrados serão bloqueados.",
+    "body": [
+      "O governo federal publicou nesta quarta-feira (4), no Diário Oficial da União, novas regras contra fraudes por SMS. As operadoras deverão criar um cadastro público que identifique as empresas responsáveis pelas mensagens e bloquear as enviadas por códigos curtos não cadastrados, aqueles números de poucos dígitos, como \"29222\". Cada código deverá ser usado por uma única empresa, com exceções só mediante justificativa técnica à Anatel.",
+      "As operadoras também terão de monitorar o envio de SMS para achar campanhas suspeitas e falsificação de remetente. As empresas que contratam o serviço deverão verificar a identidade de seus clientes e guardar registros. A Anatel acompanha a adoção das medidas, que deve ocorrer em até 90 dias, prorrogáveis. Segundo pesquisa do Cetic.br, o SMS é usado em 71% das abordagens de golpistas."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/04/governo-publica-novas-regras-para-combater-golpes-por-sms-veja-o-que-muda.ghtml"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-11-04",
     "title": "Justiça de SP barra uso de conteúdo de veículos pela Meta",
