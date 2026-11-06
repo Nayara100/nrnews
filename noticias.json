@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-06",
+    "title": "Wall Street tem pior dia desde abril de 2025 e bolsas da Ásia despencam",
+    "lead": "Ações de inteligência artificial lideraram a queda nos EUA, e o Nikkei chegou a cair 6,2% nesta sexta.",
+    "body": [
+      "O S&P 500 caiu 4,4% na quinta-feira (5), o pior dia desde abril de 2025. O Nasdaq recuou 5,5% e ficou 11,9% abaixo da máxima histórica, registrada em outubro. O Dow Jones perdeu 3,4%.",
+      "A Nvidia caiu 9,3% e a AMD, 17,3%. Os investidores temem que a construção de data centers de IA desacelere com o crédito mais caro. Nesta sexta, o Nikkei, do Japão, chegou a cair 6,2% e o Kospi, da Coreia do Sul, 7,1%."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/05/bolsa-do-japao-cai-mais-de-6percent-apos-tombo-de-acoes-de-ia-nos-eua.ghtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-06",
     "title": "Heineken compra o controle da Better Drinks por R$ 500 milhões",
