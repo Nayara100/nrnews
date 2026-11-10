@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-10",
+    "title": "Varejo cai 4% em outubro, pior resultado para o mês desde 2023",
+    "lead": "O índice da Cielo mostra o 17º mês seguido de queda nas vendas, já descontada a inflação.",
+    "body": [
+      "As vendas do varejo brasileiro caíram 4% em outubro na comparação com o mesmo mês de 2025, segundo o ICVA, índice da Cielo que já desconta a inflação. A queda foi menor que a de setembro (4,2%), mas é a pior para um mês de outubro desde 2023, quando o recuo foi de 4,1%. Sem descontar a inflação, o faturamento subiu 1,3%.",
+      "Os bens duráveis tiveram a maior queda (8,9%), seguidos pelos serviços (8,5%). Entre as regiões, Centro-Oeste (5,4%) e Sudeste (5,2%) recuaram mais que a média. Em valores nominais, as lojas físicas cresceram 1,9% e o comércio online caiu 0,5%. Para a Cielo, o consumidor está mais seletivo e adia compras de maior valor."
+    ],
+    "src": "Cielo, via Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/11/varejo-no-brasil-registra-retracao-de-4-em-outubro-diz-icva.shtml"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-11-10",
     "title": "iFood Ads passa a vender anúncios com dados na plataforma do Google",
