@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-11",
+    "title": "Setor de serviços recua 0,1% em setembro e fica estável, diz IBGE",
+    "lead": "Transportes e tecnologia puxaram o resultado para baixo; em 12 meses, a alta caiu para 1,9%.",
+    "body": [
+      "O volume de serviços prestados no Brasil teve variação de -0,1% em setembro, em relação a agosto, segundo a Pesquisa Mensal de Serviços do IBGE. Na comparação com setembro de 2025, o resultado também foi de -0,1%. No terceiro trimestre, a variação ficou no mesmo patamar. O IBGE trata oscilações desse tamanho como estabilidade.",
+      "Transportes e informação e comunicação caíram 0,5% cada, com menos receita no transporte de cargas, no aéreo de passageiros e em serviços de TI. Do outro lado, serviços profissionais e administrativos subiram 0,5%, com ganho no agenciamento de publicidade, e outros serviços avançaram 1%. No acumulado de 12 meses, o setor cresce 1,9%, abaixo dos 2,2% registrados até agosto."
+    ],
+    "src": "IBGE, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/setor-de-servicos-varia-01-em-setembro-impactado-pelos-transportes"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-11-11",
     "title": "Nubank perde espaço, mas segue como banco principal dos brasileiros",
