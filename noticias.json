@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-14",
+    "title": "Mercado não vê Selic abaixo de 10% nem em 2030, mostra Focus",
+    "lead": "Projeção dos bancos para o fim de 2030 está em 10% ao ano; até maio, a aposta era de 9,75%.",
+    "body": [
+      "A pesquisa Focus, feita pelo Banco Central com mais de 100 instituições financeiras, indica que a taxa básica de juros deve seguir em dois dígitos até 2030. A projeção para o fim daquele ano é de 10% ao ano. Até maio, os analistas esperavam 9,75%. Hoje a Selic está em 13,75%, mesmo nível do início de 2023.",
+      "Economistas ouvidos pelo g1 apontam os déficits seguidos nas contas públicas e a dívida em alta como principal motivo. Pelo critério do BC, a dívida bruta está em 82,9% do PIB. Na prática, crédito e financiamentos devem continuar caros para empresas e consumidores por mais tempo."
+    ],
+    "src": "Banco Central, via g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/14/mercado-financeiro-preve-juros-de-dois-digitos-ate-2030-ao-longo-dos-dois-mandatos-de-lula.ghtml"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-11-14",
     "title": "OpenAI lança carteira para agentes de IA fazerem compras no ChatGPT",
