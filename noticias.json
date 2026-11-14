@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Marketing",
+    "date": "2026-11-14",
+    "title": "OpenAI lança carteira para agentes de IA fazerem compras no ChatGPT",
+    "lead": "O ChatGPT Wallet paga em nome do usuário sem repassar os dados reais do cartão, e cada compra precisa de aprovação.",
+    "body": [
+      "A OpenAI apresentou o ChatGPT Wallet, uma carteira digital criada com American Express, Mastercard e Visa. Com ela, um agente de IA conclui a compra, mas quem paga é um código temporário gerado pela bandeira, que substitui número, validade e código de segurança do cartão. O usuário confere produtos, valor e cartão e aprova cada compra com rosto ou digital. Nesta primeira fase, o recurso vale só para assinantes do ChatGPT Pro maiores de 18 anos nos Estados Unidos, com cartões emitidos no país.",
+      "A loja continua cuidando de preço, entrega, troca e atendimento. A OpenAI diz que, mais adiante, o usuário poderá deixar o agente comprar sozinho dentro de regras como limite de gasto e tipo de produto. A empresa também publicou um guia para varejistas prepararem sites e sistemas para vender a agentes de IA, com dados de produtos, preços e estoque sempre atualizados."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/chatgpt-ganha-carteira-para-compras-com-agentes-de-ia"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-14",
     "title": "Coca-Cola estreia no Brasil isotônico Powerade feito para mulheres",

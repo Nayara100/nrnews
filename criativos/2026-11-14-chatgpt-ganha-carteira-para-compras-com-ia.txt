@@ -1,0 +1,8 @@
+A OpenAI lançou uma carteira digital para que agentes de IA façam compras dentro do ChatGPT. 🛒
+
+O ChatGPT Wallet foi criado com American Express, Mastercard e Visa e troca os dados do cartão por um código temporário. Cada compra precisa ser aprovada pelo usuário, e o teste começa só nos Estados Unidos, para assinantes do plano Pro. A empresa também lançou um guia para lojas se prepararem para vender a agentes de IA.
+
+Fonte: Meio & Mensagem
+Leia mais em nrnews.vercel.app
+
+#Marketing #inteligenciaartificial #ecommerce #chatgpt #nrnews
