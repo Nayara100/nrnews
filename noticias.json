@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Negócios",
+    "date": "2026-11-15",
+    "title": "Itália multa a Meta em € 805 milhões por acesso a fotos no Android",
+    "lead": "Órgão de proteção de dados diz que o Facebook lia a galeria de 20 milhões de usuários sem consentimento claro.",
+    "body": [
+      "A autoridade de proteção de dados da Itália aplicou neste sábado (14) uma multa de € 805 milhões à Meta, dona do Facebook, do Instagram e do WhatsApp. O motivo é um recurso do app do Facebook para Android, lançado em 2023, que sugere fotos e vídeos da galeria do celular para novas publicações. Segundo o órgão, a função vinha ligada por padrão e usava uma permissão genérica, sem avisar que as imagens seriam lidas para isso. Cerca de 20 milhões de usuários na Itália foram afetados.",
+      "A Meta tem 60 dias para mudar o recurso: ele deve ficar desligado por padrão e só funcionar com uma autorização específica, com explicação clara de como desativá-lo. A empresa também precisa informar ao órgão, em 30 dias, o que começou a fazer e, em 90 dias, o que foi concluído. A investigação começou em julho de 2025, após denúncia de uma entidade de defesa do consumidor."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/tecnologia/noticia/2026/11/14/italia-multa-meta.ghtml"
+  },
+  {
     "ed": "Política",
     "date": "2026-11-14",
     "title": "Dívidas de MEIs com o INSS serão perdoadas sem pedido a partir de 2027",
