@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-16",
+    "title": "Dólar sobe 2,15% e fecha a R$ 5,77, maior valor desde abril de 2025",
+    "lead": "A bolsa caiu 1,83% no mesmo dia, com investidores em dúvida sobre o pacote fiscal do governo.",
+    "body": [
+      "O dólar terminou a segunda-feira (16) cotado a R$ 5,7767, alta de 2,15% no dia. É o valor mais alto desde abril de 2025. No mês, a moeda já subiu 6,11%. O Ibovespa, principal índice da bolsa brasileira, recuou 1,83% e fechou aos 169.295 pontos.",
+      "A maior pressão veio das contas públicas. Parte do mercado acha pouco o pacote de corte de gastos cujo texto-base passou no Senado na semana passada e que o governo estima em até R$ 60 bilhões em 2027. Também pesaram o corte na recomendação do Morgan Stanley para ações brasileiras e o IBC-Br, prévia do PIB do Banco Central, que caiu 0,9% no terceiro trimestre. Dólar mais caro tende a encarecer produtos importados e insumos cotados na moeda americana."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/16/dolar-ibovespa.ghtml"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-11-16",
     "title": "Uber lança campanha para vender viagem de moto a R$ 4,98 em 38 cidades",
