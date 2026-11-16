@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Política",
+    "date": "2026-11-16",
+    "title": "Cade deve abrir processo contra Apple por travar Pix por aproximação",
+    "lead": "O órgão apura se a Apple impede bancos e fintechs de usar o NFC do iPhone, o que hoje bloqueia o Pix por aproximação nesses aparelhos.",
+    "body": [
+      "O Cade, órgão que fiscaliza a concorrência no país, deve converter em processo administrativo a investigação sobre a Apple. O caso trata do acesso ao NFC, o chip que faz o celular conversar com a maquininha sem contato. Em aparelhos Android, bancos e fintechs podem criar suas próprias soluções de pagamento por aproximação. No iPhone, esse recurso ficou por anos reservado à carteira da própria Apple, a Apple Pay. Por isso, quem usa iPhone não consegue pagar com Pix por aproximação. A apuração começou em 2025, depois de queixas da Zetta, associação de fintechs, e do Banco Central.",
+      "As conversas para um acordo que liberasse o serviço no Brasil não andaram. Segundo a Folha, a Apple resistiu a oferecer aqui condições parecidas com as que aceitou na União Europeia. Com o processo, a empresa passa a ser investigada formalmente e precisa apresentar defesa. Se houver condenação no tribunal do Cade, pode pagar multa e ser obrigada a mudar a prática. A Apple diz que seu modelo protege a segurança dos usuários. Em 2025, ela já tinha fechado outro acordo com o Cade, que liberou lojas e meios de pagamento alternativos em aplicativos, mas que não incluía o NFC."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/negocios/2026/11/cade-deve-abrir-processo-administrativo-contra-apple-por-bloqueio-ao-pix-por-aproximacao.shtml"
+  },
+  {
     "ed": "Economia",
     "date": "2026-11-16",
     "title": "Exportações do Brasil aos EUA voltam a crescer no acumulado de 2026",
