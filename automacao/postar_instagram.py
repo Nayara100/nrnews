@@ -2,6 +2,7 @@
 """Posta um criativo no Instagram do NR News pela API oficial da Meta.
 
 Uso: python3 automacao/postar_instagram.py criativos/AAAA-MM-DD-titulo.png
+     python3 automacao/postar_instagram.py criativos/AAAA-MM-DD-titulo.mp4   (Reels)
 
 A legenda vem do .txt com o mesmo nome. A imagem precisa já estar publicada
 no site (o Instagram busca pelo link público), então rode depois do push:
@@ -29,32 +30,38 @@ def chamar(metodo, caminho, **params):
         # nunca imprime o token: só a mensagem de erro da API
         sys.exit(f"erro da API do Instagram ({erro.get('code')}): {erro.get('message')}")
 
-def esperar_imagem(url, limite=600):
+def esperar_arquivo(url, tipo, limite=600):
     fim = time.time() + limite
     while time.time() < fim:
         try:
             with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=30) as r:
-                if r.status == 200 and r.headers.get("Content-Type", "").startswith("image/"):
+                if r.status == 200 and r.headers.get("Content-Type", "").startswith(tipo):
                     return
         except urllib.error.URLError:
             pass
         time.sleep(15)
-    sys.exit(f"a imagem não ficou disponível no site em {limite}s: {url}")
+    sys.exit(f"o arquivo não ficou disponível no site em {limite}s: {url}")
 
 def main():
-    png = sys.argv[1].lstrip("./")
-    legenda = open(os.path.splitext(png)[0] + ".txt", encoding="utf-8").read().strip()
+    arquivo = sys.argv[1].lstrip("./")
+    legenda = open(os.path.splitext(arquivo)[0] + ".txt", encoding="utf-8").read().strip()
     uid = os.environ["INSTAGRAM_USER_ID"]
-    url = f"{SITE}/{urllib.parse.quote(png)}"
+    url = f"{SITE}/{urllib.parse.quote(arquivo)}"
+    video = arquivo.lower().endswith(".mp4")
 
-    esperar_imagem(url)
-    container = chamar("POST", f"{uid}/media", image_url=url, caption=legenda)["id"]
-    for _ in range(30):
+    esperar_arquivo(url, "video/" if video else "image/")
+    if video:
+        midia = dict(media_type="REELS", video_url=url, share_to_feed="true")
+    else:
+        midia = dict(image_url=url)
+    container = chamar("POST", f"{uid}/media", caption=legenda, **midia)["id"]
+    # vídeo demora mais para o Instagram processar
+    for _ in range(120 if video else 30):
         status = chamar("GET", container, fields="status_code").get("status_code")
         if status == "FINISHED":
             break
         if status in ("ERROR", "EXPIRED"):
-            sys.exit(f"o Instagram não processou a imagem (status {status})")
+            sys.exit(f"o Instagram não processou o arquivo (status {status})")
         time.sleep(5)
     post = chamar("POST", f"{uid}/media_publish", creation_id=container)["id"]
     link = chamar("GET", post, fields="permalink").get("permalink", "")
