@@ -1,5 +1,1566 @@
 [
   {
+    "ed": "Marketing",
+    "date": "2026-11-17",
+    "title": "Receita da Dentsu cai 3,7% no 3º trimestre; só a Ásia cresce",
+    "lead": "Lucro operacional ajustado da holding japonesa de publicidade recuou 31,1% entre julho e setembro.",
+    "body": [
+      "A Dentsu teve receita líquida de 284,1 bilhões de ienes no terceiro trimestre de 2026, 1,8% a menos que um ano antes. Sem efeitos de câmbio e aquisições, a chamada queda orgânica foi de 3,7%. No mesmo período de 2025, o grupo tinha crescido 1,4%. O lucro operacional ajustado caiu 31,1%, para 29,9 bilhões de ienes, e a margem foi de 15% para 10,5%.",
+      "Por região, a maior retração orgânica foi na Europa, Oriente Médio e África (7,1%), seguida pelas Américas, que incluem o Brasil (6,5%), e pelo Japão (2,4%). A Ásia-Pacífico foi a exceção, com alta de 10,3%, depois de ter caído 12,5% um ano antes. O lucro líquido dos acionistas recuou 44,2%, para 6,8 bilhões de ienes."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/agencias/dentsu-registra-queda-organica-de-37-no-terceiro-trimestre/"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-17",
+    "title": "Lucro do PicPay sobe 157% e chega a R$ 271 milhões no trimestre",
+    "lead": "O banco digital passou da própria meta, mas viu a inadimplência subir com a carteira de crédito maior.",
+    "body": [
+      "O PicPay fechou o terceiro trimestre com lucro líquido ajustado de R$ 271 milhões, 157% a mais que no mesmo período de 2025. A empresa tinha projetado R$ 265 milhões. A receita líquida foi de R$ 4,7 bilhões, alta de 73% em um ano, e a base chegou a 72 milhões de clientes.",
+      "A carteira de crédito somou R$ 35 bilhões, quase o dobro de um ano antes. A parcela de empréstimos com mais de 90 dias de atraso subiu de 9,8% para 10,7% em três meses. A partir do quarto trimestre, o banco vai dar baixa nas dívidas de empréstimo pessoal após 120 dias de atraso, e não mais 360. Com isso, a previsão de lucro ajustado para 2026 caiu de R$ 1,058 bilhão para R$ 733 milhões. As ações recuaram 7,82% na segunda-feira (16)."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/no-picpay-lucro-salta-157-e-carteira-de-credito-atinge-r-35-bilhoes/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-16",
+    "title": "Fazenda calcula até R$ 50,6 bi de economia ao ano com regra para big techs",
+    "lead": "Estudo do ministério mede o efeito do projeto que amplia o poder do Cade sobre as grandes plataformas digitais.",
+    "body": [
+      "O Ministério da Fazenda estima que o Projeto de Lei 4.675/2025, que cria regras de concorrência para as grandes plataformas digitais, pode reduzir custos entre R$ 15,3 bilhões e R$ 50,6 bilhões por ano no Brasil. O cálculo, da Secretaria de Reformas Econômicas, equivale a 0,1% a 0,4% do PIB, ou de R$ 70 a R$ 240 por habitante. O estudo olhou 13 segmentos, como pagamentos, lojas de aplicativos, publicidade digital, nuvem, delivery e transporte por app, e projeta queda de preços de 10% a 33%.",
+      "Pelo texto, o Cade poderá impor obrigações extras a grupos com faturamento acima de R$ 50 bilhões no mundo ou R$ 5 bilhões no Brasil, após análise caso a caso. O projeto não controla preços. Para empresas que pagam taxas a aplicativos de entrega, anúncios e meios de pagamento, a expectativa é de custo menor. A proposta tramita com urgência na Câmara e ainda precisa passar pelo Senado."
+    ],
+    "src": "Ministério da Fazenda, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/regulacao-de-big-techs-pode-reduzir-custos-em-ate-r-50-bilhoes"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-16",
+    "title": "Dólar sobe 2,15% e fecha a R$ 5,77, maior valor desde abril de 2025",
+    "lead": "A bolsa caiu 1,83% no mesmo dia, com investidores em dúvida sobre o pacote fiscal do governo.",
+    "body": [
+      "O dólar terminou a segunda-feira (16) cotado a R$ 5,7767, alta de 2,15% no dia. É o valor mais alto desde abril de 2025. No mês, a moeda já subiu 6,11%. O Ibovespa, principal índice da bolsa brasileira, recuou 1,83% e fechou aos 169.295 pontos.",
+      "A maior pressão veio das contas públicas. Parte do mercado acha pouco o pacote de corte de gastos cujo texto-base passou no Senado na semana passada e que o governo estima em até R$ 60 bilhões em 2027. Também pesaram o corte na recomendação do Morgan Stanley para ações brasileiras e o IBC-Br, prévia do PIB do Banco Central, que caiu 0,9% no terceiro trimestre. Dólar mais caro tende a encarecer produtos importados e insumos cotados na moeda americana."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/16/dolar-ibovespa.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-16",
+    "title": "Uber lança campanha para vender viagem de moto a R$ 4,98 em 38 cidades",
+    "lead": "O Preço Único vale para trajetos de até 3 km no Uber Moto e não exige cupom nem cadastro.",
+    "body": [
+      "A Uber colocou no ar nesta semana o filme principal da campanha do Preço Único, recurso do Uber Moto que cobra R$ 4,98 por corridas de até 3 km. O valor aparece sozinho na tela do aplicativo em 38 cidades. Se o passageiro passar dos 3 km ou mudar o destino no meio do caminho, a corrida volta a ser cobrada pela tabela normal. A empresa diz que vai levar o recurso a outras cidades aos poucos.",
+      "Criada pela Wieden+Kennedy SP e estrelada pelo ator Fabiano Augusto, a peça brinca com a linguagem de ofertas do varejo para mostrar que o preço não é uma promoção passageira. A campanha faz parte da plataforma \"Aí sim\" e inclui digital, canais da própria Uber e mídia exterior, com placas que mostram o preço até pontos conhecidos de cada cidade."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/anunciantes/uber-lanca-campanha-para-divulgar-preco-unico-de-r-498-no-uber-moto/"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-16",
+    "title": "Puma quer dobrar rede no Brasil e chegar a 50 lojas próprias",
+    "lead": "A marca alemã já aplicou R$ 75 milhões em infraestrutura no país e prevê investir outros R$ 75 milhões.",
+    "body": [
+      "A Puma tem hoje 25 lojas próprias no Brasil e quer chegar a 50. Em 2024, eram cerca de 10. O plano é inaugurar de três a cinco unidades por ano, em shopping centers, conforme surgirem espaços. Segundo o CEO da Puma Brasil, Carlos Miguel Gagliardi, a empresa já investiu R$ 75 milhões em infraestrutura, incluindo um centro de distribuição automatizado de cerca de 20 mil metros quadrados em Cajamar (SP), capaz de processar até 1 milhão de itens. Outros R$ 75 milhões ainda devem ser aplicados.",
+      "A marca vai concentrar a estratégia em quatro áreas: corrida, futebol, treino e moda casual esportiva. A corrida é a principal aposta de crescimento, e a empresa quer vender mais produtos acima de R$ 1.000. Segundo o executivo, a reorganização prevista para cinco anos foi feita em menos de três, porque as vendas cresceram mais rápido do que o esperado."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/negocios/puma-investe-r-75-milhoes-e-quer-chegar-a-50-lojas-no-brasil"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-16",
+    "title": "Cade deve abrir processo contra Apple por travar Pix por aproximação",
+    "lead": "O órgão apura se a Apple impede bancos e fintechs de usar o NFC do iPhone, o que hoje bloqueia o Pix por aproximação nesses aparelhos.",
+    "body": [
+      "O Cade, órgão que fiscaliza a concorrência no país, deve converter em processo administrativo a investigação sobre a Apple. O caso trata do acesso ao NFC, o chip que faz o celular conversar com a maquininha sem contato. Em aparelhos Android, bancos e fintechs podem criar suas próprias soluções de pagamento por aproximação. No iPhone, esse recurso ficou por anos reservado à carteira da própria Apple, a Apple Pay. Por isso, quem usa iPhone não consegue pagar com Pix por aproximação. A apuração começou em 2025, depois de queixas da Zetta, associação de fintechs, e do Banco Central.",
+      "As conversas para um acordo que liberasse o serviço no Brasil não andaram. Segundo a Folha, a Apple resistiu a oferecer aqui condições parecidas com as que aceitou na União Europeia. Com o processo, a empresa passa a ser investigada formalmente e precisa apresentar defesa. Se houver condenação no tribunal do Cade, pode pagar multa e ser obrigada a mudar a prática. A Apple diz que seu modelo protege a segurança dos usuários. Em 2025, ela já tinha fechado outro acordo com o Cade, que liberou lojas e meios de pagamento alternativos em aplicativos, mas que não incluía o NFC."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/negocios/2026/11/cade-deve-abrir-processo-administrativo-contra-apple-por-bloqueio-ao-pix-por-aproximacao.shtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-16",
+    "title": "Exportações do Brasil aos EUA voltam a crescer no acumulado de 2026",
+    "lead": "Em outubro, as vendas para os americanos subiram 87% e somaram US$ 4,3 bilhões, o melhor outubro em dez anos.",
+    "body": [
+      "As exportações brasileiras para os Estados Unidos passaram a ter alta no acumulado do ano pela primeira vez em 2026. Segundo o Monitor do Comércio Brasil-EUA, da Amcham Brasil, feito com dados do governo, as vendas de outubro chegaram a US$ 4,3 bilhões, 87% a mais que no mesmo mês de 2025. Com isso, o total de janeiro a outubro ficou em US$ 31,7 bilhões, alta de 0,2%. Petróleo bruto e óleos combustíveis foram 39,2% do que o Brasil vendeu aos EUA no mês, e a carne bovina também teve destaque.",
+      "Parte do salto vem da base fraca: em outubro do ano passado valiam sobretaxas de até 50% sobre produtos brasileiros. As tarifas ainda pesam. No ano, os produtos sem sobretaxa venderam 5,3% a mais, enquanto os que pagam alguma sobretaxa recuaram 5,7%. Nove dos dez principais itens taxados caíram, entre eles madeira, fumo, sebo bovino e granito. O governo brasileiro espera uma proposta de acordo dos americanos e deve pedir a abertura de um painel na OMC."
+    ],
+    "src": "Amcham, via Valor Econômico",
+    "url": "https://valor.globo.com/brasil/noticia/2026/11/16/vendas-aos-eua-crescem-no-acumulado-do-ano-pela-1a-vez.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-15",
+    "title": "Heineken vai fabricar a italiana Birra Moretti no Brasil",
+    "lead": "A cerveja chega em dezembro a bares e restaurantes de São Paulo, Belo Horizonte e Curitiba, feita na fábrica de Itu (SP).",
+    "body": [
+      "O Grupo Heineken vai lançar no Brasil a cerveja italiana Birra Moretti, que será produzida em Itu, no interior paulista. O Brasil passa a ser o primeiro país da América Latina a fabricar a marca. A estreia, em dezembro, será com a versão La Classica, puro malte e sem glúten, em garrafas de 600 ml e 355 ml. No começo, ela só será vendida em bares, cantinas e pizzarias escolhidos de São Paulo, Belo Horizonte e Curitiba. Segundo a empresa, a ideia é construir a marca primeiro no consumo fora de casa.",
+      "A aposta mira o segmento premium, que hoje responde por cerca de 25% das cervejas vendidas no país, contra menos de 4% há pouco mais de dez anos. Na Heineken Brasil, esses rótulos já somam mais de 70% do negócio. O lançamento acontece num mercado que encolheu: a produção nacional de cerveja caiu 8,85% em 2025, para 15,6 bilhões de litros, segundo o Ministério da Agricultura. Criada em 1860 em Udine, no norte da Itália, a Birra Moretti é vendida em mais de 40 países."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/marketing/heineken-traz-cerveja-italiana-birra-moretti-ao-brasil-com-producao-nacional/"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-15",
+    "title": "Correios têm prejuízo de R$ 7,5 bilhões de janeiro a setembro",
+    "lead": "O rombo da estatal é 27% maior que o dos nove primeiros meses de 2025, e as receitas com serviços continuam caindo.",
+    "body": [
+      "Os Correios perderam R$ 1,9 bilhão no terceiro trimestre, 19% a mais que no mesmo período do ano passado, segundo o balanço divulgado neste domingo (15). No acumulado de 2026, o prejuízo chega a R$ 7,5 bilhões, contra R$ 5,9 bilhões entre janeiro e setembro de 2025. A empresa diz que o resultado do trimestre ficou R$ 272 milhões melhor do que o previsto no seu planejamento.",
+      "As vendas e serviços renderam R$ 11,7 bilhões em nove meses, queda de 5,3%, puxada por encomendas e entregas internacionais. Os juros de empréstimos custaram R$ 2,5 bilhões no período. Desde o fim de 2025, a estatal já contratou R$ 19 bilhões em crédito com garantia da União, e o governo prevê um aporte de R$ 6 bilhões até o fim de 2027 para bancar a reestruturação."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/correios-tem-prejuizo-de-r-19-bilhao-no-terceiro-trimestre-alta-de-19-em-um-ano/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-15",
+    "title": "TJ-SP derruba liminares e mantém CBS e IBS dentro do cálculo do ICMS",
+    "lead": "Empresas querem tirar os novos tributos da base do ICMS a partir de 2027, mas a maioria das decisões até agora favorece os estados.",
+    "body": [
+      "O presidente do Tribunal de Justiça de São Paulo, Francisco Eduardo Loureiro, suspendeu nesta semana as decisões que permitiam a empresas excluir a CBS e o IBS, tributos criados pela reforma tributária, da base de cálculo do ICMS a partir de 2027. Só em São Paulo, a disputa vale cerca de R$ 10 bilhões por ano. Se os novos tributos entrarem na conta, o ICMS fica maior e continua a cobrança de imposto sobre imposto que hoje acontece com o PIS e a Cofins.",
+      "Um levantamento da JUIT contou 64 decisões sobre o tema em São Paulo, Minas Gerais e Santa Catarina até o fim de outubro. Cerca de 70% favorecem os estados, mas quase todas só dizem que não há urgência. Das cinco sentenças que julgaram o mérito, as empresas ganharam quatro. A lei da reforma não resolveu o ponto, e um projeto sobre o assunto ainda não foi votado no Congresso."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/11/empresas-perdem-primeira-rodada-na-justica-contra-imposto-sobre-imposto-na-reforma-tributaria.shtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-15",
+    "title": "Cashback da reforma tributária começa em janeiro para 70 milhões",
+    "lead": "Famílias de baixa renda do CadÚnico terão o imposto federal abatido nas contas de luz e água e parte dele devolvida nas compras.",
+    "body": [
+      "A partir de janeiro de 2027, as contas de luz, água, esgoto, gás encanado e telefone de famílias de baixa renda virão sem a CBS, o novo imposto federal sobre consumo. Nas demais compras, 20% do imposto pago será devolvido, exceto em produtos com imposto seletivo, como cigarro e bebidas alcoólicas. Segundo a Receita Federal, são 27,7 milhões de famílias, ou cerca de 70 milhões de pessoas, inscritas no CadÚnico com renda por pessoa abaixo de meio salário mínimo.",
+      "A inclusão é automática. Para receber, é preciso ter CPF regular, manter o CadÚnico atualizado e pedir CPF na nota a partir de 1º de janeiro. A devolução será trimestral no início: a primeira parcela, referente a janeiro a março, sai até 25 de abril, pela Poupança Social da Caixa ou por Pix. O cashback do IBS, imposto de estados e municípios, só começa em 2029."
+    ],
+    "src": "Receita Federal, via g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/15/cashback-da-reforma-tributaria-cerca-de-70-milhoes-de-pessoas-comecam-a-receber-o-beneficio-em-janeiro-veja-o-que-e-preciso-fazer.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-15",
+    "title": "Cacau Show triplica licenciados e quer faturar R$ 1,8 bi no Natal",
+    "lead": "Rede aposta em personagens como Mickey e Harry Potter, 12 milhões de panetones e itens sem chocolate.",
+    "body": [
+      "A Cacau Show espera vender R$ 1,8 bilhão no Natal de 2026, 25% a mais que no ano passado. Para isso, a rede triplicou a quantidade de produtos com personagens de outras empresas, como Mickey e Minnie (Disney), Harry Potter (Warner) e Ursinhos Carinhosos. São latas colecionáveis, calendários do Advento e caixas com pelúcia. A marca também já cede seus próprios personagens a outras companhias, como a Piracanjuba, em contratos que, segundo o fundador Alê Costa, rendem milhões de reais.",
+      "A linha de fim de ano tem 55 itens, 21 deles novos, e 12 milhões de panetones, 20% a mais que em 2025, com preços de R$ 39,99 a R$ 199,99 para quem está no programa de fidelidade. Pela primeira vez, a empresa vende copos térmicos, canecas e velas para quem quer dar presente sem chocolate. Há ainda opções sem adição de açúcar. Costa diz que as canetas emagrecedoras ainda não reduziram a procura. A rede tem 4.715 lojas."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/negocios/canetinha-emagrecedora-e-12-milhoes-de-panetones-vao-ajudar-cacau-show-a-faturar-r-18-bi-no-natal/"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-15",
+    "title": "Itália multa a Meta em € 805 milhões por acesso a fotos no Android",
+    "lead": "Órgão de proteção de dados diz que o Facebook lia a galeria de 20 milhões de usuários sem consentimento claro.",
+    "body": [
+      "A autoridade de proteção de dados da Itália aplicou neste sábado (14) uma multa de € 805 milhões à Meta, dona do Facebook, do Instagram e do WhatsApp. O motivo é um recurso do app do Facebook para Android, lançado em 2023, que sugere fotos e vídeos da galeria do celular para novas publicações. Segundo o órgão, a função vinha ligada por padrão e usava uma permissão genérica, sem avisar que as imagens seriam lidas para isso. Cerca de 20 milhões de usuários na Itália foram afetados.",
+      "A Meta tem 60 dias para mudar o recurso: ele deve ficar desligado por padrão e só funcionar com uma autorização específica, com explicação clara de como desativá-lo. A empresa também precisa informar ao órgão, em 30 dias, o que começou a fazer e, em 90 dias, o que foi concluído. A investigação começou em julho de 2025, após denúncia de uma entidade de defesa do consumidor."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/tecnologia/noticia/2026/11/14/italia-multa-meta.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-14",
+    "title": "Dívidas de MEIs com o INSS serão perdoadas sem pedido a partir de 2027",
+    "lead": "Receita Federal diz que o cancelamento será automático e alcança cerca de 3,6 milhões de microempreendedores.",
+    "body": [
+      "A partir de 1º de janeiro de 2027, a Receita Federal vai cancelar sozinha as dívidas de microempreendedores individuais com a contribuição ao INSS cobrada no DAS-MEI. O perdão vale para boletos com vencimento até 13 de outubro de 2026 e inclui o valor original, os juros e as multas, mesmo em dívidas parceladas ou já na Dívida Ativa da União. O governo estima beneficiar cerca de 3,6 milhões de MEIs e cancelar perto de R$ 12,6 bilhões. A regra está na Lei Complementar nº 238/2026.",
+      "O ICMS e o ISS cobrados no DAS-MEI continuam devidos, e não haverá devolução do que já foi pago. Quem seguir como MEI precisa pagar em dia as guias de janeiro a junho de 2027; se atrasar, perde o benefício e a cobrança volta. Quem discute a dívida na Justiça terá de desistir da ação e fazer um pedido. A declaração anual do MEI continua obrigatória, e a situação pode ser consultada no e-CAC e no portal Regularize."
+    ],
+    "src": "Receita Federal, via g1",
+    "url": "https://g1.globo.com/empreendedorismo/noticia/2026/11/14/dividas-do-mei-serao-perdoadas-automaticamente.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-14",
+    "title": "Mercado não vê Selic abaixo de 10% nem em 2030, mostra Focus",
+    "lead": "Projeção dos bancos para o fim de 2030 está em 10% ao ano; até maio, a aposta era de 9,75%.",
+    "body": [
+      "A pesquisa Focus, feita pelo Banco Central com mais de 100 instituições financeiras, indica que a taxa básica de juros deve seguir em dois dígitos até 2030. A projeção para o fim daquele ano é de 10% ao ano. Até maio, os analistas esperavam 9,75%. Hoje a Selic está em 13,75%, mesmo nível do início de 2023.",
+      "Economistas ouvidos pelo g1 apontam os déficits seguidos nas contas públicas e a dívida em alta como principal motivo. Pelo critério do BC, a dívida bruta está em 82,9% do PIB. Na prática, crédito e financiamentos devem continuar caros para empresas e consumidores por mais tempo."
+    ],
+    "src": "Banco Central, via g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/14/mercado-financeiro-preve-juros-de-dois-digitos-ate-2030-ao-longo-dos-dois-mandatos-de-lula.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-14",
+    "title": "OpenAI lança carteira para agentes de IA fazerem compras no ChatGPT",
+    "lead": "O ChatGPT Wallet paga em nome do usuário sem repassar os dados reais do cartão, e cada compra precisa de aprovação.",
+    "body": [
+      "A OpenAI apresentou o ChatGPT Wallet, uma carteira digital criada com American Express, Mastercard e Visa. Com ela, um agente de IA conclui a compra, mas quem paga é um código temporário gerado pela bandeira, que substitui número, validade e código de segurança do cartão. O usuário confere produtos, valor e cartão e aprova cada compra com rosto ou digital. Nesta primeira fase, o recurso vale só para assinantes do ChatGPT Pro maiores de 18 anos nos Estados Unidos, com cartões emitidos no país.",
+      "A loja continua cuidando de preço, entrega, troca e atendimento. A OpenAI diz que, mais adiante, o usuário poderá deixar o agente comprar sozinho dentro de regras como limite de gasto e tipo de produto. A empresa também publicou um guia para varejistas prepararem sites e sistemas para vender a agentes de IA, com dados de produtos, preços e estoque sempre atualizados."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/chatgpt-ganha-carteira-para-compras-com-agentes-de-ia"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-14",
+    "title": "Coca-Cola estreia no Brasil isotônico Powerade feito para mulheres",
+    "lead": "O Powerade Ela chega primeiro ao mercado brasileiro e aposta na Copa do Mundo Feminina de 2027 como vitrine.",
+    "body": [
+      "A Coca-Cola escolheu o Brasil para o lançamento mundial do Powerade Ela, isotônico voltado ao público feminino. A bebida tem sabor de pêssego branco, leva ferro e vitaminas B e D e sai nas versões Regular e Zero Açúcar. O produto foi criado no centro de inovação da empresa em Atlanta, nos Estados Unidos.",
+      "A marca será a hidratação oficial da Copa do Mundo Feminina de 2027, a primeira disputada no país. Segundo a presidente da Coca-Cola Brasil, Luciana Batista, o isotônico fica no portfólio depois do torneio, e o resultado de vendas aqui vai definir se ele chega a outros países. A empresa não divulgou quanto investiu nem metas de venda."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/negocios/de-olho-na-copa-do-mundo-coca-cola-escolhe-brasil-para-lancar-isotonico-para-mulheres/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-14",
+    "title": "Governo deixa vencer subsídio extra de R$ 1,40 ao diesel importado",
+    "lead": "A ajuda adicional durou 30 dias; a subvenção de R$ 2,12 por litro segue até 26 de novembro.",
+    "body": [
+      "O Ministério da Fazenda informou na sexta-feira (13) que não vai renovar a subvenção extra de R$ 1,40 por litro paga a importadores de diesel rodoviário. O benefício foi anunciado em 9 de outubro, valia por 30 dias e tinha custo estimado em R$ 1,6 bilhão. O objetivo era segurar o preço do combustível no país durante a alta do petróleo causada pela guerra no Oriente Médio.",
+      "Continua em vigor a subvenção de R$ 2,12 por litro para produtores e importadores, prorrogada até 26 de novembro. Com as duas somadas, o apoio chegava a R$ 3,52 por litro no diesel importado. A Fazenda diz que pode rever a decisão se o preço do petróleo mudar."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/fazenda-deixa-vencer-subvencao-extra-do-diesel-importado/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-14",
+    "title": "Confiança da indústria cai 6 pontos e chega ao menor nível desde 2020",
+    "lead": "Índice da CNI ficou em 40,2 pontos em novembro, o 23º mês seguido na zona de pessimismo.",
+    "body": [
+      "O Índice de Confiança do Empresário Industrial (Icei), da CNI, recuou de 46,2 para 40,2 pontos em novembro. É o resultado mais baixo desde maio de 2020, quando o indicador marcou 34,7 pontos, e a terceira maior queda de um mês para o outro desde o início da série, em 2010. Abaixo de 50 pontos, o índice indica pessimismo, e o setor já está nessa faixa há 23 meses.",
+      "A piora veio sobretudo das expectativas, que caíram de 49,3 para 41,5 pontos. Pela primeira vez em mais de seis anos, os industriais estão pessimistas com o desempenho das próprias empresas nos próximos seis meses. Segundo a CNI, isso já pesa nas decisões de contratar, produzir e investir. A pesquisa ouviu 1.104 indústrias de 3 a 9 de novembro."
+    ],
+    "src": "CNI, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/confianca-da-industria-atinge-menor-nivel-desde-maio-de-2020"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-13",
+    "title": "Brasil fecha o El Ojo 2026 com 158 prêmios e quatro Gran Ojos",
+    "lead": "A Africa Creative foi a agência brasileira mais premiada no festival de publicidade ibero-americano, com 43 troféus.",
+    "body": [
+      "A publicidade brasileira terminou a 29ª edição do El Ojo de Iberoamérica com 158 troféus. Foram quatro Gran Ojos, o prêmio máximo do festival, o mesmo número do ano passado, além de 33 Ouros, 51 Pratas e 70 Bronzes. No último dia, a organização revisou a contagem por uma falha nas inscrições, e o Brasil passou a dividir o crédito de dois trabalhos para a Coca-Cola, o que somou dez troféus ao país.",
+      "A Africa Creative liderou entre as agências do Brasil, com 43 prêmios, puxada por 'Sociedade Anônima da Brahma', da Ambev. AlmapBBDO e VML vieram em seguida, com 23 cada; a Almap levou um Gran Ojo com 'Code Her', para O Boticário. A Artplan ganhou 18 troféus e foi eleita Agência Independente do Ano pela segunda vez seguida. A VML México foi a Agência do Ano, e a Mondelez, o Anunciante do Ano."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/el-ojo/brasil-encerra-participacao-no-el-ojo-2026-com-158-trofeus/"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-13",
+    "title": "Nubank ganha aval do Banco Central e passa a ter licença de banco",
+    "lead": "A fintech poderá seguir usando \"bank\" no nome, como exige a nova regra do BC.",
+    "body": [
+      "O Banco Central aprovou a compra do Banco Porto Real de Investimentos pelo Nubank, negócio anunciado em julho. Com a aprovação, a empresa passa a ter licença bancária no Brasil. Até agora, ela funcionava com duas autorizações: uma de financeira e outra de instituição de pagamento.",
+      "A mudança atende à Resolução nº 17, que reserva as palavras \"banco\" e \"bank\" no nome para quem é banco de fato. O Nubank diz ter mais de 120 milhões de clientes no país. No mesmo dia, as ações da empresa subiram 11,75% em Nova York, após o balanço do terceiro trimestre."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/financas/noticia/2026/11/13/nubank-recebe-aprovao-do-bc-para-obter-licena-bancria-no-brasil.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-13",
+    "title": "Justiça do Trabalho suspende assinatura paga da Uber para motoristas",
+    "lead": "Liminar dá 48 horas para a empresa parar de cobrar o Passe para Motoristas, sob multa de até R$ 300 mil por dia.",
+    "body": [
+      "A 9ª Vara do Trabalho de Salvador mandou a Uber suspender em todo o país o Passe para Motoristas, plano em que motoristas e motociclistas pagavam uma assinatura antecipada para ter taxa de serviço zero nas corridas. A liminar atende a uma ação civil pública do Ministério Público do Trabalho (MPT) na Bahia. A empresa tem 48 horas, a partir da notificação, para encerrar o programa e tirar do ar a publicidade que o associa a ganhos previsíveis. Cada uma das três obrigações tem multa de R$ 100 mil por dia em caso de descumprimento.",
+      "O Passe começou em 25 de maio e funcionava em 42 cidades. Segundo o MPT, o custo podia passar de R$ 1 mil por mês. Quem já pagou mantém a taxa zero até o fim da assinatura, sem renovação, e novas cobranças ligadas ao plano ficam proibidas. Para os demais, volta o desconto por corrida. O MPT ainda pede a devolução dos valores pagos e R$ 321 milhões por danos morais coletivos, pedidos que serão julgados depois. A Uber diz que avalia medidas para contestar a decisão."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/12/justica-suspende-cobranca-de-taxa-da-uber-para-motoristas.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-13",
+    "title": "Vendas do varejo sobem 0,2% em setembro, mas trimestre fecha em queda",
+    "lead": "IBGE vê estabilidade no comércio, que recuou 0,3% no 3º trimestre e está 1% abaixo do pico de março.",
+    "body": [
+      "O volume de vendas do comércio varejista cresceu 0,2% de agosto para setembro, segundo a Pesquisa Mensal de Comércio do IBGE, divulgada nesta sexta-feira (13). No terceiro trimestre, o setor recuou 0,3% em relação ao segundo. Em 12 meses, acumula alta de 1,7%. Para o IBGE, variações entre -0,5% e 0,5% indicam estabilidade, e o comércio está 1% abaixo do recorde de março de 2026.",
+      "Cinco das oito atividades venderam mais em setembro. Equipamentos de escritório, informática e comunicação subiram 7,6%, combustíveis 2,8% e vestuário e calçados 2,5%. Móveis e eletrodomésticos caíram 2,6% e supermercados, 0,5%. No varejo ampliado, que inclui veículos, material de construção e atacado de alimentos, a alta foi de 0,2% no mês e de 1,3% em 12 meses."
+    ],
+    "src": "IBGE, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/vendas-no-comercio-variam-02-em-setembro-ibge-mostra-estabilidade"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-13",
+    "title": "Heineken lança a italiana Birra Moretti no Brasil em dezembro",
+    "lead": "A cerveja será feita em Itu (SP) e chega primeiro a bares e restaurantes de três capitais.",
+    "body": [
+      "O Grupo Heineken vai começar a vender no Brasil, em dezembro, a cerveja italiana Birra Moretti. A estreia será com a versão La Classica, puro malte e sem glúten, em garrafas de 355 ml e 600 ml. No início, a venda fica restrita a bares, pizzarias, cantinas e restaurantes selecionados de São Paulo, Belo Horizonte e Curitiba. A empresa ainda não informou o dia exato do lançamento.",
+      "A bebida será produzida na fábrica do grupo em Itu, no interior paulista, o que faz do Brasil o primeiro país da América Latina a fabricar a marca. Criada em 1860 em Udine, no norte da Itália, e controlada pela Heineken desde 1996, a Moretti reforça a aposta do grupo no segmento premium. A ideia é ligar a marca à gastronomia italiana antes de levá-la aos supermercados."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/heineken-traz-cerveja-italiana-birra-moretti-ao-brasil"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-13",
+    "title": "Natura volta ao lucro no 3º trimestre, com R$ 49 milhões",
+    "lead": "A receita caiu 3%, para R$ 5 bilhões, e as vendas no Brasil seguem fracas por falta de produtos para vender.",
+    "body": [
+      "A fabricante de cosméticos teve lucro de R$ 49 milhões entre julho e setembro, depois de fechar o mesmo período de 2025 no prejuízo. A receita somou R$ 5 bilhões, 3% menos que um ano antes. O Ebitda recorrente ficou em R$ 460 milhões, queda de 20,2%, abaixo dos R$ 483 milhões esperados por analistas.",
+      "No Brasil, a receita recuou 9%. A queda foi menor que a do segundo trimestre, mas a empresa diz que o resultado ainda ficou abaixo do que esperava, por causa da falta de produtos disponíveis. A dívida em relação à geração de caixa caiu de 2,53 para 1,83 vezes. Alessandro Carlucci é o CEO desde 1º de outubro, no lugar de João Paulo Ferreira."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/negocios/2026/11/natura-reverte-prejuizo-com-lucro-de-r-49-milhoes-no-3-tri.shtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-12",
+    "title": "Senado aprova texto-base do ajuste fiscal por 45 votos a 31",
+    "lead": "Projeto aperta o limite de gastos e corta mais benefícios tributários de empresas; destaques ficam para terça.",
+    "body": [
+      "O Senado aprovou nesta quinta-feira (12), por 45 votos a 31, o texto principal do projeto de ajuste das contas públicas. Pela estimativa do relator, Eduardo Braga (MDB-AM), o efeito pode chegar a R$ 56,1 bilhões em 2027, somando gastos evitados e arrecadação extra. Os senadores ainda vão analisar os destaques, que podem mudar trechos do texto, na terça-feira (17). Depois, a proposta segue para a Câmara.",
+      "Para as empresas, a principal mudança é um novo corte nos benefícios fiscais, que deve render cerca de R$ 15 bilhões no próximo ano. Ficaram de fora os incentivos para tecnologia, semicondutores, desoneração da folha e compra de carros por pessoas com deficiência. O texto também permite ao governo limitar o uso de créditos tributários para quitar outros impostos, ponto criticado por entidades empresariais, e reduz de 2,5% para 2% acima da inflação o teto de alta dos gastos nos anos de contenção."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/politica/noticia/2026/11/12/senadores-chegam-a-acordo-e-plp-do-ajuste-fiscal-sera-votado-nesta-quinta-feira.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-12",
+    "title": "Dólar fecha a R$ 5,65, maior valor desde junho de 2025",
+    "lead": "A moeda americana subiu com a reação negativa do mercado ao pacote fiscal e a força do dólar no exterior.",
+    "body": [
+      "O dólar comercial terminou esta quinta-feira (12) cotado a R$ 5,65, o patamar mais alto em 17 meses. Investidores reagiram mal ao pacote de ajuste apresentado pelo governo na véspera, que prevê efeito de R$ 50 bilhões a R$ 60 bilhões em 2027, e duvidam do alcance das medidas e da aprovação no Congresso.",
+      "Lá fora, a moeda americana também ganhou força, com sinais de dirigentes do Fed de que os juros nos Estados Unidos podem subir de novo. Na bolsa, o Ibovespa caiu e fechou perto dos 171 mil pontos, puxado pela queda das ações do Banco do Brasil após o balanço. Para empresas que importam insumos ou têm dívida em dólar, o custo sobe."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-dispara-158-e-fecha-r-565-maior-nivel-em-17-meses"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-12",
+    "title": "Mercado Ads lança anúncios em vídeo no Mercado Livre antes da Black Friday",
+    "lead": "Novo formato monta catálogos de produtos em vídeo e usa IA para decidir quem vê cada anúncio.",
+    "body": [
+      "O Mercado Ads, braço de publicidade do Mercado Livre, lançou o Video Catalog Ads, que exibe catálogos de produtos em vídeo dentro do marketplace. O formato já funciona nos principais países da América Latina e chega antes da Black Friday, marcada para 27 de novembro. Os anúncios são montados de forma automática a partir de vídeos que os vendedores já publicaram, com preço, promoções e condições de frete atualizados.",
+      "A segmentação é feita por inteligência artificial, que prevê o interesse de cada consumidor. Quem clica vai para uma página de catálogo com o produto do vídeo. As mesmas peças também podem rodar na rede externa do Mercado Ads, com mais de 60 mil sites e aplicativos. Segundo a empresa, quem vê anúncios em vídeo converte 38% mais do que quem não vê."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/mercado-ads-estreia-anuncios-em-video-no-mercado-livre"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-12",
+    "title": "Petrobras paga R$ 620 milhões para ficar com 100% da Logum",
+    "lead": "A estatal compra a parte de Raízen, Copersucar e Uniduto na empresa de dutos de etanol.",
+    "body": [
+      "A Petrobras fechou acordo nesta quinta-feira (12) para comprar os 70% da Logum Logística que ainda não eram seus. A estatal já tinha 30% da empresa e vai pagar R$ 620 milhões às outras sócias: Raízen Energia (30%), Copersucar (30%) e Uniduto Logística (10%). O valor será pago em três parcelas: R$ 300 milhões no fechamento, R$ 160 milhões depois de 12 meses e R$ 160 milhões depois de 24 meses. A operação ainda precisa do aval do Cade.",
+      "A Logum tem mais de mil quilômetros de dutos e terminais em Uberaba (MG), Ribeirão Preto (SP) e Paulínia (SP). Eles levam o etanol das usinas até centros de distribuição em São Paulo e no Rio de Janeiro, de onde o combustível segue para outros estados por navio ou para exportação. Na safra 2025-2026, a empresa movimentou cerca de 5 milhões de metros cúbicos de produtos. A Petrobras diz que a compra amplia sua presença em renováveis, de olho no avanço do etanol de milho no Centro-Oeste."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-faz-acordo-para-deter-100-da-transportadora-de-etanol-logum"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-12",
+    "title": "Senado aprova renegociação de dívidas rurais, que vai à sanção",
+    "lead": "A medida provisória mira produtores que perderam safras por seca, chuva e queda de preços, com até R$ 100 bilhões previstos.",
+    "body": [
+      "O Senado aprovou na quarta-feira (11) a medida provisória que cria linhas de crédito para renegociar dívidas de produtores rurais. A votação aconteceu no último dia antes de a MP perder a validade, e o texto agora vai para a sanção do presidente Lula. O programa prevê até R$ 100 bilhões em renegociações e vale para quem perdeu duas ou mais safras, com queda de pelo menos 30% da renda esperada.",
+      "O Congresso mudou alguns pontos. Dívidas que ficaram em atraso até 31 de outubro passam a entrar no programa, e não só até maio. O prazo para fechar a renegociação começa a contar só depois da regulamentação da nova lei. Pequenos e médios produtores do Pronaf e do Pronamp poderão comprovar as perdas com um laudo coletivo da região, em vez de um laudo individual. O Senado também retirou trechos incluídos pela Câmara sem relação com o tema, como o que tratava de insumos para cigarros eletrônicos."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/politica/noticia/2026/11/11/senado-aprova-mp-que-renegocia-dividas-rurais-e-retira-mudancas-em-regras-propostas-pela-camara-sobre-cigarros-eletronicos.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-12",
+    "title": "Governo propõe pacote de ajuste de até R$ 60 bilhões para 2027",
+    "lead": "Projeto limita o crescimento dos gastos e restringe o uso de créditos tributários pelas empresas.",
+    "body": [
+      "O ministro do Planejamento, Bruno Moretti, apresentou na quarta-feira (11), na Comissão Mista de Orçamento do Congresso, um conjunto de medidas que pode economizar entre R$ 50 bilhões e R$ 60 bilhões em 2027. As propostas vão num projeto de lei complementar, que será apresentado no Senado e precisa passar pelas duas Casas.",
+      "Entre as medidas: um teto de 2% acima da inflação para a alta dos gastos federais em 2027 quando a meta estiver em risco (hoje o limite é 2,5%), corte em benefícios fiscais, limite para empresas usarem créditos junto à Receita para pagar impostos e revisão de supersalários. O alvo do governo é um superávit de 0,5% do PIB em 2027, cerca de R$ 73,2 bilhões."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-anuncia-medidas-de-ajuste-para-economia-de-ate-r-60-bilhoes"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-11",
+    "title": "Globoplay e Disney+ passam a vender publicidade em conjunto",
+    "lead": "A Globo fica responsável por negociar com agências e anunciantes os espaços nos dois streamings.",
+    "body": [
+      "A Globo e a Disney anunciaram nesta quarta-feira (11) um acordo comercial que junta a venda de anúncios do Globoplay e do Disney+. A equipe de publicidade do Globoplay vai oferecer às marcas pacotes com espaço nas duas plataformas, começando pelo conteúdo de entretenimento.",
+      "Uma marca que patrocinar um programa do Globoplay poderá aparecer também em séries parecidas do Disney+. Também será possível comprar espaço por perfil de público: para jovens adultos, por exemplo, a mesma campanha pode passar no Big Brother Brasil e em Grey's Anatomy. Os dois serviços continuam funcionando de forma separada para os assinantes."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/midia/globoplay-passa-a-comercializar-publicidade-do-disney"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-11",
+    "title": "Lucro do Banco do Brasil cai 66,5% e banco corta previsão para 2026",
+    "lead": "Calote de produtores rurais elevou o custo do crédito para R$ 21,2 bilhões no 3º trimestre, e a meta de lucro do ano caiu à metade.",
+    "body": [
+      "O Banco do Brasil teve lucro líquido ajustado de R$ 1,27 bilhão entre julho e setembro, 66,5% menos que no mesmo trimestre de 2025, quando ganhou R$ 3,79 bilhões. O principal peso foi o custo do crédito, que soma provisões para empréstimos que podem não ser pagos e descontos em renegociações: R$ 21,2 bilhões, alta de 18,4% em um ano. Segundo o banco, a inadimplência se concentra em produtores rurais de médio e grande porte, sobretudo de soja, milho e pecuária no Centro-Oeste. Os atrasos acima de 90 dias chegaram a 6,08% da carteira, contra 4,51% um ano antes.",
+      "Com isso, o BB reduziu a projeção de lucro de 2026, de R$ 18 bilhões a R$ 22 bilhões para R$ 9 bilhões a R$ 11 bilhões. Até setembro, o banco acumulou R$ 8,6 bilhões. A previsão para a carteira de crédito também mudou: em vez de crescer entre 0,5% e 4,5%, ela deve ficar estável ou cair até 2% no ano. A rentabilidade sobre o patrimônio (ROE) foi de 2,8% no trimestre, ante 8,4% um ano antes."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/invest/mercados/banco-do-brasil-ve-lucro-cair-66-no-3o-tri-e-corta-pela-metade-a-previsao-para-2026/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-11",
+    "title": "Simples Nacional ganha até março para adaptar notas à reforma tributária",
+    "lead": "Comércio e indústria do regime podem emitir NF-e e NFC-e no modelo atual em janeiro e fevereiro de 2027; serviços já seguem a regra nova.",
+    "body": [
+      "A Receita Federal deu às micro e pequenas empresas do Simples Nacional até março de 2027 para ajustar a nota fiscal eletrônica (NF-e) e a nota de consumidor (NFC-e) ao novo sistema de impostos. Em janeiro e fevereiro, quem vende mercadorias pode continuar emitindo esses documentos como faz hoje. O anúncio foi feito nesta quarta-feira (11) pelo secretário Robinson Barreirinhas. Para quem presta serviços, nada muda no prazo: a nota de serviços (NFS-e) já segue as regras novas desde o começo de novembro.",
+      "Os MEIs, que somam 66% das empresas do país, não são afetados e continuam sem precisar emitir nota para pessoas físicas. O governo também vai propor ao Congresso uma regra de transição para a CBS, o novo imposto federal: na primeira apuração, prevista para fevereiro, a empresa poderá calcular o tributo com uma estimativa dos créditos e corrigir a diferença no mês seguinte."
+    ],
+    "src": "Receita Federal, via g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/11/reforma-tributaria-governo-adia-para-marco-emissao-de-notas-fiscais-do-simples-nacional-exceto-de-prestacao-de-servico.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-11",
+    "title": "Setor de serviços recua 0,1% em setembro e fica estável, diz IBGE",
+    "lead": "Transportes e tecnologia puxaram o resultado para baixo; em 12 meses, a alta caiu para 1,9%.",
+    "body": [
+      "O volume de serviços prestados no Brasil teve variação de -0,1% em setembro, em relação a agosto, segundo a Pesquisa Mensal de Serviços do IBGE. Na comparação com setembro de 2025, o resultado também foi de -0,1%. No terceiro trimestre, a variação ficou no mesmo patamar. O IBGE trata oscilações desse tamanho como estabilidade.",
+      "Transportes e informação e comunicação caíram 0,5% cada, com menos receita no transporte de cargas, no aéreo de passageiros e em serviços de TI. Do outro lado, serviços profissionais e administrativos subiram 0,5%, com ganho no agenciamento de publicidade, e outros serviços avançaram 1%. No acumulado de 12 meses, o setor cresce 1,9%, abaixo dos 2,2% registrados até agosto."
+    ],
+    "src": "IBGE, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/setor-de-servicos-varia-01-em-setembro-impactado-pelos-transportes"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-11",
+    "title": "Nubank perde espaço, mas segue como banco principal dos brasileiros",
+    "lead": "Ranking da Okiar mostra a fintech com 22,7% da preferência, contra 24,4% em junho, enquanto Itaú e Banco do Brasil ganham terreno.",
+    "body": [
+      "A terceira edição do Ranking de Principalidade da Okiar, com mais de 4 mil entrevistados, aponta o Nubank em primeiro lugar como o banco usado para as principais tarefas financeiras: 22,7% das respostas, abaixo dos 24,4% da edição de junho. O Itaú segue em segundo, com 13,2% (antes, 12,7%). O Banco do Brasil subiu para o terceiro lugar, com 10,9%, e a Caixa caiu para 10,4%. O Santander ficou com 8%.",
+      "Segundo o estudo, a troca de bancos tradicionais por digitais perdeu ritmo. Os digitais seguem fortes entre jovens de 18 a 24 anos e nas classes D e E, mas os tradicionais lideram nas classes A e B e a partir dos 35 anos. Empreendedores e profissionais liberais voltaram a se dividir entre os dois tipos de banco. Produtos como conta corrente, cartão e poupança voltaram a crescer, e a maioria ainda prefere atendimento humano à inteligência artificial em decisões financeiras."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/anunciantes/nubank-mantem-lideranca-mas-bancos-tradicionais-recuperam-espaco/"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-11",
+    "title": "Petrobras lucra R$ 39,75 bilhões no 3º trimestre, alta de 21,5%",
+    "lead": "Petróleo mais caro e produção recorde puxaram o resultado, e a estatal vai distribuir R$ 15,3 bilhões aos acionistas.",
+    "body": [
+      "A Petrobras teve lucro líquido de R$ 39,75 bilhões entre julho e setembro, 21,5% acima do mesmo período de 2025. Dois fatores explicam o salto: o barril do Brent ficou em média em US$ 97 no trimestre, 40,4% mais caro que um ano antes, depois do início da guerra entre Estados Unidos e Irã, e a produção de petróleo bateu recorde pela terceira vez seguida.",
+      "As refinarias também produziram um volume recorde de diesel, e as vendas de combustíveis no Brasil foram as maiores desde 2021. O conselho aprovou o pagamento de R$ 15,3 bilhões aos acionistas, ou R$ 1,18732774 por ação, em duas parcelas, em fevereiro e março de 2027."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/10/lucro-petrobras-2o-trimestre.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-10",
+    "title": "Câmara aprova até R$ 13,5 bilhões a mais em crédito para exportadores",
+    "lead": "A medida provisória do Brasil Soberano, criada contra o efeito das tarifas dos EUA, agora depende do Senado até 18 de novembro.",
+    "body": [
+      "Os deputados aprovaram na terça-feira (10), em votação simbólica, a medida provisória que autoriza a União a reforçar em até R$ 13,5 bilhões as linhas de crédito do Plano Brasil Soberano. O dinheiro é para empresas exportadoras afetadas pelas tarifas dos Estados Unidos e por conflitos internacionais, para seus fornecedores e para setores considerados estratégicos, como mineração e fertilizantes. O BNDES pode somar recursos próprios ao valor.",
+      "As empresas poderão usar o crédito em capital de giro, compra de máquinas, investimentos, inovação e busca de novos mercados. A relatora, senadora Leany Lemos (PSB-DF), retirou a regra que limitava o reforço a valores já devolvidos à União, o que deixa o governo indicar outras fontes no Orçamento. Se o Senado não votar o texto até 18 de novembro, a MP perde a validade."
+    ],
+    "src": "Metrópoles",
+    "url": "https://www.metropoles.com/brasil/camara-aprova-mp-do-brasil-soberano-com-r-135-bilhoes-extras-para-credito"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-10",
+    "title": "Varejo cai 4% em outubro, pior resultado para o mês desde 2023",
+    "lead": "O índice da Cielo mostra o 17º mês seguido de queda nas vendas, já descontada a inflação.",
+    "body": [
+      "As vendas do varejo brasileiro caíram 4% em outubro na comparação com o mesmo mês de 2025, segundo o ICVA, índice da Cielo que já desconta a inflação. A queda foi menor que a de setembro (4,2%), mas é a pior para um mês de outubro desde 2023, quando o recuo foi de 4,1%. Sem descontar a inflação, o faturamento subiu 1,3%.",
+      "Os bens duráveis tiveram a maior queda (8,9%), seguidos pelos serviços (8,5%). Entre as regiões, Centro-Oeste (5,4%) e Sudeste (5,2%) recuaram mais que a média. Em valores nominais, as lojas físicas cresceram 1,9% e o comércio online caiu 0,5%. Para a Cielo, o consumidor está mais seletivo e adia compras de maior valor."
+    ],
+    "src": "Cielo, via Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/11/varejo-no-brasil-registra-retracao-de-4-em-outubro-diz-icva.shtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-10",
+    "title": "iFood Ads passa a vender anúncios com dados na plataforma do Google",
+    "lead": "O iFood é o primeiro parceiro da América Latina a ligar seus dados ao Display & Video 360, ferramenta de mídia programática do Google.",
+    "body": [
+      "O iFood Ads, braço de publicidade do aplicativo de delivery, fechou acordo com o Google para conectar seus dados ao Display & Video 360 (DV360), usado por anunciantes para comprar mídia de forma automatizada. É a primeira integração desse tipo na América Latina.",
+      "Na prática, marcas de bens de consumo poderão segmentar anúncios a partir do comportamento de quem usa o iFood. A operação fica com a Audiência Estendida do iFood Ads, tocada pela Advolve, empresa de inteligência artificial comprada pelo iFood em 2025. O acordo reforça a aposta do grupo em retail media, a venda de espaço publicitário com dados de consumo do próprio varejista."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/midia/ifood-ads-integra-dados-a-programatica-do-google"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-10",
+    "title": "Embraer fatura R$ 12,1 bilhões no 3º trimestre e eleva projeção",
+    "lead": "A receita cresceu, mas o lucro ajustado caiu para R$ 379,8 milhões, pressionado por despesas financeiras e impostos.",
+    "body": [
+      "A Embraer teve receita de R$ 12,1 bilhões entre julho e setembro. O lucro ajustado ficou em R$ 379,8 milhões, abaixo dos R$ 450 milhões do mesmo período de 2025. Segundo a empresa, a queda veio de despesas financeiras e impostos maiores. Foram entregues 66 aviões no trimestre, quatro a mais que um ano antes, e a carteira de pedidos chegou a US$ 35,7 bilhões.",
+      "Com o resultado, a fabricante passou a prever receita entre US$ 8,4 bilhões e US$ 8,6 bilhões em 2026. Antes, a faixa era de US$ 8,2 bilhões a US$ 8,5 bilhões. A estimativa de fluxo de caixa livre subiu de pelo menos US$ 400 milhões para pelo menos US$ 700 milhões."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/empresas/noticia/2026/11/10/embraer-tem-lucro-de-r-3666-milhoes-no-3o-trimestre-queda-de-411percent.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-10",
+    "title": "Governo prorroga até 9 de dezembro a desoneração da gasolina e do etanol",
+    "lead": "Decreto mantém zerados PIS/Pasep, Cofins e Cide e segue com a subvenção ao etanol hidratado.",
+    "body": [
+      "O governo federal prorrogou até 9 de dezembro de 2026 a redução a zero dos tributos sobre a gasolina e o etanol. O decreto saiu em edição extra do Diário Oficial da União e continua a medida que valia de 10 de setembro a 9 de novembro. A Presidência diz que o objetivo é evitar impacto na inflação por causa da alta do petróleo, ligada ao conflito no Oriente Médio.",
+      "Seguem zerados o PIS/Pasep e a Cofins sobre gasolina e etanol hidratado, além da Cide sobre a gasolina. A subvenção de R$ 0,428 por litro de etanol hidratado também foi mantida. Segundo o Ministério da Fazenda, a prorrogação das desonerações custa R$ 2,76 bilhões em 30 dias e a subvenção, R$ 813,41 milhões. O governo diz que o valor será compensado por receitas extraordinárias do setor de petróleo."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-prorroga-ate-9-de-dezembro-desoneracao-da-gasolina-e-do-etanol"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-10",
+    "title": "Pix bate recorde e passa de 319 milhões de transações em um dia",
+    "lead": "O número foi registrado na sexta-feira (6) e superou a marca anterior, de setembro.",
+    "body": [
+      "O Pix teve 319,7 milhões de transferências entre usuários finais na sexta-feira (6), segundo o Banco Central. É a primeira vez que o sistema passa de 319 milhões em 24 horas. O recorde anterior era de 318,1 milhões, em 4 de setembro.",
+      "O valor movimentado no dia foi de R$ 180,5 bilhões, o segundo maior da história. No fim de outubro, o Pix tinha 187,8 milhões de usuários, sendo 19 milhões de empresas. Em setembro, o sistema movimentou R$ 3,81 trilhões."
+    ],
+    "src": "Banco Central, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-bate-recorde-e-supera-319-milhoes-de-transacoes-em-um-dia"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-10",
+    "title": "Caixa muda a identidade visual pela primeira vez em quase 30 anos",
+    "lead": "O banco mantém o nome e o X, redesenha o logotipo e adota a assinatura \"Vem realizar\".",
+    "body": [
+      "A Caixa apresentou na segunda-feira (9) a evolução de sua identidade visual, a primeira em quase 30 anos. O projeto é da Tátil Design. O banco mantém o nome e o X, símbolo mais conhecido da marca, mas redesenha o logotipo e passa a usar letras maiúsculas e minúsculas. O azul e o laranja ficam mais vibrantes, com foco nos canais digitais.",
+      "A mudança inclui a nova assinatura \"Vem realizar\", uma linguagem de comunicação mais direta e ilustrações de artistas de diferentes regiões do país. A atualização envolve mais de 50 projetos das marcas ligadas à Caixa. A meta é aproximar o banco de novos públicos, principalmente os mais jovens. O filme de lançamento foi criado pela Alia."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/comunicacao/caixa-apresenta-nova-identidade-visual-apos-quase-30-anos"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-09",
+    "title": "JBS compra a Flora, dona da Neutrox e da Francis, por US$ 542 milhões",
+    "lead": "Com a compra, a maior produtora de proteínas do mundo entra no mercado de beleza e cuidados pessoais.",
+    "body": [
+      "A JBS anunciou a compra da Flora, empresa do Grupo J&F, controlador da JBS, por US$ 542 milhões. A Flora é dona das marcas Francis, Neutrox e OX. Nos 12 meses até setembro, a empresa teve receita líquida de R$ 2,9 bilhões. A conclusão do negócio está prevista para dezembro.",
+      "Segundo o CEO da JBS, Wesley Batista Filho, a ideia é ampliar a presença da empresa no mercado global de bem-estar, avaliado em US$ 2,7 trilhões. A JBS já produz ingredientes a partir de colágeno, mas diz que não tem presença em canais como as farmácias. A Flora, que também vende produtos de limpeza, deve ajudar a levar esses itens às prateleiras."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/jbs-adquire-flora-por-us-542-milhoes-e-entra-no-mercado-de-cuidados-pessoais/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-09",
+    "title": "Governo eleva imposto de importação de pneus de carro para 30%",
+    "lead": "A alíquota era de 16% e a nova regra vale por 12 meses, a pedido dos fabricantes nacionais.",
+    "body": [
+      "O governo federal subiu de 16% para 30% o imposto de importação sobre pneus de passeio. A decisão da Camex saiu no Diário Oficial da União desta segunda-feira (9) e vale por 12 meses a partir de terça. Também foi encerrado o licenciamento automático para importadores.",
+      "A medida atende à Anip, associação dos fabricantes, que diz que a fatia das marcas nacionais no mercado caiu de 66% em 2019 para 30% em setembro. Já os importadores, reunidos na Abidip, alertam que a alta pode encarecer os pneus e pressionar a inflação."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/carros/noticia/2026/11/09/governo-eleva-tarifa-de-importacao-de-pneus-de-carros.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-09",
+    "title": "Mercado eleva projeção da Selic para 13,75% no fim de 2026",
+    "lead": "Com a revisão, a expectativa dos analistas passa a coincidir com a taxa atual, segundo o Boletim Focus.",
+    "body": [
+      "O mercado financeiro subiu de 13,5% para 13,75% ao ano a projeção para a Selic ao fim de 2026, segundo o Boletim Focus desta segunda-feira (9), do Banco Central. O número é igual ao da taxa em vigor, mantida na última reunião do Copom.",
+      "A projeção para o IPCA de 2026 ficou em 5,22%, acima do teto da meta (4,5%). Para 2027, subiu de 4,76% para 4,90%, na quarta alta seguida. O PIB de 2026 deve crescer 1,75%, e o de 2027, 1,15%. O dólar deve fechar o ano a R$ 5,35."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-da-selic-para-1375-em-2026"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-09",
+    "title": "Domino's abre quiosque de 4,9 m² dentro de uma loja do Oxxo",
+    "lead": "A primeira unidade fica em Campinas (SP), perto da Unicamp, e usa o modelo store in store.",
+    "body": [
+      "A Domino's inaugurou em Campinas a primeira operação dentro de uma loja do Oxxo. É um quiosque de 4,9 m², que vende pizzas nos tamanhos Brotinho e Média, calzones e sobremesas.",
+      "Para a Domino's, o formato permite chegar a novos pontos sem depender de lojas tradicionais. Para o Oxxo, amplia a oferta de refeições prontas. Segundo a Worldpanel, as ocasiões de alimentação fora de casa cresceram 18,2% em São Paulo. Ainda não há previsão de novas unidades."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/marketing/uma-dominos-dentro-do-oxxo-redes-testam-novo-formato-de-loja/"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-09",
+    "title": "Armor Energia prevê receita de R$ 370 milhões em 2026, alta de 55%",
+    "lead": "Comercializadora reduziu a dependência da compra e venda de contratos e agora aposta em serviços para o consumidor.",
+    "body": [
+      "A Armor Energia projeta receita líquida de R$ 370 milhões em 2026, alta de cerca de 55% sobre os R$ 239 milhões de 2025. De janeiro a julho, a receita informada pela empresa somou R$ 216 milhões.",
+      "Depois de crescer 522% em 2024, os sócios decidiram reduzir o risco de negociar contratos apenas entre empresas do setor, após dificuldades financeiras de outras comercializadoras. Agora a empresa oferece também monitoramento de consumo, projetos de eficiência, baterias e geração solar. O mercado livre de energia será aberto a pequenos negócios em novembro de 2027 e às residências em novembro de 2028."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/negocios/eles-vao-faturar-r-370-milhoes-fazendo-empresas-gastarem-menos-com-energia/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-08",
+    "title": "Lula promete criar condições para reduzir os juros e manter as regras fiscais",
+    "lead": "Em pronunciamento em rede nacional, o presidente disse que a dívida pública e os juros altos o preocupam.",
+    "body": [
+      "O presidente Luiz Inácio Lula da Silva afirmou, em pronunciamento em rede nacional neste domingo (8), que o governo vai criar as condições para reduzir a taxa de juros. Ele disse que a trajetória da dívida pública e os juros altos o preocupam e reafirmou o compromisso com a responsabilidade fiscal, preservando as regras fiscais.",
+      "Lula também disse que um dos principais objetivos será elevar a taxa de investimento para mais de 20% do PIB, em parceria com o setor privado. Ele não detalhou quais medidas serão adotadas e afirmou que, até o fim do ano, vai estruturar as mudanças do novo governo."
+    ],
+    "src": "Reuters, via InfoMoney",
+    "url": "https://www.infomoney.com.br/politica/lula-reafirma-compromisso-fiscal-mas-nao-evita-detalhar-medidas-para-reduzir-juros/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-08",
+    "title": "Importação chinesa de soja pode cair 25% até 2030, projeta estudo",
+    "lead": "A China quer produzir mais e depender menos do grão de fora, e isso pode afetar o maior comprador do Brasil.",
+    "body": [
+      "A consultoria Systemiq projeta que as importações chinesas de soja podem recuar cerca de 25% até 2030. O motivo é o plano da China de reduzir a dependência externa e o uso de farelo de soja na ração animal. Hoje a China é a principal compradora do grão brasileiro, e o Brasil enviou quase 64 milhões de toneladas a ela em 2026, segundo a Aprosoja.",
+      "No curto prazo, a soja brasileira segue competitiva. A China prometeu comprar 25 milhões de toneladas de soja dos EUA por ano entre 2026 e 2028, mas cobra 13% de tarifa sobre o grão americano e 3% sobre o brasileiro. Especialistas recomendam buscar novos mercados, como a Índia, e ampliar o uso do grão em biocombustíveis."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/08/brasil-pode-perder-seu-maior-comprador-de-soja-entenda-os-planos-da-china-e-a-disputa-com-os-eua.ghtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-08",
+    "title": "Maple Bear compra escola no Canadá e abre a primeira unidade no país de origem",
+    "lead": "A rede de ensino bilíngue investiu C$ 8,4 milhões e quer chegar a 50 países até 2030.",
+    "body": [
+      "A Maple Bear, do Grupo SEB, concluiu a compra da Prairie River Academy, em Ontário, no Canadá. O investimento foi de C$ 8,4 milhões, cerca de R$ 32 milhões. A escola passa a se chamar Maple Bear Academy e, a partir de 2027, terá também o ensino médio.",
+      "A rede está em 38 países, com mais de 500 unidades e cerca de 78 mil alunos. O Brasil responde por 45% do total, com 236 escolas. A meta é chegar a 50 países até 2030 e abrir ao menos mais 120 escolas no Brasil, principalmente por franquias, com foco em cidades menores."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/maple-bear-volta-para-casa-e-adquire-escola-no-canada/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-08",
+    "title": "Risco de recessão em 2027 ganha força, e Itaú corta projeção do PIB",
+    "lead": "Projeções apontam crescimento perto de 1% no próximo ano, mas com juros e dólar em alta uma queda não é descartada.",
+    "body": [
+      "Estimativas do Ibre-FGV, de consultorias e de bancos indicam alta do PIB em torno de 1% em 2027, com recessão não descartada. O Itaú reduziu sua projeção para o ano de 1,2% para 0,5%. A Fecomercio-SP já fala abertamente em recessão.",
+      "Num exercício preliminar, o Ibre-FGV calcula que comércio, indústria de transformação e serviços recuariam 0,5% em 2027 se as condições financeiras continuarem piorando, com juros e dólar em alta. Nesse cenário, o PIB ficaria estagnado. O endividamento das famílias também pesa: a Serasa contou 84,2 milhões de inadimplentes em setembro, o maior número da série, o equivalente a 51,1% dos adultos."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/11/risco-de-recessao-no-brasil-ganha-forca-para-2027.shtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-07",
+    "title": "Venda de motos deve bater recorde em 2026, com 2,35 milhões de unidades",
+    "lead": "Aplicativos de entrega, consórcios e o fim dos carros populares puxam o mercado, segundo a Abraciclo.",
+    "body": [
+      "A Abraciclo, entidade que reúne os fabricantes, prevê a venda de 2,35 milhões de motos no Brasil em 2026. O número supera o recorde de 2025, de 2,19 milhões de unidades. A produção esperada para o ano é de 2,1 milhões, igual à de 2008 e 2011.",
+      "Segundo a entidade, cerca de 22% das vendas vão para o segmento de delivery, e os consórcios respondem por um terço do mercado. Os carros de entrada hoje custam mais de R$ 70 mil, enquanto motos de 150 cc e 160 cc, as mais compradas, ficam perto de R$ 20 mil. A Honda lidera, com 65,6% das vendas de janeiro a outubro."
+    ],
+    "src": "Abraciclo, via Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/negocios/2026/11/industria-de-motos-no-brasil-ganha-impulso-com-delivery-e-deve-registrar-melhor-ano-da-historia.shtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-07",
+    "title": "PGR pede ao STF que suspenda no país as ações contra a proibição das bets",
+    "lead": "Paulo Gonet diz que decisões diferentes sobre o tema geram insegurança jurídica.",
+    "body": [
+      "O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal a suspensão, em todo o país, dos processos que questionam a medida provisória que proibiu as bets. O pedido foi enviado na sexta-feira (6) ao ministro Luiz Fux, relator de quatro ações sobre o assunto.",
+      "Para a PGR, a quantidade de decisões que liberam casas de apostas cria insegurança jurídica. Na quinta-feira (5), a Justiça Federal em São Paulo derrubou uma liminar que permitia o funcionamento de três bets. Se o STF aceitar o pedido, os processos ficam parados até o julgamento final sobre a MP 1.394/2026."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-pede-suspensao-de-acoes-contra-proibicao-de-bets"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-07",
+    "title": "TIM lança nova campanha de Black Friday com humor do Porta dos Fundos",
+    "lead": "A BETC Havas dá continuidade ao conceito \"Black Friday Indecente\", criado em 2025, com João Vicente e Evelyn Castro.",
+    "body": [
+      "A operadora TIM apresentou a nova campanha de Black Friday, criada pela agência BETC Havas. Ela continua o conceito \"Black Friday Indecente\", lançado em 2025, e usa o humor dos atores João Vicente e Evelyn Castro, do Porta dos Fundos, para apresentar as ofertas.",
+      "Entre as ações está uma parceria com o Omelete, com cobertura especial e ativações ao vivo sobre a oferta do PlayStation 5 com o jogo GTA VI, incluindo uma transmissão do streamer Gaules de uma loja da TIM. Nas redes, a campanha terá a cantora IZA, embaixadora da marca, e outros criadores, além da TIM House, plataforma de criadores com mais de 80 mil inscritos. Para a TIM, a ideia é transformar o conceito em uma plataforma recorrente de comunicação na data."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/agencias/betc-havas-cria-campanha-de-black-friday-da-tim/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-07",
+    "title": "Brasil tem o maior juro real do mundo, aponta ranking de 40 países",
+    "lead": "Taxa real de 9,05% é mais de sete vezes a média do levantamento, que é de 1,27%.",
+    "body": [
+      "O Brasil lidera o ranking de juros reais da consultoria Moneyou, com 9,05% ao ano. O juro real é a taxa depois de descontada a inflação. Turquia (7,77%), Argentina (6,80%), Rússia (6,57%) e Colômbia (4,05%) aparecem na sequência, entre 40 países analisados.",
+      "Em setembro, o país já liderava a lista, com 8,45%. Na quarta-feira (4), o Copom interrompeu a sequência de cortes iniciada em abril e manteve a Selic em 13,75% ao ano. A inflação em 12 meses está em 4,62%, acima do teto da meta, de 4,5%. A Confederação Nacional da Indústria chamou a decisão de \"injustificável\"."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-tem-maior-juro-real-do-mundo-seguido-por-turquia-e-argentina"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-07",
+    "title": "NTS vai à Justiça contra a ANP e suspende novos investimentos",
+    "lead": "A transportadora de gás contesta o novo método que reduz a base de ativos usada para calcular suas tarifas.",
+    "body": [
+      "O conselho da Nova Transportadora do Sudeste (NTS), que opera mais de 2 mil km de gasodutos em São Paulo, Rio e Minas Gerais, decidiu entrar na Justiça contra a ANP. A empresa quer anular ou suspender a decisão que adotou um método de valoração de ativos que ela considera inadequado, pois reduz a base de ativos que serve de referência para sua remuneração.",
+      "Enquanto durar a incerteza regulatória, a NTS também suspendeu a aprovação de novos investimentos e vai rever projetos aprovados e ainda não executados, exceto os ligados à segurança dos ativos. Segundo o NeoFeed, o valor suspenso chega a R$ 12 bilhões. A ANP deve concluir a revisão das tarifas de transporte de gás na segunda-feira (9)."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/empresas/noticia/2026/11/07/nts-suspende-investimento-e-vai-justia-contra-anp.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-07",
+    "title": "Vale-refeição e alimentação passam a valer em maquininhas de outras operadoras",
+    "lead": "A regra do PAT acaba com a exclusividade entre operadoras e estabelecimentos a partir deste sábado.",
+    "body": [
+      "Desde este sábado (7), cartões de vale-refeição e vale-alimentação de diferentes operadoras devem ser aceitos nas mesmas maquininhas habilitadas para benefícios. A regra encerra a exclusividade entre empresas de benefícios e comércios e é a última etapa das novas normas do Programa de Alimentação do Trabalhador (PAT).",
+      "Empresas e entidades do setor dizem que os sistemas ainda não estão integrados. O Ministério do Trabalho descarta adiar o prazo, e a Justiça negou na sexta-feira (6) o pedido da Alelo por mais tempo. Quem descumprir pode pagar multa de R$ 5.000 a R$ 50 mil e perder o registro no PAT e os incentivos fiscais. O trabalhador continua usando o mesmo cartão."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/11/cartoes-de-vr-e-va-devem-ser-aceitos-em-mais-restaurantes-a-partir-deste-sabado-7-entenda.shtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-07",
+    "title": "Bacio di Latte e Ferrero Rocher fazem parceria de Natal",
+    "lead": "Três bebidas das lojas da gelateria passam a vir com o bombom de avelã da Ferrero.",
+    "body": [
+      "A Bacio di Latte e a Ferrero Rocher lançaram uma ação conjunta para o Natal. Nas lojas físicas da gelateria, o café espresso, o affogato e o Milkshake Avelã passam a ser servidos com o bombom de avelã da Ferrero Rocher. A promoção vai até o fim de dezembro.",
+      "A Bacio di Latte foi fundada em 2011 e tem cerca de 230 unidades no Brasil, além de mais de 30 operações nos Estados Unidos. A Ferrero está no país desde 1995. Para a fabricante, a parceria amplia as ocasiões de consumo da marca e sua presença no varejo de alimentos."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/bacio-di-latte-e-ferrero-rocher-fecham-parceria-de-natal"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-06",
+    "title": "Balança comercial tem o maior superávit para um outubro desde 1989",
+    "lead": "O saldo foi de US$ 9,3 bilhões, alta de 39,4% sobre outubro de 2025.",
+    "body": [
+      "A balança comercial brasileira fechou outubro com superávit de US$ 9,3 bilhões, segundo o Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC). É o melhor resultado para o mês desde o início da série histórica, em 1989, e 39,4% acima do saldo de outubro de 2025.",
+      "O avanço veio principalmente das vendas de petróleo, combustíveis, cereais e soja. De janeiro a outubro, o superávit soma US$ 71,04 bilhões, 34,1% a mais que no mesmo período de 2025."
+    ],
+    "src": "MDIC, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/balanca-comercial-tem-maior-superavit-para-outubro-desde-1989"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-06",
+    "title": "Nubank e Mercado Pago suspendem transferências de criptomoedas",
+    "lead": "Os dois bancos digitais citam instabilidade em fornecedor e dizem que compra e venda de moedas digitais seguem normais.",
+    "body": [
+      "Nubank e Mercado Pago suspenderam nesta sexta-feira (6) as transferências de criptomoedas em suas plataformas. O Nubank afirmou que o problema não está na sua infraestrutura e que os ativos e as informações dos clientes seguem protegidos. As operações voltam quando o serviço do fornecedor for restabelecido.",
+      "O Mercado Pago disse que o problema vem de um incidente em um fornecedor de monitoramento de risco e prevenção à lavagem de dinheiro. Parte das transferências para carteiras externas foi bloqueada por proteção, e os depósitos serão creditados com atraso. A instabilidade também afeta as operações da empresa no Chile e no México."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/onde-investir/nubank-e-mercado-pago-suspendem-transferencias-de-criptomoedas/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-06",
+    "title": "Governo prorroga imposto de 12% sobre exportação de petróleo bruto",
+    "lead": "A cobrança, em vigor desde março, vale agora até 31 de dezembro e busca estimular o refino dentro do país.",
+    "body": [
+      "O governo estendeu até 31 de dezembro a alíquota de 12% sobre a exportação de óleo bruto de petróleo e de minerais betuminosos. A decisão é do Comitê-Executivo de Gestão da Câmara de Comércio Exterior (Gecex-Camex) e saiu no Diário Oficial da União desta sexta-feira (6).",
+      "A taxa está em vigor desde março, em meio aos efeitos da guerra no Irã sobre o mercado de petróleo. Segundo a reportagem, o objetivo é incentivar o refino no Brasil e ajudar a compensar os gastos com a subvenção a produtores e importadores de óleo diesel."
+    ],
+    "src": "Metrópoles",
+    "url": "https://www.metropoles.com/brasil/governo-estende-imposto-sobre-exportacao-de-petroleo-bruto-ate-o-fim-do-ano"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-06",
+    "title": "Inner AI escala Tadeu Schmidt para campanha de assistente no WhatsApp",
+    "lead": "A startup lança o Mago, que executa tarefas pedidas por áudio, e aposta em anúncios e vídeos para atrair quem nunca usou IA.",
+    "body": [
+      "A Inner AI lançou a Inner 4.0 e o Mago, um assistente de IA que funciona dentro do WhatsApp. O usuário pede uma tarefa por áudio e o Mago escolhe os modelos de IA necessários para entregar o resultado pronto, como pesquisa, planilha, apresentação, site ou vídeo.",
+      "Para chegar a quem ainda não usa IA no dia a dia, a empresa escolheu Tadeu Schmidt como rosto da campanha nacional de lançamento, com anúncios e vídeos. O valor da campanha não foi divulgado. A startup tem mais de 1 milhão de usuários e mais de 50 modelos em sua plataforma. Em abril, captou R$ 30 milhões em rodada seed, e em outubro recebeu novo aporte da Vivo Ventures, de valor não divulgado."
+    ],
+    "src": "Startups",
+    "url": "https://startups.com.br/negocios/inteligencia-artificial/com-o-caixa-reforcado-inner-ai-inicia-fase-4-0-e-leva-agente-para-o-whatsapp/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-06",
+    "title": "Wall Street tem pior dia desde abril de 2025 e bolsas da Ásia despencam",
+    "lead": "Ações de inteligência artificial lideraram a queda nos EUA, e o Nikkei chegou a cair 6,2% nesta sexta.",
+    "body": [
+      "O S&P 500 caiu 4,4% na quinta-feira (5), o pior dia desde abril de 2025. O Nasdaq recuou 5,5% e ficou 11,9% abaixo da máxima histórica, registrada em outubro. O Dow Jones perdeu 3,4%.",
+      "A Nvidia caiu 9,3% e a AMD, 17,3%. Os investidores temem que a construção de data centers de IA desacelere com o crédito mais caro. Nesta sexta, o Nikkei, do Japão, chegou a cair 6,2% e o Kospi, da Coreia do Sul, 7,1%."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/05/bolsa-do-japao-cai-mais-de-6percent-apos-tombo-de-acoes-de-ia-nos-eua.ghtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-06",
+    "title": "Heineken compra o controle da Better Drinks por R$ 500 milhões",
+    "lead": "A dona das marcas Praya e Mamba Water aguarda o aval do Cade para fechar o negócio.",
+    "body": [
+      "A Heineken Brasil assinou a compra do controle da Better Drinks, dona da cerveja Praya e da água em lata Mamba Water. O valor é de R$ 500 milhões, pagos em dinheiro, parte após a aprovação e parte em até 24 meses. O negócio ainda precisa do aval do Cade.",
+      "A empresa já distribuía as marcas desde 2024 e passou a fabricá-las depois. O faturamento anual da Mamba Water subiu de R$ 10 milhões em 2024 para R$ 100 milhões este ano. Com a compra, a Heineken planeja levar a Praya para outros países e ampliar o portfólio da Mamba."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/heineken-assume-o-controle-da-better-drinks-por-r-500-milhoes-e-planeja-internacionalizar-cerveja-praya/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-05",
+    "title": "Governo define 27 minerais críticos como prioridade de investimento",
+    "lead": "Lista orienta como serão aplicados até R$ 7 bilhões em incentivos para processar minerais no Brasil.",
+    "body": [
+      "O Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos aprovou nesta quinta-feira (5) a lista de 27 minerais prioritários do governo federal. Eles foram separados em três grupos, de prioridade alta, média e baixa, que vão orientar as políticas públicas e os recursos de fomento.",
+      "A classificação considerou o risco geopolítico, a concentração da oferta, a possibilidade de substituição, a posição do Brasil na cadeia de produção e a dependência do país de importações. Níquel, grafita e lítio, usados em baterias de carros elétricos e em ímãs permanentes, estão no topo. A lei da política nacional, sancionada em 16 de setembro, prevê até R$ 7 bilhões em incentivos para projetos de processamento e transformação. A meta é fazer o Brasil deixar de só exportar matéria-prima."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-define-minerais-criticos-prioritarios-para-investimentos"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-05",
+    "title": "Kopenhagen amplia em 60% a verba de mídia para o Natal de 2026",
+    "lead": "É a maior campanha sazonal da marca, que mira alta de mais de 15% na receita.",
+    "body": [
+      "A Kopenhagen aumentou em 60% o investimento em mídia para o Natal de 2026, em sua maior campanha publicitária sazonal. A meta é elevar a receita em mais de 15%. A campanha, criada pela WMcCann, usa o conceito \"O melhor pedaço do ano\".",
+      "O plano reúne filme com foco no panetone, influenciadores, anúncios em plataformas de streaming, mídia exterior e formatos digitais. A marca também vai reforçar o Calendário do Advento e os Kits Presenteáveis, e estreia o selo K.O.P., que garante a rastreabilidade do cacau nacional."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/anunciantes/kopenhagen-aumenta-em-60-investimento-em-midia-para-o-natal-2026/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-05",
+    "title": "Produção da indústria cai 0,8% em setembro, a 4ª queda em cinco meses",
+    "lead": "Resultado do IBGE ficou abaixo do esperado pelo mercado, que projetava recuo de 0,4%.",
+    "body": [
+      "A produção industrial brasileira recuou 0,8% de agosto para setembro, segundo a Pesquisa Industrial Mensal do IBGE. Foi a quarta queda em cinco meses. Nesse período, a perda acumulada é de 4,1%, o que apaga parte do ganho de 4,2% dos quatro primeiros meses do ano.",
+      "Em 12 meses, a indústria ainda tem alta de 0,2%, mas em setembro a produção ficou 2,5% abaixo da de um ano antes. A queda atingiu 17 das 25 atividades pesquisadas. Derivados de petróleo e biocombustíveis (-4,2%) e alimentos (-1,7%) pesaram mais. As indústrias extrativas subiram 1,7%."
+    ],
+    "src": "IBGE, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/producao-da-industria-recua-08-em-setembro-4a-queda-em-cinco-meses"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-05",
+    "title": "GPA tem prejuízo de R$ 731 milhões, mas melhora a margem",
+    "lead": "A dona do Pão de Açúcar e do Extra teve queda de 9,6% na receita líquida no terceiro trimestre.",
+    "body": [
+      "O GPA registrou receita líquida de R$ 4,1 bilhões no terceiro trimestre, 9,6% a menos que um ano antes. O resultado ficou negativo em R$ 731 milhões, contra lucro de R$ 137 milhões no mesmo período de 2025. Segundo a empresa, a queda nas vendas vem em parte da descontinuação do formato Aliados e da venda da Stix, que fazia parte do grupo.",
+      "A rentabilidade melhorou com o corte de despesas. O Ebitda somou R$ 482 milhões, alta de 16,9%, e a margem chegou a 11,7%. A empresa, que teve a recuperação extrajudicial homologada, diz que quer voltar a crescer nas vendas de lojas comparáveis em 2027."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/o-gpa-encolheu-e-o-prejuizo-subiu-mas-a-margem-salvou-o-trimestre/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-05",
+    "title": "Governo fixa alíquotas do \"imposto do pecado\" para 2027",
+    "lead": "Medida provisória define a cobrança sobre bebidas, cigarros, veículos e apostas a partir de fevereiro.",
+    "body": [
+      "O governo federal publicou na noite de quarta-feira (4) a Medida Provisória nº 1.399/2026, que fixa as alíquotas do Imposto Seletivo, o chamado \"imposto do pecado\". Entre elas estão 2,6% para bebidas açucaradas, 4,2% para cervejas de malte e 0,5% para apostas. Cigarros e cigarrilhas pagam 66,7% sobre um valor de referência, mais R$ 3,50 por maço de 20 unidades.",
+      "A cobrança começa em 2 de fevereiro de 2027, depois do prazo de 90 dias exigido pela Constituição. Para que o IPI continue sendo cobrado em janeiro, o governo também enviou uma proposta de emenda à Constituição ao Congresso. A MP vale por 60 dias, prorrogáveis por mais 60, e precisa ser aprovada pelos parlamentares. Pequenos produtores de bebidas alcoólicas terão redução na alíquota, conforme o volume produzido."
+    ],
+    "src": "Metrópoles",
+    "url": "https://www.metropoles.com/brasil/governo-federal-publica-mp-do-imposto-do-pecado-com-aliquota-de"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-05",
+    "title": "Zalando vai usar agente de IA para vender produtos de outras lojas",
+    "lead": "A varejista alemã testa o recurso com a Westwing e planeja liberá-lo a partir de 2027.",
+    "body": [
+      "A Zalando anunciou o Zalando Extended, ferramenta em que um agente de inteligência artificial compra, dentro do aplicativo da varejista, produtos de lojas parceiras que ela não vende. A partir de 2027, o agente fará a compra em nome do cliente, sem que ele saia do app.",
+      "As lojas parceiras alcançam os clientes da Zalando sem integração técnica complexa nem mudanças na logística. As marcas também poderão anunciar na plataforma de retail media da empresa. O piloto começa com a Westwing, de casa e decoração.",
+      "No trimestre, o volume de vendas (GMV) da Zalando subiu 7,5% e a receita, 5,1% na comparação com um ano antes. Para 2026, a empresa projeta crescimento na metade inferior da faixa de 12% a 17%."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/zalando-investe-em-agente-de-ia-para-ampliar-o-e-commerce"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-04",
+    "title": "Copom mantém a Selic em 13,75% e interrompe ciclo de cortes",
+    "lead": "A decisão foi unânime e citou inflação mais alta e economia em desaceleração.",
+    "body": [
+      "O Comitê de Política Monetária (Copom) do Banco Central manteve nesta quarta-feira (4) a taxa Selic em 13,75% ao ano, por unanimidade. Com isso, o comitê interrompe a sequência de cortes nos juros básicos da economia.",
+      "No comunicado, o Copom disse que o aumento das incertezas, as expectativas de inflação mais altas e a desaceleração da atividade exigem \"serenidade e cautela\". Segundo o boletim Focus, a projeção do mercado para o IPCA de 2026 é de 5,22%, acima do teto da meta, de 4,5%. Na prática, crédito e financiamentos seguem caros para empresas e consumidores."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-surpreende-e-mantem-juros-basicos-em-1375-ao-ano"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-04",
+    "title": "Aeris pede recuperação extrajudicial para renegociar R$ 1,52 bilhão",
+    "lead": "A fabricante de pás eólicas já tem a adesão de 42,18% dos credores e 90 dias para chegar à maioria.",
+    "body": [
+      "A Aeris, fabricante cearense de pás eólicas, entrou na terça-feira (3) com pedido de recuperação extrajudicial para reestruturar R$ 1,52 bilhão em dívidas sem garantia. Ficam de fora do plano os créditos trabalhistas e tributários e os que têm garantia real. A empresa diz que a produção segue normal.",
+      "O plano foi protocolado com a adesão de 42,18% dos credores e a empresa tem 90 dias para obter o apoio da maioria. Os novos termos de pagamento ainda não foram definidos. É a segunda reestruturação em pouco mais de um ano e meio: a de 2025 só alongou prazos. Em junho, a dívida líquida era de R$ 1,94 bilhão e o patrimônio líquido estava negativo em R$ 989 milhões, em meio à crise do setor eólico no país."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/aeris-pede-recuperacao-extrajudicial-para-reestruturar-r-15-bilhao-em-dividas/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-04",
+    "title": "Governo cria regras para barrar golpes por SMS; operadoras têm 90 dias",
+    "lead": "Empresas que enviam mensagens por código curto passarão a constar de um cadastro público, e SMS de remetentes não cadastrados serão bloqueados.",
+    "body": [
+      "O governo federal publicou nesta quarta-feira (4), no Diário Oficial da União, novas regras contra fraudes por SMS. As operadoras deverão criar um cadastro público que identifique as empresas responsáveis pelas mensagens e bloquear as enviadas por códigos curtos não cadastrados, aqueles números de poucos dígitos, como \"29222\". Cada código deverá ser usado por uma única empresa, com exceções só mediante justificativa técnica à Anatel.",
+      "As operadoras também terão de monitorar o envio de SMS para achar campanhas suspeitas e falsificação de remetente. As empresas que contratam o serviço deverão verificar a identidade de seus clientes e guardar registros. A Anatel acompanha a adoção das medidas, que deve ocorrer em até 90 dias, prorrogáveis. Segundo pesquisa do Cetic.br, o SMS é usado em 71% das abordagens de golpistas."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/04/governo-publica-novas-regras-para-combater-golpes-por-sms-veja-o-que-muda.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-04",
+    "title": "Justiça de SP barra uso de conteúdo de veículos pela Meta",
+    "lead": "Liminar suspende os novos termos comerciais da plataforma, que valeriam a partir de 20 de novembro.",
+    "body": [
+      "A Justiça de São Paulo concedeu na terça-feira (3) uma liminar que suspende os Termos Comerciais da Meta, previstos para entrar em vigor em 20 de novembro. A ação foi movida pela ANJ (jornais), pela Aberta (rádio e TV) e pela Aner (revistas). A decisão também proíbe a coleta e o uso de conteúdos dos veículos associados sem autorização, inclusive para treinar sistemas de inteligência artificial.",
+      "A Meta também deve manter sem bloqueios as contas e páginas dos veículos que recusarem as novas condições. Em caso de descumprimento, a multa é de R$ 1 milhão por dia, limitada a R$ 100 milhões. A liminar vale até o julgamento definitivo da ação. Na Noruega, um tribunal já havia suspendido as mesmas regras em 28 de outubro."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/mercado/justica-de-sp-suspende-uso-de-conteudo-meta-apos-acao-de-entidades-de-midia/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-04",
+    "title": "Dólar fecha a R$ 5,486 e Ibovespa cai pelo 6º pregão seguido",
+    "lead": "Incertezas fiscais e a espera pela decisão do Copom mantiveram os investidores cautelosos.",
+    "body": [
+      "O dólar comercial subiu 0,74% na terça-feira (3) e fechou a R$ 5,486. Durante o dia, passou de R$ 5,50. O Ibovespa recuou 1,42%, aos 165.528,92 pontos, a sexta queda seguida desde a reeleição do presidente Lula, e chegou ao menor nível desde janeiro.",
+      "Os investidores aguardam a decisão do Copom sobre a Selic, hoje em 13,75% ao ano. O boletim Focus elevou a projeção de inflação para 2027 de 4,34% para 4,76%, acima do teto da meta, de 4,5%. A estimativa para a Selic no fim do próximo ano subiu de 11,75% para 12,50%."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-074-e-aproxima-se-de-r-550-em-dia-de-cautela-fiscal"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-04",
+    "title": "Itaú lucra R$ 12,6 bilhões no 3º trimestre, alta de 6,7% em um ano",
+    "lead": "O maior banco privado do país manteve a inadimplência sob controle, e a carteira de crédito chegou a R$ 1,54 trilhão.",
+    "body": [
+      "O Itaú Unibanco informou lucro recorrente de R$ 12,61 bilhões entre julho e setembro. O valor é 6,7% maior que o do mesmo período do ano passado e 2,5% maior que o do trimestre anterior, e ficou em linha com o que o mercado esperava. A rentabilidade sobre o patrimônio foi de 23,6%, 0,7 ponto percentual menor que a do trimestre anterior.",
+      "A carteira de crédito cresceu 2,2% no trimestre, puxada pelo crédito imobiliário, que subiu 4,4%. Os atrasos acima de 90 dias ficaram em 2,0% das operações. O banco também reduziu a estimativa da alíquota efetiva de impostos para 2026, de 29,5%–32,5% para 28%–29%. As ações preferenciais (ITUB4) fecharam em queda de 0,68%, a R$ 38,41."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/itau-entrega-balanco-como-sempre-lucro-de-r-126-bilhoes-e-inadimplencia-sob-controle/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-03",
+    "title": "Durigan quer revisar benefícios fiscais em 2027 para baixar a CBS",
+    "lead": "O ministro da Fazenda diz que vai discutir com o Congresso cortes em incentivos da reforma tributária para reduzir a alíquota no futuro.",
+    "body": [
+      "O ministro da Fazenda, Dario Durigan, disse nesta terça-feira (3) que vai propor ao Congresso, ao longo de 2027, uma revisão dos benefícios fiscais da reforma tributária sobre o consumo. A ideia é reduzir parte dos incentivos para baixar, no futuro, a alíquota da CBS, a contribuição federal que substitui o PIS e a Cofins.",
+      "A alíquota de 11,3% para 2027, calculada pelo TCU, surpreendeu o mercado, que esperava algo perto de 9,4%. O Senado tem até 15 de dezembro para fixar o valor final. Segundo Durigan, os incentivos foram aprovados por emenda à Constituição e não podem ser reduzidos agora."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/03/durigan-quer-revisar-beneficios-fiscais-em-2027-para-reduzir-aliquota-do-imposto-sobre-o-consumo-do-governo-federal.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-03",
+    "title": "Neooh assume a publicidade em 18 aeroportos administrados pela Socicam",
+    "lead": "Acordo leva a mídia exterior a terminais regionais, com painéis digitais e totens, e a empresa banca a modernização.",
+    "body": [
+      "A Neooh vai operar a publicidade em 18 aeroportos administrados pela Socicam, em oito estados. Entre eles estão os de São José do Rio Preto, Barretos, Presidente Prudente, Chapecó, Ilhéus, Vitória da Conquista, Caldas Novas e Comandatuba.",
+      "Os espaços terão painéis digitais de LED, totens, painéis estáticos, ativações de marca e mídia em carrinhos de bagagem e bandejas de raio X. A Neooh fica responsável pelos investimentos na modernização dos espaços. Para os anunciantes, a rede dá acesso a regiões ligadas a agronegócio, turismo, indústria e serviços."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/out-of-home/neooh-assume-operacao-publicitaria-de-18-aeroportos-administrados-pela-socicam/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-03",
+    "title": "Focus: mercado vê Selic em 13,5% e dólar a R$ 5,34 no fim de 2026",
+    "lead": "Projeção para a inflação também subiu, e a do crescimento do PIB caiu pela 3ª semana seguida.",
+    "body": [
+      "O Boletim Focus, do Banco Central, mostrou que o mercado elevou as projeções para juros, inflação e dólar em 2026. A Selic prevista para o fim do ano passou de 13,25% para 13,5%. Hoje ela está em 13,75%. O IPCA esperado subiu de 5,19% para 5,22%, e o dólar, de R$ 5,05 para R$ 5,34.",
+      "A estimativa de crescimento do PIB de 2026 caiu de 1,8% para 1,76%, a terceira queda seguida. Para 2027, o mercado projeta Selic de 12,5%, inflação de 4,76% e PIB de 1,2%. É o primeiro Focus depois das eleições presidenciais."
+    ],
+    "src": "Banco Central, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-para-inflacao-juros-e-dolar-em-2026"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-03",
+    "title": "Petrobras cai na Bolsa após petróleo despencar mais de 7% na segunda",
+    "lead": "Esperança de acordo de paz com o Irã derrubou o barril; a Bolsa brasileira estava fechada por causa do feriado.",
+    "body": [
+      "As ações da Petrobras (PETR3 e PETR4) caíram com força nesta terça-feira (3). A reação ficou represada porque a Bolsa não abriu na segunda (2), feriado de Finados, quando o petróleo já havia despencado lá fora.",
+      "Na segunda, o Brent recuou 8,15% e fechou a US$ 104,18 o barril. O WTI caiu 7,76%, para US$ 96,04. A queda veio com as negociações entre o Irã e mediadores do Catar para encerrar a guerra, o que alimentou a expectativa de estabilização do abastecimento no Oriente Médio. Outras petroleiras, como Shell, BP, Exxon e Chevron, também foram afetadas."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/petr4-por-que-acoes-da-petrobras-caem-nesta-terca/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-03",
+    "title": "Simples Nacional: prazo para cancelar opção por IBS e CBS vai até 20 de dezembro",
+    "lead": "Micro e pequenas empresas podem desistir da escolha feita para os novos tributos da reforma. O cancelamento não pode ser desfeito.",
+    "body": [
+      "Começou nesta terça-feira (3) o prazo para micro e pequenas empresas do Simples Nacional cancelarem a escolha sobre como pagar o IBS e a CBS, os novos tributos da reforma tributária. O prazo vai até 20 de dezembro, segundo regras do Comitê Gestor do Simples Nacional. Quem cancelar não poderá voltar atrás.",
+      "A empresa pode pagar os dois tributos na guia única do Simples ou separadamente, no chamado regime regular, sem sair do Simples para os demais impostos. No regime regular, ela gera mais créditos para os clientes, o que pode pesar para quem vende para outras empresas, mas exige cálculo e controle fiscal à parte. A orientação de contadores é simular os dois cenários antes de decidir."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/empreendedorismo/noticia/2026/11/03/simples-nacional-prazo-para-cancelar-opcoes-de-ibs-e-cbs.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-03",
+    "title": "Linha wellness da Ambev cresce 157% em volume no 3º trimestre",
+    "lead": "Michelob Ultra avançou 478% e Stella Pure Gold, 195%, segundo o balanço da companhia.",
+    "body": [
+      "O portfólio wellness da Ambev, com cervejas de menos calorias, sem glúten e com baixo ou nenhum teor alcoólico, vendeu 157% mais em volume no Brasil no terceiro trimestre de 2026 do que um ano antes. Os números constam do balanço divulgado em 29 de outubro.",
+      "A Michelob Ultra teve alta de 478% e a Stella Pure Gold, de 195%. A empresa lançou ainda a Spaten Pro, cerveja sem álcool com dez gramas de proteína. Segundo a diretora de marketing de cervejas premium, Cinthia Klumpp, a Stella Pure Gold entrou nos planos de expansão internacional após o resultado no mercado brasileiro."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/anunciantes/segmento-wellness-da-ambev-cresce-157-no-terceiro-trimestre/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-02",
+    "title": "ICMS sobe 11,1% no diesel e 4,5% na gasolina a partir de fevereiro",
+    "lead": "Estados aprovaram o reajuste no Confaz; em São Paulo, o litro fica R$ 0,07 a R$ 0,13 mais caro.",
+    "body": [
+      "Os estados aprovaram no Confaz, em 29 de outubro, o aumento do ICMS sobre os combustíveis. Os novos valores passam a valer em todo o país em 1º de fevereiro de 2027. O diesel terá a maior alta, de 11,1%, e a gasolina sobe 4,5%.",
+      "Em São Paulo, o imposto por litro do diesel vai de R$ 1,17 para R$ 1,30. Na gasolina, passa de R$ 1,57 para R$ 1,64. O ICMS é um valor fixo por litro, atualizado uma vez por ano com base nos preços pesquisados pela ANP. Como o diesel move o transporte de cargas, o reajuste tende a pesar nos custos de frete das empresas."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/02/icms-sobre-os-combustiveis-veja-quanto-sera-o-aumento-na-gasolina-gas-de-cozinha-e-diesel-a-partir-de-1-de-fevereiro-de-2027-em-sp.ghtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-02",
+    "title": "Lufthansa compra 44,9% da TAP por 1,2 bilhão de euros, cerca de R$ 7,3 bilhões",
+    "lead": "O governo de Portugal mantém 50,1% da companhia, que é a que mais transporta passageiros entre Brasil e Europa.",
+    "body": [
+      "A Lufthansa venceu a disputa pela TAP, em operação de 1,201 bilhão de euros (cerca de R$ 7,3 bilhões). Na primeira fase, o grupo alemão fica com 44,9% das ações e os trabalhadores podem comprar até 5%. O governo português segue com 50,1% e com a maioria do conselho. Uma segunda fase, de compra majoritária, custaria mais 1,351 bilhão de euros e ainda depende de um processo separado.",
+      "No Brasil, a TAP fez 7.754 decolagens e levou 1.679.725 passageiros de janeiro a setembro de 2026, segundo a Anac. Para o viajante, a mudança pode abrir novas combinações de voos com a rede da Lufthansa na Europa, mas não há previsão de novas rotas nem de queda no preço das passagens. Nome, sede e hub de Lisboa serão mantidos."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/invest/mercados/lufthansa-compra-fatia-da-tap-por-r-73-bilhoes-o-que-muda-nos-voos-entre-brasil-e-europa/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-02",
+    "title": "Vale-refeição e alimentação: maquininhas devem aceitar todos os cartões a partir de 7 de novembro",
+    "lead": "A regra de interoperabilidade do PAT vale para todo o mercado e será fiscalizada pelo Ministério do Trabalho.",
+    "body": [
+      "O Ministério do Trabalho e Emprego informou que a interoperabilidade plena do Programa de Alimentação do Trabalhador (PAT) deve estar implementada até 7 de novembro de 2026. Na prática, qualquer cartão de vale-alimentação ou vale-refeição deverá ser aceito em qualquer maquininha que opere com esse tipo de benefício, seja qual for a operadora ou a bandeira.",
+      "A medida está prevista em decreto presidencial de novembro de 2025, que deu até 360 dias de adaptação às empresas do setor. As operadoras com mais de 500 mil usuários tiveram 180 dias, encerrados em maio, para abrir seus arranjos de pagamento. A fiscalização cabe ao ministério, que trata a recusa de um cartão que deveria ser aceito como irregularidade, passível de denúncia nos canais do órgão."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/02/vale-tiquete-maquinas-terao-de-aceitar-todos-os-cartoes-a-partir-de-7-de-novembro-diz-ministerio-do-trabalho.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-02",
+    "title": "Black Friday 2026: 62% dos consumidores pretendem comprar, diz pesquisa",
+    "lead": "Com a data marcada para 27 de novembro, consumidores usam a internet e a IA para planejar as compras.",
+    "body": [
+      "Pesquisa da Opinion Box com a Dito ouviu mil pessoas pela internet entre julho e agosto. Do total, 62% pretendem comprar na Black Friday, 24% ainda não decidiram e 14% não vão comprar. Eletroeletrônicos (43%), eletrodomésticos (39%) e roupas e acessórios (39%) lideram entre as categorias procuradas.",
+      "Levantamento anual do Google mostra que 41% dos brasileiros esperam gastar mais do que em 2025 e 44% já começaram a pesquisar preços. Segundo o Google, 70% ainda não definiram em qual loja vão comprar. Para a empresa, o diferencial do varejo está em combinar os benefícios certos para cada categoria, e não só em dar o maior desconto."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/mercado/consumidor-se-planeja-mais-com-ia-para-a-black-friday-2026-de-olho-nas-ofertas/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-02",
+    "title": "Eleição nos EUA nesta terça (3) pode mexer com dólar e juros no Brasil",
+    "lead": "O resultado define quanto espaço Trump terá no Congresso para gastos e impostos, o que influencia os títulos do Tesouro americano.",
+    "body": [
+      "Os americanos votam nesta terça-feira (3) nas eleições de meio de mandato, que renovam as 435 cadeiras da Câmara e 35 das 100 vagas do Senado. Segundo o modelo do The Economist, usado como referência pelo BTG Pactual, os democratas têm 96% de chance de maioria na Câmara. No Senado, a disputa é mais apertada: a chance democrata varia de 65% a 72%, conforme a fonte.",
+      "Para o Brasil, o efeito passa pelos juros dos títulos do Tesouro dos EUA e pelo dólar. Se o governo americano tiver espaço para aumentar gastos e cortar impostos, esses juros tendem a subir e atrair dinheiro de países emergentes, o que pressiona o real. Um Congresso mais dividido pode aliviar essa pressão. Hoje o dólar está na casa dos R$ 5,40."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/02/midterms-nos-eua-eleicoes-podem-mudar-planos-de-trump-e-mexer-com-dolar-e-juros-no-brasil.ghtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-02",
+    "title": "AST SpaceMobile, rival da Starlink, quer levar satélite a celulares no Brasil",
+    "lead": "A Anatel liberou faixas de frequência para a empresa americana, que mira mais de 200 milhões de linhas móveis.",
+    "body": [
+      "A AST SpaceMobile, dos Estados Unidos, recebeu em 9 de outubro a aprovação da Anatel para usar 30 MHz na banda S. Também foi autorizada a usar até 20 MHz da faixa de 700 MHz, cedidos por Brisanet, Unifique, Iez! Telecom e Amazônia 5G. A empresa constrói quatro estações em terra no país.",
+      "A ideia é conectar o celular comum direto ao satélite, em áreas sem sinal 4G ou 5G. Segundo estimativas citadas pela empresa, cerca de metade das rodovias federais e estaduais e dois terços das terras agrícolas do país não têm cobertura. Preços, planos e data de lançamento ainda não foram definidos: cada operadora decidirá como oferecer o serviço. A Starlink, que atua com a Vivo, recebeu 15+15 MHz na mesma decisão."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/invest/mercados/rival-da-starlink-avanca-no-brasil-e-quer-levar-satelite-a-200-milhoes-de-celulares/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-01",
+    "title": "Fux inclui ministérios e supermercados em audiência do STF sobre bets",
+    "lead": "A audiência de terça-feira (3) discute a medida provisória que proíbe o funcionamento das casas de apostas online no país.",
+    "body": [
+      "O ministro Luiz Fux, do Supremo Tribunal Federal, convocou neste domingo (1º) representantes dos ministérios da Saúde e da Justiça, da Associação Brasileira de Supermercados (Abras), do Comitê Paralímpico do Brasil, da Federação Nacional dos Atletas Profissionais de Futebol e do Grêmio. Com isso, a audiência pública chega a 34 participantes. Ela será na terça-feira (3), às 10h, em Brasília.",
+      "O encontro vai debater a Medida Provisória nº 1.394/2026, que proíbe a exploração, a oferta e a publicidade de apostas online no Brasil. A Associação Nacional de Jogos e Loterias pede ao STF que suspenda a MP. Fux atendeu a um pedido da Advocacia-Geral da União, que viu na lista inicial predomínio de clubes de futebol e operadoras de apostas."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-atende-agu-e-inclui-ministerios-e-abras-em-debate-sobre-bets"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-01",
+    "title": "Petrobras reajusta querosene de aviação em 7,2% em novembro",
+    "lead": "É o terceiro aumento seguido do combustível, que sobe R$ 0,45 por litro para as distribuidoras.",
+    "body": [
+      "A Petrobras elevou em 7,2% o preço do querosene de aviação (QAV) vendido às distribuidoras a partir deste domingo (1º). O aumento equivale a R$ 0,45 por litro em relação ao mês anterior. Em outubro, o preço havia subido cerca de 12% em algumas das principais bases do país, e em setembro a alta média foi de aproximadamente 13,9%.",
+      "A empresa afirma que o reajuste acompanha a alta das cotações internacionais, num cenário de tensões no Oriente Médio e de menor capacidade de refino na Rússia e na Ucrânia. O preço é ajustado no início de cada mês, conforme os contratos. O combustível pesa nos custos das companhias aéreas, e o repasse às passagens depende de cada empresa."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/01/petrobras-querosene-aviacao-novembro.ghtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-01",
+    "title": "União Europeia passa a cobrar € 2 por categoria em compras de fora do bloco",
+    "lead": "Taxa vale para encomendas de plataformas como Shein, Temu e AliExpress e se soma a outra, de € 3, em vigor desde julho.",
+    "body": [
+      "A União Europeia começou a cobrar neste domingo (1º) uma taxa de processamento de € 2 por categoria de produto nas encomendas enviadas de países de fora do bloco. A cobrança vale para qualquer valor de compra. Desde julho, já existe um direito aduaneiro de € 3 por categoria para remessas de até € 150. Somadas, as duas chegam a € 5 por categoria.",
+      "Segundo a Comissão Europeia, 5,9 bilhões de itens de baixo valor entraram no bloco em 2025, mais de 90% vindos da China. O pagamento fica com plataformas, vendedores e transportadoras, que podem repassar o custo ao consumidor. No Brasil, o imposto de importação de 20% sobre compras de até US$ 50 foi zerado em 2026, mas o ICMS estadual continua."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/business/europa-cria-taxa-das-blusinhas-veja-como-vai-funcionar-e-o-que-difere-do-brasil/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-01",
+    "title": "Governo vai enviar projeto para perseguir o centro da meta fiscal em 2027",
+    "lead": "Ministro da Fazenda diz que outras medidas de ajuste ainda estão em análise, como o corte de supersalários.",
+    "body": [
+      "O ministro da Fazenda, Dario Durigan, informou que o governo enviará ao Congresso um projeto de lei para expressar o compromisso de buscar o centro da meta fiscal em 2027. Nos anos anteriores, o foco era o piso da meta. Segundo o ministro, outras medidas ainda estão sendo avaliadas.",
+      "Entre as apostas da equipe econômica está a contenção de supersalários e penduricalhos, pagamentos acima do teto do funcionalismo, de R$ 46.366,19. O ex-ministro Fernando Haddad calcula que essas práticas custam cerca de R$ 20 bilhões por ano. A Instituição Fiscal Independente, ligada ao Senado, alerta que o Orçamento de 2027 pode fechar com déficit de 1% do PIB."
+    ],
+    "src": "Metrópoles",
+    "url": "https://www.metropoles.com/brasil/penduricalhos-supersalarios-e-mais-fazenda-desenha-ajuste-para-2027"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-31",
+    "title": "Cosméticos viram charms, e Boticário prevê alta de 175% nesse mercado",
+    "lead": "Glosses, blushes e óleos capilares ganham versão para prender na bolsa e atrair a Geração Z.",
+    "body": [
+      "Grupo Boticário e OX Cosméticos lançaram em 2026 produtos de beleza em formato de charm, acessório que se prende a bolsas e mochilas. Há glosses, blushes e óleos capilares, em linhas como Quem Disse, Berenice?, Eudora e OX Glow.",
+      "O Boticário diz que dobrou em dois anos o número de lançamentos de charms e acessórios colecionáveis, e projeta crescimento de 175% da empresa nesse mercado até 2028. O charm da vaquinha da linha Cuide-se Bem Deleite esgotou no e-commerce em 24 horas. As marcas veem o formato como porta de entrada para novos consumidores e não como moda passageira."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/como-a-tendencia-dos-charms-movimenta-o-mercado-de-beleza"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-31",
+    "title": "Acordo Mercosul-UE faz exportações beneficiadas crescerem 21%",
+    "lead": "Vendas de produtos com tarifa reduzida na Europa subiram de maio a setembro, segundo o MDIC.",
+    "body": [
+      "De maio a setembro, os primeiros cinco meses de aplicação provisória do acordo entre Mercosul e União Europeia, as exportações brasileiras de produtos beneficiados por redução ou fim de tarifas cresceram 21% sobre o mesmo período de 2025. Os dados são do Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC).",
+      "Os maiores avanços foram em abacates frescos (421%), mel (367%) e óleo de milho (266%). Transformadores elétricos, que não tinham vendas no período de 2025, exportaram US$ 39 milhões. Para ajudar as empresas a usar as tarifas reduzidas, o MDIC reúne orientações no Portal Siscomex."
+    ],
+    "src": "MDIC, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acordo-mercosul-ue-eleva-exportacoes-brasileiras-em-21"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-31",
+    "title": "Raízen fecha acordo com credores, que passam a ter 80% da empresa",
+    "lead": "Dívida de R$ 65 bilhões é reestruturada e a companhia será dividida em duas empresas de capital aberto.",
+    "body": [
+      "Em assembleia na sexta-feira (30), a Raízen aprovou o acordo que encerra a maior recuperação extrajudicial do Brasil. Parte da dívida, cerca de R$ 30 bilhões, vira participação acionária, e os credores ficam com cerca de 80% da empresa. A Shell passa a ter entre 13% e 15% e se torna a maior acionista individual. Rubens Ometto, fundador, deixa a liderança e fica com menos de 5%.",
+      "A companhia será dividida em Raízen Energia, ligada à produção, e Raízen Combustíveis, que distribui e leva a marca de postos Shell. A cisão deve ser concluída na segunda quinzena de dezembro, e as duas empresas começam a operar em meados de janeiro de 2027. Lorival Luz será o CEO da Raízen Combustíveis, e Geovane Consul, da Raízen Energia. A Raízen também pagou R$ 2,5 bilhões à União em acordo tributário e espera chegar a março com R$ 18,1 bilhões em caixa."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/credores-viram-socios-na-raizen-e-abrem-caminho-para-fim-de-maior-recuperacao-extrajudicial-do-brasil/"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-31",
+    "title": "Marcas de setores variados usam o Halloween em campanhas",
+    "lead": "Sem Parar, QuintoAndar, Baygon, Caloi e Bob's apostam em humor e terror para chamar atenção nas redes.",
+    "body": [
+      "A data deixou de ser só uma festa temática e entrou no calendário comercial brasileiro. Além de doces, fantasias e decoração, ela passou a atrair marcas de setores sem ligação direta com a comemoração.",
+      "O Sem Parar escalou o ator Ary Fontoura para a campanha \"O Susto Para Aqui\", que mostra um lobisomem na estrada e o uso do aplicativo da marca. O QuintoAndar criou \"Casas Bem Assombradas\", com fantasmas feitos por inteligência artificial. A Baygon lançou um curta musical de terror sobre baratas, e a Caloi, um curta sobre bicicletas esquecidas em casa. O Bob's fez parceria com Márcia Sensitiva e oferece cupom de desconto para quem comentar na publicação da marca."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/marketing/5-campanhas-para-conferir-especial-halloween/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-31",
+    "title": "Vale-refeição e alimentação passam a valer em qualquer rede a partir de domingo",
+    "lead": "Interoperabilidade plena deixa cartões de operadoras diferentes serem aceitos na mesma maquininha.",
+    "body": [
+      "A partir deste domingo (1º), vale entre as operadoras de vale-refeição e vale-alimentação a interoperabilidade plena: as redes de estabelecimentos credenciados passam a ser compartilhadas. Um restaurante ou mercado poderá aceitar cartões de várias operadoras com a mesma estrutura de pagamento, sem contratar cada empresa separadamente.",
+      "As regras de uso do Programa de Alimentação do Trabalhador seguem as mesmas: o vale-refeição é para refeições prontas, o vale-alimentação para comida de mercado, e o saldo não pode virar dinheiro nem ser transferido. Cada estabelecimento continua livre para aceitar ou não os cartões, mas cobrar taxa extra ou exigir valor mínimo do cliente é prática abusiva."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/31/vale-refeicao-e-alimentacao-novas-regras-comecam-a-valer-amanha-veja-perguntas-e-respostas.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-31",
+    "title": "Aneel mantém bandeira verde em novembro e conta de luz não terá taxa extra",
+    "lead": "É o segundo mês seguido sem cobrança adicional, com mais chuva nas regiões das principais hidrelétricas.",
+    "body": [
+      "A Agência Nacional de Energia Elétrica (Aneel) informou na sexta-feira (30) que a bandeira tarifária continua verde em novembro. Com isso, as contas de luz não terão acréscimo pelo segundo mês consecutivo.",
+      "A bandeira verde voltou em outubro, depois de cinco meses na amarela, que cobrava R$ 1,88 a cada 100 kWh consumidos. Segundo a Aneel, as chuvas mais fortes ajudaram a equilibrar os reservatórios e dispensam o uso de termelétricas, que têm custo maior."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-31",
+    "title": "Chilli Beans pede recuperação extrajudicial com dívida de R$ 340 milhões",
+    "lead": "A rede de óculos fechou plano com os principais credores e vai receber um aporte de R$ 50 milhões.",
+    "body": [
+      "A Chilli Beans, maior rede de óculos escuros da América Latina, protocolou na sexta-feira (30) um pedido de recuperação extrajudicial para tratar uma dívida de R$ 340 milhões. O plano foi combinado com os principais credores.",
+      "O pedido inclui um aporte de R$ 50 milhões para reforçar o caixa, com Itaú, Akron e Vega como financiadores. A crise se agravou no fim de setembro, quando a Vert Securitizadora declarou o vencimento antecipado de uma debênture. A rede tem 900 franquias em 14 países."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/com-dividas-de-r-340-milhoes-chilli-beans-entra-com-pedido-de-recuperacao-extrajudicial/"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-30",
+    "title": "Big techs vão investir até US$ 753 bi em IA e as ações oscilam",
+    "lead": "Alphabet, Amazon, Apple, Meta e Microsoft projetam gastos de US$ 733 bilhões a US$ 753 bilhões.",
+    "body": [
+      "As cinco maiores big techs (Alphabet, Amazon, Apple, Meta e Microsoft) preveem investir entre US$ 733 bilhões e US$ 753 bilhões em infraestrutura de inteligência artificial até o fim do ano. Os números vêm das teleconferências de resultados do 3º trimestre e podem ser ajustados.",
+      "Depois dos balanços, as ações de parte dessas empresas caíram, com investidores céticos sobre o gasto elevado de caixa. A Amazon projeta cerca de US$ 220 bilhões, a Alphabet entre US$ 195 bilhões e US$ 205 bilhões, e a Microsoft cerca de US$ 170 bilhões. A Apple é a que menos investe: cerca de US$ 13 bilhões, com parceiros na parte de nuvem. Para analistas, Meta e Alphabet ainda precisam provar o retorno desse investimento."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/midia/top-5-big-techs-preveem-investir-us-750-bilhoes-em-ia"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-30",
+    "title": "São Paulo tira 74 produtos da substituição tributária do ICMS",
+    "lead": "Materiais de construção, micro-ondas e margarinas saem do regime a partir de fevereiro de 2027.",
+    "body": [
+      "O governo de São Paulo vai retirar mais 74 produtos do regime de substituição tributária do ICMS (ICMS-ST) a partir de fevereiro de 2027. A lista inclui materiais de construção, fornos de micro-ondas e margarinas. A decisão saiu no Diário Oficial do Estado de quinta-feira (29).",
+      "Nesse regime, o fabricante ou importador paga antecipadamente o imposto de toda a cadeia. Sem ele, cada empresa recolhe o ICMS na sua própria etapa de venda. Segundo a Secretaria da Fazenda, isso reduz o desembolso antecipado, melhora o fluxo de caixa e diminui a burocracia. Com a nova rodada, o número de itens no regime cai de 749, no fim de 2025, para 208, redução de 72,2%."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/negocios/2026/10/sao-paulo-simplifica-regime-tributario-com-mudanca-no-icms-de-74-produtos.shtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-30",
+    "title": "Desemprego cai a 5,2% e é o menor para um 3º trimestre desde 2012",
+    "lead": "Segundo o IBGE, o país tem 103,6 milhões de pessoas ocupadas, o maior número da série histórica.",
+    "body": [
+      "A taxa de desocupação ficou em 5,2% no terceiro trimestre, segundo a Pnad Contínua, divulgada nesta sexta-feira (30) pelo IBGE. Era de 5,4% no trimestre anterior e de 5,6% no mesmo período de 2025. O país tem 5,6 milhões de desocupados, 417 mil a menos que um ano antes.",
+      "A população ocupada chegou a 103,6 milhões, o maior número da série histórica, e o nível de ocupação bateu recorde, com 59%. O rendimento real habitual ficou em R$ 3.790, estável no trimestre e 3,6% maior que um ano antes. A informalidade foi de 37,5% dos ocupados."
+    ],
+    "src": "IBGE, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-30",
+    "title": "Binance sofre o maior ataque hacker já visto em criptomoedas",
+    "lead": "Desvio estimado em US$ 6,3 bilhões supera em mais de quatro vezes o recorde anterior, da Bybit.",
+    "body": [
+      "A Binance, maior corretora de criptomoedas do mundo, suspendeu transações após um ataque hacker na quinta-feira (29). A perda estimada é de US$ 6,3 bilhões, cerca de R$ 34 bilhões. O recorde anterior era o roubo de US$ 1,5 bilhão da Bybit, em fevereiro de 2025. A maior parte dos recursos foi transferida em cerca de 20 minutos.",
+      "A empresa diz que vai cobrir todos os prejuízos e que os fundos dos clientes estão protegidos. A investigação inicial aponta que o computador de um funcionário pode ter dado acesso aos invasores. Empresas de segurança digital suspeitam de hackers ligados à Coreia do Norte, que negou envolvimento em roubos do tipo."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/maior-ataque-hacker-da-historia-deixa-rombo-de-us-63-bilhoes-na-binance/"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-30",
+    "title": "Agências ajustam Black Friday à compra feita com ajuda de IA",
+    "lead": "Pesquisa aponta que 9 em cada 10 consumidores online já usam inteligência artificial para comprar.",
+    "body": [
+      "Segundo a pesquisa \"Nova Lógica de Compra\", da Stefanini Marketing, 9 em cada 10 consumidores com acesso à internet usam IA nas compras. Para 52%, o uso deve crescer nos próximos meses, e 90% dizem ter conhecido novas marcas por essas ferramentas.",
+      "Com isso, agências como R/GA, Crispin e Gut mudam o planejamento da Black Friday. As marcas passam a organizar suas informações para que as IAs as entendam e a aparecer já na fase de pesquisa. O que mais pesa, segundo a R/GA, são dados verificáveis: preço real, condições, prazo de entrega, política de troca e reputação."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/comunicacao/ia-muda-estrategias-das-agencias-para-a-black-friday"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-30",
+    "title": "FGTS mantém R$ 144,5 bilhões para habitação em 2027",
+    "lead": "Conselho Curador também prorrogou até 31 de março a regra de transição do saque-aniversário.",
+    "body": [
+      "O Conselho Curador do FGTS aprovou orçamento de R$ 144,5 bilhões para habitação em 2027, o mesmo valor de 2026. Do total, R$ 125,5 bilhões vão para famílias de baixa renda e R$ 15 bilhões para a classe média no Minha Casa, Minha Vida. O orçamento geral do fundo para políticas públicas em 2027 é de R$ 169 bilhões.",
+      "Para 2028 a 2030, o recurso da classe média no programa cai para R$ 10 bilhões por ano. O conselho também estendeu até 31 de março a regra que permite usar até cinco saques-aniversário futuros como garantia de crédito. A mudança para três saques valeria a partir de 1º de novembro e poderia afetar 12,2 milhões de trabalhadores, segundo o Ministério do Trabalho."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fgts-mantem-orcamento-de-r-1445-bilhoes-para-habitacao-em-2027"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-29",
+    "title": "Dívida bruta do governo fica em 82,9% do PIB, o maior nível desde 2021",
+    "lead": "Setor público teve déficit primário de R$ 5,5 bilhões em setembro, menor que o de um ano antes.",
+    "body": [
+      "A dívida bruta do governo geral ficou estável em 82,9% do PIB em setembro, o equivalente a R$ 11,1 trilhões, segundo o Banco Central. É o maior patamar desde 2021. No fim de 2022, o índice era de 71,7%.",
+      "O setor público consolidado (União, estados, municípios e estatais) teve déficit primário de R$ 5,5 bilhões no mês, ante R$ 17,5 bilhões em setembro de 2025. De janeiro a setembro, o saldo negativo soma R$ 94,3 bilhões, ou 0,93% do PIB. Os juros da dívida custaram R$ 1,205 trilhão em 12 meses, 8,99% do PIB, o que reduz o espaço do Orçamento para outras despesas."
+    ],
+    "src": "Banco Central, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/divida-publica-fica-em-829-do-pib-e-deficit-soma-r-55-bilhoes"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-29",
+    "title": "Bunge fecha fábrica de amônia na Argentina usada para fertilizantes",
+    "lead": "A empresa diz que a planta de Campana, com mais de 50 anos, deixou de ser viável economicamente.",
+    "body": [
+      "A Bunge decidiu encerrar as operações industriais da fábrica de Campana, na província de Buenos Aires. A unidade produzia amônia e tiossulfato de amônio, insumos usados na fabricação de fertilizantes. A Associação de Cooperativas Argentinas (ACA) tinha participação equivalente a 17,5% da produção, segundo o jornal La Nación.",
+      "A empresa afirmou que a decisão veio após analisar alternativas operacionais e comerciais. Entre os motivos, citou limitações de infraestrutura e tecnologia de uma planta com mais de 50 anos e mudanças nas condições de mercado e no abastecimento de insumos. A Bunge disse que o fechamento se restringe a essa fábrica e que continuará investindo em ativos de processamento agrícola na Argentina."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/29/bunge-argentina-fertilizantes-fecha-fabrica.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-29",
+    "title": "WPP tem alta de 0,5% na receita do 3º trimestre e mantém projeção de margem",
+    "lead": "O grupo de publicidade vê a queda de receita ficar menor, mas a divisão de criação ainda recua 5,1%.",
+    "body": [
+      "A WPP informou alta de 0,5% na receita do terceiro trimestre de 2026, na comparação com o mesmo período do ano passado. A receita líquida, sem os custos repassados, caiu 2,1% na base comparável. No segundo trimestre, a queda havia sido de 2,8%.",
+      "Por divisão, a WPP Production cresceu 2,5% e a WPP Media, 0,3%. A WPP Creative teve queda de 5,1%. A empresa manteve a projeção de margem operacional de 12% a 13% para 2026 e citou contas como Coca-Cola, DoorDash, Nestlé, Uber e Waymo entre as ganhas ou mantidas no período."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/agencias/wpp-registra-alta-de-05-na-receita-do-3o-trimestre/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-29",
+    "title": "ICMS sobre diesel, gasolina e gás de cozinha sobe a partir de fevereiro de 2027",
+    "lead": "Estados aprovaram no Confaz a atualização anual do imposto, com alta maior no diesel.",
+    "body": [
+      "Os estados e o Distrito Federal aprovaram no Confaz novos valores do ICMS sobre combustíveis, que passam a valer em 1º de fevereiro de 2027. O diesel terá o maior reajuste: 11,1%, de R$ 1,17 para R$ 1,30 por litro. A gasolina sobe 4,5%, de R$ 1,57 para R$ 1,64 por litro, e o gás de cozinha, 4,8%, de R$ 1,47 para R$ 1,54 por quilo.",
+      "A atualização é anual e usa os preços médios divulgados pela ANP, comparando fevereiro a setembro de 2026 com o mesmo período de 2025. É o terceiro ano seguido de aumento. Os estados também avaliam antecipar uma nova atualização do diesel, por causa da volatilidade dos preços internacionais."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/10/29/icms-gasolina-diesel-gas-de-cozinha.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-29",
+    "title": "CNI reduz para 1,6% a previsão de crescimento do PIB em 2026",
+    "lead": "Indústria de transformação e serviços mais fracos puxaram a revisão, que era de 2%.",
+    "body": [
+      "A Confederação Nacional da Indústria (CNI) cortou a projeção de alta do PIB brasileiro em 2026 de 2% para 1,6%. A revisão reflete o desempenho mais fraco esperado para a indústria de transformação e para os serviços.",
+      "Pela nova estimativa, a indústria passa de 2% para 1,3% e os serviços, de 1,9% para 1,6%. A agropecuária sobe de 1,8% para 2,5%, com melhora na expectativa para a segunda safra de milho. A CNI cita juros altos e demanda interna mais fraca como fatores que pressionam a produção."
+    ],
+    "src": "CNI, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cni-reduz-previsao-de-crescimento-do-pib-para-16-em-2026"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-28",
+    "title": "Petrobras bate recorde de produção e chega a 3,5 milhões de barris por dia",
+    "lead": "A produção total da estatal cresceu 11,7% no terceiro trimestre na comparação com 2025.",
+    "body": [
+      "A Petrobras informou nesta quarta-feira (28) que produziu 3,5 milhões de barris de óleo equivalente por dia (petróleo, gás e LGN) no terceiro trimestre de 2026. É o maior volume já registrado pela companhia e 11,7% acima do mesmo período do ano passado. Só a produção de petróleo no Brasil foi de 2,83 milhões de barris por dia, alta de 12,4%.",
+      "As exportações de petróleo somaram 987 mil barris por dia, 21,3% a mais que um ano antes. A China passou a receber 40% do petróleo exportado pela estatal, contra 35% no segundo trimestre."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/producao-de-petroleo-da-petrobras-petr4-bate-recorde-novamente-no-3o-tri/"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-28",
+    "title": "CazéTV e Magalu lançam loja que repassa comissões a atletas olímpicos",
+    "lead": "O Lojão do Mutirão usa links de afiliados para apoiar cerca de 90 atletas rumo a Los Angeles 2028.",
+    "body": [
+      "A CazéTV e o Magalu criaram o Lojão do Mutirão, uma loja dentro da plataforma Influenciador Magalu. As compras feitas pelos links exclusivos geram comissões, que vão para os atletas parceiros do projeto Mutirão Olímpico, da CazéTV.",
+      "O projeto reúne cerca de 90 atletas olímpicos e paralímpicos que se preparam para Los Angeles 2028, como Caio Bonfim, Bia Ferreira e Gabriel Araújo. Na prática, o torcedor ajuda os atletas nas compras do dia a dia, sem precisar fazer doação direta. O Magalu diz ter mais de 35 milhões de clientes ativos."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/anunciantes/cazetv-e-magalu-lancam-loja-para-apoiar-atletas-olimpicos-e-paralimpicos/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-28",
+    "title": "Governo prepara PixMEI: até R$ 5 mil sem devolução para MEIs",
+    "lead": "A proposta ainda está em elaboração e não tem data para as inscrições.",
+    "body": [
+      "O governo federal planeja o PixMEI, um auxílio de até R$ 5 mil, sem necessidade de devolução e sem juros, para microempreendedores individuais investirem no negócio. O dinheiro deve ir para máquinas, equipamentos, ferramentas e melhorias na estrutura. A prioridade será de mulheres empreendedoras e de MEIs com faturamento anual de até R$ 40,5 mil.",
+      "A meta é atender cerca de 1 milhão de MEIs, com até R$ 5 bilhões em investimentos, segundo o Ministério do Empreendedorismo. A execução está prevista entre 2027 e 2030, e o Sebrae deve ajudar na seleção e no acompanhamento. Regras, documentos e prazos ainda não foram definidos: não há inscrições abertas."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/empreendedorismo/noticia/2026/10/28/pixmei-de-ate-r-5-mil-como-funciona.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-28",
+    "title": "TCU fixa em 11,3% a alíquota de referência da CBS para 2027",
+    "lead": "O Senado ainda precisa definir o valor final do novo tributo federal sobre o consumo.",
+    "body": [
+      "O Tribunal de Contas da União (TCU) aprovou nesta quarta-feira (28) o cálculo da alíquota de referência da CBS, tributo da reforma tributária que vai substituir o PIS/Pasep e a Cofins. O percentual calculado foi de 11,3468%, arredondado para 11,3%. O tribunal também definiu em 44,16% o redutor aplicado nas compras da administração pública.",
+      "O resultado será enviado ao Senado, que fixa a alíquota por resolução. A CBS começa a ser cobrada em 2027, em caráter de teste, e a transição do novo modelo de tributação do consumo vai até 2033. A alíquota de referência busca manter, no total, a arrecadação dos tributos que serão substituídos."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-calculo-da-aliquota-de-referencia-da-cbs-em-113"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-28",
+    "title": "Termas dos Laranjais, em Olímpia (SP), é o 3º parque aquático mais visitado do mundo",
+    "lead": "Com 1,95 milhão de visitas em 2025, o parque empata com o Therme Erding, da Alemanha, e supera os parques da Disney.",
+    "body": [
+      "Segundo o ranking da Themed Entertainment Association (TEA), o Termas dos Laranjais recebeu 1,95 milhão de visitas em 2025, alta de 5,4% sobre as 1,85 milhão de 2024. O parque, aberto em 1987, empata na terceira posição mundial com o Therme Erding. À frente estão o Chimelong, da China (2,563 milhões), e o Aquaventure World, dos Emirados Árabes (2 milhões).",
+      "O Typhoon Lagoon, da Disney, ficou em sexto, com 1,762 milhão de visitas. O Hot Park, de Rio Quente (GO), foi o 11º, com 1,475 milhão, e o Hot Beach, também em Olímpia, o 14º, com 1,336 milhão, alta de 19,1%. Seis dos dez maiores parques da América Latina e do Caribe são brasileiros. O Termas dos Laranjais prevê investir mais de R$ 300 milhões em 15 anos."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/negocios/parque-aquatico-no-interior-de-sp-supera-a-disney-e-e-o-3o-mais-visitado-do-mundo/"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-28",
+    "title": "Shopee abre temporada de 11.11 e Black Friday com R$ 48 milhões em cupons",
+    "lead": "Campanha com Terry Crews vai à TV aberta e fechada, ao digital e às redes sociais.",
+    "body": [
+      "A Shopee começa nesta quarta-feira (28) a temporada de ofertas de novembro, que une o 11.11 e a Black Friday. São R$ 25 milhões em cupons para o 11.11 e R$ 23 milhões para a Black Friday, com descontos de até 50% e cupons de até R$ 100. Nas duas datas há vouchers de frete grátis para compras a partir de R$ 10.",
+      "O filme da campanha é estrelado por Terry Crews, embaixador da marca até o fim do ano, e será exibido em TV aberta e fechada, mídias digitais e redes sociais. A empresa também fará lives de três horas com criadores de conteúdo no 11.11 e na véspera da Black Friday. Segundo o diretor de marketing, Felipe Piringer, a temporada consolida as datas duplas no varejo brasileiro e ajuda vendedores locais a crescer."
+    ],
+    "src": "Propmark",
+    "url": "https://propmark.com.br/anunciantes/shopee-reune-11-11-e-black-friday-em-temporada-de-ofertas/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-28",
+    "title": "Governo vai enviar MP com as alíquotas do Imposto Seletivo",
+    "lead": "O tributo, chamado de imposto do pecado, começa a ser cobrado em 2027 e atinge cigarros, bebidas e apostas.",
+    "body": [
+      "O ministro da Fazenda, Dario Durigan, disse que o governo deve mandar ao Congresso, provavelmente nesta semana, uma medida provisória com as alíquotas do Imposto Seletivo. O tributo foi criado pela reforma tributária e será cobrado a partir de 2027.",
+      "O imposto busca desestimular o consumo de itens considerados prejudiciais à saúde ou ao meio ambiente, como cigarros, bebidas alcoólicas, refrigerantes e alguns tipos de veículos. Também alcança a extração de bens minerais, loterias, apostas e jogos online de fantasy sports."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-27",
+    "title": "Brasil tem 20,3 milhões de devedores de risco, alta de 75% em cinco anos",
+    "lead": "O Banco Central diz que vai anunciar novas medidas ainda este ano para conter ofertas agressivas de crédito.",
+    "body": [
+      "O Relatório de Estabilidade Financeira do Banco Central mostra que 20,3 milhões de brasileiros estavam em situação de endividamento de risco em junho de 2026. É uma alta de 75% em cinco anos e 17% dos devedores do sistema financeiro. A classificação indica maior vulnerabilidade, mas não significa que todos estejam inadimplentes.",
+      "O presidente do BC, Gabriel Galípolo, disse que a preocupação está no crédito sem garantia, como cartão, cheque especial e empréstimo pessoal não consignado, que cresce mesmo com juros altos. As novas medidas devem priorizar quem já usa o rotativo do cartão ou atrasa pagamentos. Entre quem ganha até dois salários mínimos, as dívidas já comprometem 42% da renda."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-27",
+    "title": "Advent capta US$ 30 bilhões e até US$ 6 bilhões podem vir ao Brasil",
+    "lead": "A gestora de private equity pode destinar até 20% do novo fundo global a outras regiões, entre elas o Brasil.",
+    "body": [
+      "A Advent International concluiu a captação de US$ 30 bilhões para seus fundos globais de private equity. São cerca de US$ 27 bilhões para o 11º fundo de aquisições e mais de US$ 3 bilhões para uma nova estratégia voltada a empresas de médio porte.",
+      "Até 20% do fundo principal, ou US$ 6 bilhões, poderá ir para regiões fora de América do Norte, Europa e Ásia, como o Brasil. No país, a gestora entrou na Natura e liderou a rodada Série C da Skyone. Segundo a ABVCAP, o investimento de private equity no Brasil caiu 94% no primeiro semestre, para cerca de R$ 900 milhões."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/advent-levanta-us-30-bilhoes-e-ate-us-6-bilhoes-podem-ser-investidos-no-brasil/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-27",
+    "title": "Governo renova por 30 dias subvenção de R$ 2,12 por litro ao diesel",
+    "lead": "A medida busca segurar o preço do combustível diante da instabilidade no mercado internacional.",
+    "body": [
+      "O governo federal vai renovar por mais um mês a subvenção de R$ 2,12 por litro ao óleo diesel. A renovação será formalizada por portaria no Diário Oficial da União e vale por 30 dias, podendo ser prorrogada de novo conforme o mercado internacional de combustíveis.",
+      "A subvenção está prevista na Medida Provisória nº 1.391, de 11 de setembro de 2026, e é paga a produtores e importadores. Segundo o governo, o custo da prorrogação será compensado por receitas extraordinárias do petróleo, sem prejuízo para o equilíbrio fiscal. Para quem depende do diesel, como transportadoras e o agro, a medida ajuda a conter a volatilidade nos custos."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-27",
+    "title": "Itaú e JHSF fecham parceria de benefícios para clientes de alta renda",
+    "lead": "Clientes Personnalité e Private terão vantagens em hotéis Fasano, restaurantes e shoppings do grupo.",
+    "body": [
+      "O Itaú, por meio dos segmentos Personnalité e Private, firmou com a JHSF uma parceria que vale até 2030. O acordo amplia uma relação que já existia entre as duas empresas e dá aos clientes acesso a empreendimentos do grupo.",
+      "Nos hotéis Fasano no Brasil, os clientes terão check-in antecipado, check-out tardio e uma terceira diária de cortesia. Também há isenção da taxa de rolha em restaurantes, manobrista de cortesia nos shoppings da rede e experiências no exterior. Segundo o banco, uma pesquisa com a base mostrou que 70% dos clientes Personnalité viajam ao exterior todo ano. A ideia é aproximar o banco desse público pelo estilo de vida, além dos serviços financeiros."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/experiencia-e-lifestyle-por-que-o-itau-se-uniu-a-jhsf"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-27",
+    "title": "Citi e BCA Research rebaixam ativos brasileiros após reeleição de Lula",
+    "lead": "As duas casas dizem que a relação entre risco e retorno de ações, títulos e câmbio piorou.",
+    "body": [
+      "O Citigroup e a BCA Research reduziram a recomendação para os ativos brasileiros depois da vitória de Lula no segundo turno. Segundo a Reuters, as duas instituições afirmam que investidores passaram a rever o cenário de disciplina fiscal e de reformas para o crescimento.",
+      "O Citi encerrou na segunda-feira (26) as posições otimistas no Brasil: retirou a recomendação de compra para ações e fechou a aposta no real. A BCA rebaixou as ações brasileiras de neutro para abaixo da média e fez o mesmo com os títulos em moeda local e o crédito soberano. A empresa cita riscos de calote, crescimento mais fraco e pressão sobre a inflação por causa de uma moeda mais fraca. O Ibovespa caiu 13,88% na segunda, maior queda diária desde março de 2020."
+    ],
+    "src": "Reuters, via InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/citi-e-bca-rebaixam-recomendacao-de-ativos-brasileiros-apos-reeleicao-de-lula/"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-26",
+    "title": "Vivo fecha parceria com Starlink para levar sinal de celular via satélite",
+    "lead": "O serviço chega a cerca de 50 milhões de clientes e funciona em áreas sem cobertura da rede terrestre.",
+    "body": [
+      "A Vivo e a Starlink, da SpaceX, passaram a oferecer conexão de celular por satélite a partir de segunda-feira (26). Os aparelhos compatíveis se conectam sozinhos aos satélites quando estão em locais sem sinal das torres. A operadora diz que, com isso, a cobertura ao ar livre chega a 100% do território.",
+      "O acesso será gratuito por 12 meses para pessoas físicas e por três meses para empresas. O sinal exige céu aberto, não funciona bem em ambientes fechados e tem limites de velocidade e de uso, como mensagens e aplicativos de localização. O acordo não é exclusivo, e outras operadoras podem fechar parcerias com a Starlink, que tinha cerca de 937 mil acessos de banda larga no Brasil em agosto, segundo a Anatel."
+    ],
+    "src": "NeoFeed",
+    "url": "https://neofeed.com.br/negocios/vivo-faz-conexao-com-starlink-de-elon-musk-para-ampliar-cobertura-movel-no-pais/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-10-26",
+    "title": "BC exige autorização do cliente para oferecer crédito no Pix",
+    "lead": "Bancos só poderão fazer ofertas de empréstimo no Pix se o usuário consentir antes, com intervalo mínimo de 24 horas.",
+    "body": [
+      "O Banco Central regulamentou, por resolução, as ofertas de empréstimo feitas no ambiente do Pix. O cliente precisará dar consentimento prévio e específico, e deverá haver pelo menos 24 horas entre a habilitação e a primeira oferta. A regra vale a partir de 1º de julho de 2027.",
+      "As instituições também terão de oferecer um mecanismo claro para bloquear propagandas e ofertas ativas de crédito, a partir de 31 de março de 2027. Para clientes mais vulneráveis ou com risco de endividamento excessivo, a autorização será ainda mais rígida, e as ofertas só poderão servir para melhorar a situação do cliente, como renegociação ou portabilidade, sem novos recursos."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/pix/noticia/2026/10/26/oferta-de-credito-no-pix-dependera-de-autorizacao-previa-do-cliente-defina-banco-central.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-10-26",
+    "title": "Prazo para micro e pequenas empresas escolherem regime de IBS e CBS acaba sexta",
+    "lead": "A escolha vale para 2027 e define como o negócio recolherá os novos tributos da reforma tributária.",
+    "body": [
+      "Termina na sexta-feira (30) o prazo para empresas do Simples Nacional escolherem como vão pagar o IBS e a CBS, os novos tributos da reforma tributária sobre o consumo. Quem quiser recolher pelo regime regular precisa registrar a opção até essa data. Quem não fizer nada continua no regime simplificado, com alíquota variável conforme o tipo e o tamanho do negócio.",
+      "No mesmo dia acaba o prazo para regularizar pendências que impediram a entrada no Simples. Quem quiser ingressar no regime em 2027 também deve fazer o pedido até 30 de outubro, já que a opção, antes feita em janeiro, foi antecipada. Entre 3 de novembro e 20 de dezembro, as empresas poderão desistir das escolhas feitas."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-10-26",
+    "title": "Globoplay põe esportes e 20 canais no plano de entrada e reajusta preços",
+    "lead": "Streaming da Globo quer usar o esporte para atrair e manter assinantes, e também vender mais anúncios.",
+    "body": [
+      "O Globoplay reformulou seus planos. Todos passam a ter mais de 2.500 jogos e eventos ao vivo por ano e mais de 20 canais, inclusive o plano de entrada. A diferença entre eles fica na presença de anúncios, na qualidade de imagem, no número de telas simultâneas e na opção de baixar conteúdo.",
+      "No plano anual, o pacote com anúncios sobe de R$ 16,90 para R$ 19,90 por mês e o Premium, de R$ 22,90 para R$ 24,90. O Premium + Premiere, com nove dos dez jogos por rodada do Brasileirão, custa R$ 39,90. Segundo a Globo, a base de assinantes cresceu 31% em 2026. Com mais gente vendo esporte ao vivo, a audiência disponível para anunciantes também aumenta."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/marketing/globoplay-aposta-em-esportes-para-ampliar-audiencia-e-fidelizar-assinantes/"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-10-26",
+    "title": "Anthropic divulga prospecto de IPO que pode valer até US$ 1,75 trilhão",
+    "lead": "A estreia na bolsa deve ocorrer em novembro e testa o apetite de Wall Street por empresas de IA.",
+    "body": [
+      "A Anthropic, desenvolvedora do Claude, divulgou nesta segunda-feira (26) o prospecto da sua oferta inicial de ações. A operação pode avaliar a empresa entre US$ 1,5 trilhão e US$ 1,75 trilhão. Na última rodada de captação, em maio, ela valia US$ 965 bilhões.",
+      "A expectativa é que a estreia aconteça depois das eleições legislativas dos EUA, em 3 de novembro, e antes do feriado de Ação de Graças, em 26 de novembro. A empresa informou a investidores que a receita do terceiro trimestre chegou a US$ 16,8 bilhões, quase 50% acima dos três meses anteriores."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/exame-in/anthropic-prepara-ipo-de-ate-us-175-trilhao-e-testa-apetite-de-wall-street-por-ia/"
+  },
+  {
     "ed": "Política",
     "date": "2026-10-26",
     "title": "Pesquisas não captaram a virada de Lula no 2º turno",
