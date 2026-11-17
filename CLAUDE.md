@@ -17,16 +17,20 @@ Todo push na branch `main` publica o site sozinho na Vercel (1–2 min). Não ex
 | `AUTOMACAO.md` | Manual que a rotina segue a cada execução: fontes, rodízio de editorias, regras de redação, formato da legenda. |
 | `automacao/publicar.py` | Adiciona uma notícia em `noticias.json` e gera o criativo + legenda. Bloqueia `url` repetida. |
 | `automacao/foto.py` | Baixa a foto de uma matéria da Agência Brasil ou da Agência Senado, só se o crédito for da própria agência. Usado pelo `publicar.py`. |
-| `automacao/postar_instagram.py` | Posta um criativo no Instagram pela API da Meta (usa `INSTAGRAM_ACCESS_TOKEN` e `INSTAGRAM_USER_ID` do ambiente). |
+| `automacao/postar_instagram.py` | Posta um criativo (PNG) ou um Reels (MP4) no Instagram pela API da Meta (usa `INSTAGRAM_ACCESS_TOKEN` e `INSTAGRAM_USER_ID` do ambiente). |
+| `automacao/reels.py` | Gera um Reels (vídeo 1080×1920 com música) e a legenda a partir de um JSON de cenas. |
+| `reels/` | Modelo animado do Reels (`modelo.html`), gerador do vídeo (`gerar.js`, usa Playwright + ffmpeg) e músicas livres com crédito (`musicas/`). |
 | `automacao/CRIAR_ROTINA.md` | Roteiro para criar a rotina agendada numa conta do Claude. |
 | `criativos/modelo.html` | Modelo visual do post do Instagram (1080×1350): layout A (foto em cima), B (foto de fundo) e sem foto. |
 | `criativos/gerar.py` | Transforma o modelo em PNG. |
 | `criativos/ilustracoes/` | Ilustrações próprias por tema, usadas quando não há foto liberada. A cor (`ACCENT`) é trocada pela da editoria. |
 | `criativos/fontes/` | Fonte Poppins (licença OFL). O criativo não depende de internet. |
-| `criativos/AAAA-MM-DD-*.png/.txt` | Criativos e legendas já gerados. Ficam públicos em `nrnews.vercel.app/criativos/...`. |
+| `criativos/AAAA-MM-DD-*.png/.txt` | Criativos e legendas já gerados. Ficam públicos em `nrnews.vercel.app/criativos/...`. O `.mp4` de um Reels fica no site só até ser postado; depois é apagado. |
 
-A rotina agendada fica na conta do Claude da Nayara (claude.ai/code/routines), às 8h, 13h e 18h
-de Brasília (`0 11,16,21 * * *` em UTC). Ela publica no site **e** no Instagram.
+A rotina agendada fica na conta do Claude da Nayara (claude.ai/code/routines), às 7h, 11h, 14h, 17h,
+20h e 23h de Brasília (`0 2,10,14,17,20,23 * * *` em UTC). Ela publica no site **e** no Instagram.
+Nas execuções das 11h e das 17h, a notícia vai só para o site e fica reservada para virar Reels, que
+é feito pelo chat e só é postado com a aprovação da Nayara (veja "Execuções de Reels" no `AUTOMACAO.md`).
 
 ## Regras de ouro
 
@@ -36,7 +40,7 @@ de Brasília (`0 11,16,21 * * *` em UTC). Ela publica no site **e** no Instagram
 3. **Nunca** imprima, peça no chat ou grave em arquivo o `INSTAGRAM_ACCESS_TOKEN`.
 4. **Nada vai para o Instagram sem a pessoa confirmar no chat.** Post publicado não pode ser editado
    nem apagado pela API, só pelo app. Mostre o criativo e a legenda antes.
-5. Não rode a rotina manualmente ("run now") perto de um horário agendado (8h, 13h, 18h): gera
+5. Não rode a rotina manualmente ("run now") perto de um horário agendado (7h, 11h, 14h, 17h, 20h, 23h): gera
    notícia e post em dobro.
 6. Mostre o que vai mudar (diff ou imagem) e peça confirmação antes do commit. Commits em português.
 7. Push com `git push origin HEAD:main` (o checkout pode vir com o HEAD solto). Depois confirme que a
@@ -98,3 +102,11 @@ O token dura cerca de 60 dias. Ele é gerado no painel da Meta for Developers (o
 desenvolvedor do Matheus → Casos de uso → Instagram → Gerar token).
 Depois, troque a variável `INSTAGRAM_ACCESS_TOKEN` no ambiente de nuvem, em claude.ai/code →
 ambiente → Environment variables. Não há nada a mudar no repositório.
+
+### Fazer um Reels
+1. Escolha a notícia (nas execuções das 11h e 17h a rotina já reserva uma: commit `Publica notícia (Reels): ...`).
+2. Monte `reels.json` (formato no topo de `automacao/reels.py`): gancho, número de destaque, comparação
+   em barras e/ou uma frase de contexto, só com dados da notícia. Rode `python3 automacao/reels.py reels.json`.
+3. Mostre o vídeo e a legenda. Com o ok: commit + push do `.mp4` e `.txt`,
+   `python3 automacao/postar_instagram.py criativos/<arquivo>.mp4`, e depois apague o `.mp4` com outro commit.
+4. Não commite o `reels.json`. A API não apaga posts: se precisar trocar, a pessoa apaga pelo app.

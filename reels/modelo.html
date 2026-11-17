@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>NR News | Reels</title>
+<style>
+/* Poppins salva no repositório (criativos/fontes, licença OFL): o vídeo não depende de internet */
+@font-face{font-family:"PoppinsNR";font-weight:300;src:url("../criativos/fontes/Poppins-Light.ttf")}
+@font-face{font-family:"PoppinsNR";font-weight:400;src:url("../criativos/fontes/Poppins-Regular.ttf")}
+@font-face{font-family:"PoppinsNR";font-weight:500;src:url("../criativos/fontes/Poppins-Medium.ttf")}
+@font-face{font-family:"PoppinsNR";font-weight:700;src:url("../criativos/fontes/Poppins-Bold.ttf")}
+/* Modelo do Reels (1080x1920). O gerar.js chama window.cenas(dados) e depois window.quadro(t)
+   para cada quadro do vídeo: a animação depende só de t, então o vídeo sai sempre igual. */
+:root{--bg:#050309;--text:#fff;--muted:#b9aed0;--lilac:#c4a0f5;--chip-ink:#180c2c}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg)}
+.card{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);
+  font-family:"PoppinsNR",sans-serif;-webkit-font-smoothing:antialiased}
+.glow{position:absolute;inset:0;background:radial-gradient(90% 45% at 50% 0%,rgba(120,70,200,.22),transparent 70%)}
+.streaks{position:absolute;left:0;right:0;bottom:0;height:42%;
+  -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%);mask-image:linear-gradient(to top,#000 0%,transparent 100%)}
+.streaks i{position:absolute;bottom:0;filter:blur(20px);background:rgba(150,90,230,.5)}
+.logo{position:absolute;top:180px;left:50%;transform:translateX(-50%);display:flex;align-items:baseline;gap:30px}
+.logo b{font-weight:500;font-size:64px;letter-spacing:-1px;line-height:1}
+.logo span{font-weight:300;font-size:34px;position:relative;top:10px}
+.logo svg{position:absolute;left:84px;top:-22px;width:22px;height:22px;fill:var(--lilac)}
+.pill{position:absolute;top:330px;left:50%;transform:translateX(-50%);border-radius:999px;padding:8px 28px;
+  font-size:30px;font-weight:500;background:var(--c);color:var(--chip-ink);white-space:nowrap}
+.cena{position:absolute;left:90px;right:90px;top:520px;height:900px;display:flex;flex-direction:column;
+  justify-content:center;align-items:center;text-align:center;opacity:0}
+.gancho{font-weight:700;font-size:var(--fs,96px);line-height:1.15;text-wrap:balance;margin:0}
+.antes{font-weight:500;font-size:44px;color:var(--c);margin:0 0 10px}
+.num{font-weight:700;font-size:var(--fs,170px);line-height:1.05;letter-spacing:-.02em;white-space:nowrap;margin:0}
+.depois{font-weight:500;font-size:46px;color:var(--c);margin:14px 0 0;text-wrap:balance}
+.nota{font-weight:300;font-size:38px;color:var(--muted);margin:12px 0 0;text-wrap:balance}
+.titulo{font-weight:700;font-size:62px;margin:0 0 70px;text-wrap:balance}
+.barras{width:100%}
+.barra{margin:0 0 70px;text-align:left}
+.barra .linha{display:flex;justify-content:space-between;font-size:40px;margin:0 0 18px}
+.barra .linha b{font-weight:700}
+.barra .trilho{height:34px;border-radius:17px;background:rgba(196,160,245,.16);overflow:hidden}
+.barra .fill{height:100%;border-radius:17px;background:var(--c);width:0}
+.barra:not(:last-child) .fill{opacity:.55}
+.selo{display:inline-block;border-radius:999px;padding:12px 40px;font-size:58px;font-weight:700;background:var(--c);color:var(--chip-ink)}
+.texto{font-weight:500;font-size:var(--fs,64px);line-height:1.3;text-wrap:balance;margin:0}
+.fim h2{font-weight:700;font-size:84px;margin:0}
+.fim p{font-weight:300;font-size:44px;color:var(--muted);margin:16px 0 0}
+.fonte{position:absolute;left:90px;right:90px;bottom:250px;text-align:center;font-size:30px;color:var(--muted);opacity:0}
+</style>
+</head>
+<body>
+<div class="card" id="card">
+  <div class="glow"></div>
+  <div class="streaks" id="streaks" aria-hidden="true"></div>
+  <div class="logo"><b>NR</b><svg viewBox="0 0 20 20"><path d="M10 0 L11 9 L20 10 L11 11 L10 20 L9 11 L0 10 L9 9 Z"/></svg><span>news</span></div>
+  <span class="pill" id="ed"></span>
+  <div id="cenas"></div>
+  <div class="fonte" id="fonte"></div>
+</div>
+<script>
+const ED = {"Negócios":"#c4a0f5","Marketing":"#ff78be","Economia":"#40c48c","Política":"#6fa8ff","Mundo":"#5ad2eb"};
+// duração de cada tipo de cena, em segundos
+const DUR = {gancho:3, numero:4, barras:4.5, texto:4, fim:3};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const cola = t => (t || "").replace(/(^|\s)(\S|R\$) /g, "$1$2 ");   // evita palavra de 1 letra sozinha no fim da linha
+const ease = x => 1 - Math.pow(1 - Math.min(Math.max(x, 0), 1), 3);
+const br = (v, casas) => v.toLocaleString("pt-BR", {minimumFractionDigits: casas, maximumFractionDigits: casas});
+let CENAS = [];
+
+// faixas de luz no rodapé, como no criativo e no site
+let seed = 7; const rnd = () => { seed = (seed*9301+49297)%233280; return seed/233280 };
+const LUZES = [];
+for (let i=0;i<30;i++){const s=document.createElement("i");s.style.left=(rnd()*100)+"%";s.style.width=(8+rnd()*26)+"px";
+  s.style.height=(20+rnd()*60)+"%";LUZES.push([s,.35+rnd()*.65,rnd()*6.28]);$("streaks").appendChild(s)}
+
+function html(c) {
+  if (c.tipo === "gancho") return `<h1 class="gancho">${esc(cola(c.texto))}</h1>`;
+  if (c.tipo === "numero") return (c.antes ? `<p class="antes">${esc(c.antes)}</p>` : "") +
+      `<p class="num" data-valor></p>` + (c.depois ? `<p class="depois">${esc(cola(c.depois))}</p>` : "") +
+      (c.nota ? `<p class="nota">${esc(cola(c.nota))}</p>` : "");
+  if (c.tipo === "barras") return `<h2 class="titulo">${esc(c.titulo || "")}</h2><div class="barras">` +
+      c.itens.map(b => `<div class="barra"><div class="linha"><span>${esc(b.rotulo)}</span><b>${esc(b.texto)}</b></div>` +
+      `<div class="trilho"><div class="fill"></div></div></div>`).join("") + `</div>` +
+      (c.selo ? `<span class="selo">${esc(c.selo)}</span>` : "");
+  if (c.tipo === "texto") return `<p class="texto">${esc(cola(c.texto))}</p>`;
+  return `<div class="fim"><h2>Segue o @_nrnews</h2><p>${esc(c.texto || "pra não perder nenhuma notícia")}</p></div>`;
+}
+
+// monta as cenas; devolve a duração total do vídeo em segundos
+window.cenas = d => {
+  $("card").style.setProperty("--c", ED[d.ed] || ED["Negócios"]);
+  $("ed").textContent = d.ed;
+  $("fonte").textContent = "Fonte: " + d.src;
+  let t0 = 0;
+  CENAS = [...d.cenas, {tipo: "fim", texto: d.fim}].map(c => {
+    const el = document.createElement("div");
+    el.className = "cena"; el.innerHTML = html(c); $("cenas").appendChild(el);
+    const dur = c.duracao || DUR[c.tipo] || 4, cena = {c, el, t0, dur}; t0 += dur; return cena;
+  });
+  // textos longos: reduz a fonte até caber
+  for (const {el} of CENAS) for (const sel of [".gancho", ".texto", ".num"]) {
+    const h = el.querySelector(sel); if (!h) continue;
+    let fs = parseFloat(getComputedStyle(h).fontSize);
+    const cabe = () => sel === ".num" ? h.scrollWidth <= 900 : h.getBoundingClientRect().height <= (sel === ".gancho" ? 560 : 640);
+    h.textContent ||= "0";
+    while (fs > 40 && !cabe()) { fs -= 2; h.style.setProperty("--fs", fs + "px"); }
+  }
+  return t0;
+};
+
+// desenha o quadro do instante t (segundos)
+window.quadro = t => {
+  for (const [s, base, fase] of LUZES) s.style.opacity = (base * (0.75 + 0.25 * Math.sin(t * 1.6 + fase))).toFixed(3);
+  for (const {c, el, t0, dur} of CENAS) {
+    const lt = t - t0, ultima = c.tipo === "fim";
+    const entra = ease(lt / 0.45), sai = ultima ? 1 : 1 - ease((lt - (dur - 0.35)) / 0.35);
+    const vis = lt < 0 || lt > dur ? 0 : Math.min(entra, sai);
+    el.style.opacity = vis.toFixed(3);
+    el.style.transform = `translateY(${((1 - entra) * 60).toFixed(1)}px) scale(${(0.96 + 0.04 * entra).toFixed(4)})`;
+    if (vis === 0) continue;
+    const p = ease((lt - 0.3) / (dur * 0.55));   // progresso dos contadores e barras
+    if (c.tipo === "numero")
+      el.querySelector(".num").textContent = (c.prefixo || "") + br(c.valor * p, c.casas ?? 0) + (c.sufixo || "");
+    if (c.tipo === "barras") {
+      const max = Math.max(...c.itens.map(b => b.valor));
+      el.querySelectorAll(".fill").forEach((f, i) => {
+        const pi = ease((lt - 0.3 - i * 0.5) / 1.4);
+        f.style.width = (100 * c.itens[i].valor / max * pi).toFixed(2) + "%";
+      });
+      const selo = el.querySelector(".selo");
+      if (selo) { const ps = ease((lt - 1.9) / 0.4); selo.style.opacity = ps; selo.style.transform = `scale(${0.6 + 0.4 * ps})`; }
+    }
+    if (ultima) $("fonte").style.opacity = entra.toFixed(3);
+  }
+};
+Promise.all([300, 400, 500, 700].map(w => document.fonts.load(`${w} 40px "PoppinsNR"`))).then(() => {
+  document.body.dataset.fonte = document.fonts.check('700 40px "PoppinsNR"') ? "poppins" : "faltando";
+  document.body.dataset.ready = "1";
+});
+</script>
+</body>
+</html>

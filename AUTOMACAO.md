@@ -10,6 +10,7 @@ Para mudar fontes, estilo ou quantidade, edite só este arquivo.
 - **Editorias aceitas:** Negócios, Marketing, Economia, Política
   (existe também a editoria **Mundo**, para notícias gerais publicadas manualmente pelo chat; a rotina não usa)
 - **Fuso horário:** America/Sao_Paulo (use a data de hoje nesse fuso)
+- **Reels:** 2 por dia, nas execuções das **11h e das 17h** (Brasília). Veja a seção "Execuções de Reels".
 
 ## Fontes
 
@@ -99,14 +100,34 @@ política partidária ou eleitoral, tragédias, e matérias opinativas ou de col
    (`git checkout -- noticias.json && git clean -fd criativos/`) e rode de novo.
 8. **Commit e push** direto na branch `main` (a Vercel publica o site sozinha):
    `git add noticias.json criativos/ && git commit -m "Publica notícia: <título curto>" && git push origin HEAD:main`
+   Numa execução de Reels, a mensagem do commit é `Publica notícia (Reels): <título curto>`.
    (use `HEAD:main`: o repositório pode vir com o HEAD solto).
    Não commite o `nova.json`.
-9. **Poste no Instagram:** `python3 automacao/postar_instagram.py criativos/AAAA-MM-DD-titulo.png`
+9. **Poste no Instagram** (pule este passo numa execução de Reels): `python3 automacao/postar_instagram.py criativos/AAAA-MM-DD-titulo.png`
    (o PNG gerado no passo 6). O script espera a Vercel publicar a imagem e posta com a legenda do
    `.txt`. Se ele falhar, **não tente de novo em loop**: registre o erro no resumo final. Se o erro
    for de token (código 190), avise no resumo que o token do Instagram precisa ser renovado.
 10. **Resumo final:** título publicado, link da fonte, caminho do criativo e link do post no
     Instagram — ou o motivo de não ter publicado.
+
+## Execuções de Reels
+
+As execuções que começam entre **10h e 12h59** e entre **16h e 18h59** (horário de Brasília) são de
+Reels. Nelas:
+- Escolha a notícia **mais forte** entre as candidatas (respeitando o rodízio de editorias), de
+  preferência uma com um **número de destaque** (valor, porcentagem, comparação com o ano anterior),
+  que rende um vídeo melhor.
+- Publique no site normalmente (passos 5 a 8), com a mensagem de commit
+  `Publica notícia (Reels): <título curto>`.
+- **Não poste a arte no Instagram** (pule o passo 9). Essa notícia vai virar Reels: o vídeo é feito
+  depois, numa conversa com a Nayara, e só é postado depois que ela aprovar. A arte não é postada
+  para o feed não repetir a mesma notícia.
+- No resumo final, diga que a notícia ficou reservada para o Reels.
+
+O vídeo é gerado com `python3 automacao/reels.py reels.json` (formato no topo do script). As
+músicas ficam em `reels/musicas/` e o crédito delas entra sozinho na legenda. Depois de postar o
+Reels, apague o `.mp4` do site (fica só o `.txt`): o vídeo só fica publicado o tempo de o Instagram
+baixá-lo.
 
 ## Fotos do criativo
 
