@@ -2,8 +2,8 @@
 
 Trechos de 40 s de músicas de Kevin MacLeod (incompetech.com), licença
 [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
-Podem ser usadas em posts e anúncios, desde que a legenda dê o crédito, o que o
-`automacao/reels.py` faz sozinho:
+Podem ser usadas em posts e anúncios, desde que haja crédito. O `automacao/reels.py` coloca o
+crédito sozinho no fim do vídeo, embaixo da fonte:
 
     Música: "<nome>", Kevin MacLeod (incompetech.com), CC BY 4.0
 

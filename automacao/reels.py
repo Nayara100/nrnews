@@ -16,11 +16,12 @@ reels.json:
                {"rotulo": "2026", "valor": 13.3, "texto": "R$ 13,3 bi"}]},
     {"tipo": "texto", "texto": "Uma frase curta com o contexto."}
   ],
-  "legenda": "...",                                   # legenda do post, sem o crédito da música
+  "legenda": "...",                                   # legenda do post
   "musica": "Pump"                                    # opcional; sem ela, as músicas se revezam
 }
 
-Gera criativos/AAAA-MM-DD-reels-<titulo>.mp4 e .txt (legenda + crédito da música).
+Gera criativos/AAAA-MM-DD-reels-<titulo>.mp4 e .txt (legenda). O crédito da música, exigido pela
+licença CC BY, aparece no fim do vídeo, embaixo da fonte.
 """
 import glob, json, os, subprocess, sys, tempfile
 
@@ -52,20 +53,15 @@ def main():
         musica = musicas[len(glob.glob(os.path.join(RAIZ, "criativos", "*-reels-*.txt"))) % len(musicas)]
 
     base = os.path.join(RAIZ, "criativos", f"{dados['date']}-reels-{slug(dados['titulo'])}")
+    # o crédito da música (exigido pela licença CC BY) aparece no fim do vídeo
+    dados["credito_musica"] = f'Música: "{musica["nome"]}", Kevin MacLeod (incompetech.com), CC BY 4.0'
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as f:
         json.dump(dados, f, ensure_ascii=False)
     subprocess.run(["node", os.path.join(RAIZ, "reels", "gerar.js"), f.name, base + ".mp4",
                     os.path.join(pasta, musica["arquivo"])], check=True)
     os.unlink(f.name)
 
-    # o crédito da música (exigido pela licença CC BY) vai antes das hashtags
     legenda = dados["legenda"].strip()
-    credito = f'Música: "{musica["nome"]}", Kevin MacLeod (incompetech.com), CC BY 4.0'
-    partes = legenda.rsplit("\n\n", 1)
-    if len(partes) == 2 and partes[1].lstrip().startswith("#"):
-        legenda = f"{partes[0]}\n{credito}\n\n{partes[1]}"
-    else:
-        legenda = f"{legenda}\n\n{credito}"
     open(base + ".txt", "w", encoding="utf-8").write(legenda + "\n")
 
     print("reels:", os.path.relpath(base + ".mp4", RAIZ))

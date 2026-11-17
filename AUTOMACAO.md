@@ -125,7 +125,7 @@ Reels. Nelas:
 - No resumo final, diga que a notícia ficou reservada para o Reels.
 
 O vídeo é gerado com `python3 automacao/reels.py reels.json` (formato no topo do script). As
-músicas ficam em `reels/musicas/` e o crédito delas entra sozinho na legenda. Depois de postar o
+músicas ficam em `reels/musicas/` e o crédito delas entra sozinho no fim do vídeo. Depois de postar o
 Reels, apague o `.mp4` do site (fica só o `.txt`): o vídeo só fica publicado o tempo de o Instagram
 baixá-lo.
 

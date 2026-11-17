@@ -46,6 +46,7 @@ html,body{margin:0;background:var(--bg)}
 .fim h2{font-weight:700;font-size:84px;margin:0}
 .fim p{font-weight:300;font-size:44px;color:var(--muted);margin:16px 0 0}
 .fonte{position:absolute;left:90px;right:90px;bottom:250px;text-align:center;font-size:30px;color:var(--muted);opacity:0}
+.fonte small{display:block;font-size:22px;margin-top:10px;opacity:.8}
 </style>
 </head>
 <body>
@@ -91,7 +92,7 @@ function html(c) {
 window.cenas = d => {
   $("card").style.setProperty("--c", ED[d.ed] || ED["Negócios"]);
   $("ed").textContent = d.ed;
-  $("fonte").textContent = "Fonte: " + d.src;
+  $("fonte").innerHTML = "Fonte: " + esc(d.src) + (d.credito_musica ? `<small>${esc(d.credito_musica)}</small>` : "");
   let t0 = 0;
   CENAS = [...d.cenas, {tipo: "fim", texto: d.fim}].map(c => {
     const el = document.createElement("div");
