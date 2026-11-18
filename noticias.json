@@ -1,6 +1,54 @@
 [
   {
     "ed": "Economia",
+    "date": "2026-11-18",
+    "title": "Cesta básica fica mais cara nas 27 capitais; SP lidera com R$ 951,37",
+    "lead": "Tomate, arroz e carne bovina puxaram a alta de outubro, segundo levantamento do Dieese com a Conab.",
+    "body": [
+      "O preço da cesta básica subiu em todas as 27 capitais de setembro para outubro. As maiores altas ficaram no Nordeste: Salvador (6,79%), Natal (6,68%) e Recife (6,41%). São Paulo segue com a cesta mais cara do país, a R$ 951,37, e Aracaju, com a mais barata, a R$ 618,61.",
+      "O tomate subiu em todas as capitais por causa de chuva, frio e pragas que atrasaram a colheita. O arroz ficou mais caro em 26 capitais, com exportações em alta, e a carne de primeira em 25, pela menor oferta de bois. Café em pó e feijão ficaram mais baratos na maior parte das cidades. Pelo cálculo do Dieese, o salário mínimo necessário para uma família de quatro pessoas seria de R$ 7.992,47, quase cinco vezes o atual, de R$ 1.621."
+    ],
+    "src": "Dieese, via g1",
+    "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/18/tomate-arroz-e-carne-encarecem-cesta-basica-em-todas-as-capitais-veja-o-valor-e-quanto-subiu.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-18",
+    "title": "Ambev leva a Original a bares tradicionais e prevê mais 15 casas em 2027",
+    "lead": "Projeto Reduto Original começou no Beco do Rato, no Rio, e quer ampliar a presença da marca nos pontos de venda.",
+    "body": [
+      "A Ambev lançou na terça-feira (17) o Reduto Original, plataforma de marketing que reforma bares com história e promove eventos culturais com a cerveja Original. A estreia foi no Beco do Rato, casa de samba da Lapa, no Rio de Janeiro, que teve a fachada recuperada a partir de um logotipo antigo achado no porão. A empresa quer levar o projeto a outras 15 casas, em vários estados, ao longo de 2027.",
+      "A aposta vem depois de a Original crescer cerca de 27% no trimestre sem campanha publicitária própria. O segmento premium da Ambev teve alta de mais de 20% em volume no 2º trimestre de 2026, na comparação com o mesmo período de 2025. Na prática, a ideia é ganhar espaço nos cardápios e na vitrine dos bares."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/com-original-ambev-aposta-na-expansao-nacional-em-bares"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-17",
+    "title": "Receita da Nvidia dobra e chega a US$ 115,8 bi no 1º balanço sem Huang",
+    "lead": "A fabricante de chips superou a previsão do mercado e espera vender US$ 130 bilhões no trimestre atual.",
+    "body": [
+      "A Nvidia faturou US$ 115,8 bilhões no terceiro trimestre do seu ano fiscal, encerrado em outubro. O valor é 103% maior que os US$ 57 bilhões de um ano antes e ficou acima dos US$ 109,1 bilhões esperados pelos analistas, segundo a LSEG. Para o quarto trimestre, a empresa projeta receita de US$ 130 bilhões, com margem de 3% para mais ou para menos.",
+      "Foi o primeiro resultado divulgado depois da saída do cofundador Jensen Huang do comando, na semana passada. A diretora financeira Colette Kress ocupa o cargo de CEO de forma interina enquanto a empresa procura um sucessor. As ações subiam cerca de 2% nas negociações após o fechamento da bolsa. Como a Nvidia é a maior fornecedora de chips para inteligência artificial, o balanço é visto como um termômetro dos investimentos no setor."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/nvidia-apresenta-projecao-otimista-em-seu-primeiro-balanco-desde-a-saida-de-huang/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-17",
+    "title": "Lula assina na quinta decreto que regulamenta o fim da escala 6x1",
+    "lead": "Texto confirma 16 de dezembro como início da nova escala 5x2 para empresas de todo o país.",
+    "body": [
+      "O presidente Lula vai assinar o decreto que regulamenta a escala 5x2 nesta quinta-feira (19), às 9h, no Palácio do Planalto. O anúncio foi feito pelo ministro do Trabalho, Luiz Marinho, nesta terça (17). Lula pediu ajustes no texto, que não foram detalhados, e o decreto pode vir com portarias complementares.",
+      "Segundo Marinho, a ideia é dar regras claras para que patrões e empregados fechem as negociações antes de 16 de dezembro, quando a nova escala passa a valer. O fim da 6x1 foi aprovado pelo Congresso e garante dois dias de folga por semana sem corte de salário. No STF, o ministro Flávio Dino decidiu que as ações sobre a transição serão julgadas direto no mérito."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/decreto-que-regulamenta-escala-5x2-sera-assinado-quinta-feira"
+  },
+  {
+    "ed": "Economia",
     "date": "2026-11-17",
     "title": "40% dos brasileiros não conseguem guardar dinheiro, aponta Allianz",
     "lead": "Fatia de quem não poupa nem investe no Brasil supera a média global, que é de 32%.",
