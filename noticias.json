@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Negócios",
+    "date": "2026-11-19",
+    "title": "iFood sofre novo acesso indevido a dados, o segundo caso do ano",
+    "lead": "Entregadores foram os mais atingidos; senhas, cartões e dados de pagamento ficaram de fora, diz a empresa.",
+    "body": [
+      "O iFood informou nesta quinta-feira (19) que parte dos seus sistemas sofreu um acesso não autorizado no dia 14 de novembro, contido no mesmo dia. De clientes e usuários do iFood Benefícios, só o telefone foi exposto. De representantes de restaurantes, o telefone e/ou o CPF. Entre os entregadores, parte pode ter tido nome, e-mail, telefone, endereço, CPF e dados da conta usada para receber os repasses.",
+      "A empresa diz que senhas, cartões, saldos, extratos e dados biométricos não foram acessados, que avisou a ANPD e que não achou sinais de uso indevido dos dados. O número de afetados não foi divulgado. Em junho, o iFood já havia confirmado outro vazamento, de cerca de 1,2 milhão de usuários. A orientação é desconfiar de contatos que peçam senha, código ou pagamento."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/empresas/noticia/2026/11/19/ifood-registra-invasao-em-sistema-de-dados-de-usuarios-e-entregadores.ghtml"
+  },
+  {
     "ed": "Política",
     "date": "2026-11-19",
     "title": "Decreto da escala 5x2 deixa a hora extra mais cara a partir de dezembro",
