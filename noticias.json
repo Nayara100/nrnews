@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-21",
+    "title": "Bitcoin cai a US$ 55.533, menor valor desde setembro de 2024",
+    "lead": "A criptomoeda já vale menos da metade do pico de outubro de 2025, quando passou de US$ 126 mil.",
+    "body": [
+      "O bitcoin recuou 6% nos Estados Unidos na sexta-feira (20) e mais 5,7% nas negociações asiáticas deste sábado (21), chegando a US$ 55.533. É o menor preço em mais de dois anos e fica abaixo do valor de quando Donald Trump voltou à Casa Branca. Em 24 horas, cerca de US$ 2 bilhões em apostas de alta feitas com dinheiro emprestado foram encerradas à força, segundo a Coinglass, o que acelerou a queda.",
+      "A lista de motivos inclui o ataque hacker à Binance no fim de outubro, a vitória dos democratas nas eleições de meio de mandato, que reduz a chance de regras mais favoráveis ao setor, e a saída de mais de US$ 3 bilhões dos fundos de bitcoin negociados em bolsa neste ano. O dólar mais forte e a expectativa de nova alta de juros nos EUA também tiram o apetite por ativos de risco."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/future-of-money/bitcoin-perde-mais-da-metade-do-valor-e-volta-ao-menor-nivel-em-dois-anos-entenda/"
+  },
+  {
     "ed": "Marketing",
     "date": "2026-11-21",
     "title": "Orelhão volta como ponto de apoio a entregadores, pago com anúncios",
