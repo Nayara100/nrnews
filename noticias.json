@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Negócios",
+    "date": "2026-11-21",
+    "title": "Amazon negocia comprar a startup de IA Decart por US$ 7,5 bilhões",
+    "lead": "Se sair, o negócio reforça a AWS na disputa com a Nvidia e fica entre as maiores compras da Amazon nos últimos anos.",
+    "body": [
+      "A Amazon está em conversas avançadas para comprar a Decart, startup criada em 2023 por três engenheiros israelenses, por US$ 7,5 bilhões, cerca de R$ 44,6 bilhões. A informação é do jornal Financial Times, e o acordo pode ser fechado já no começo da próxima semana, mas ainda pode não sair. Em maio, a Decart valia US$ 4 bilhões, depois de receber US$ 300 milhões de fundos como Sequoia e Benchmark e da própria Nvidia.",
+      "O software da Decart faz modelos de inteligência artificial rodarem gastando menos capacidade dos chips. A empresa foi uma das primeiras a usar o Trainium3, processador da Amazon que concorre com os da Nvidia. Para comparação, a Amazon pagou US$ 8,4 bilhões pelo estúdio MGM em 2022 e aceitou pagar US$ 11,5 bilhões pela operadora de satélites Globalstar neste ano. Amazon e Decart não comentaram."
+    ],
+    "src": "Financial Times, via InfoMoney",
+    "url": "https://www.infomoney.com.br/business/ft-amazon-negocia-compra-de-startup-de-ia-por-us-75-bilhoes-para-enfrentar-nvidia/"
+  },
+  {
     "ed": "Política",
     "date": "2026-11-21",
     "title": "Aluguel, passagem aérea e venda de imóvel terão nota fiscal em 2027",
