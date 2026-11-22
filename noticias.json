@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-22",
+    "title": "Brasil passa de 7,5 milhões de turistas estrangeiros e bate meta de 2026",
+    "lead": "A marca do ano foi atingida em outubro, dois meses antes do prazo, e os gastos dos visitantes são os maiores já registrados.",
+    "body": [
+      "De janeiro a outubro, o Brasil recebeu mais de 7,5 milhões de visitantes de outros países, segundo o Ministério do Turismo. O número já supera a meta prevista para todo o ano de 2026. A Argentina segue como principal origem, seguida de Chile e Estados Unidos. A chegada de chineses cresceu mais de 80% em relação ao mesmo período de 2025.",
+      "Entre janeiro e setembro, os estrangeiros gastaram R$ 45,6 bilhões no país, valor recorde e 10% maior que o de um ano antes. O dinheiro chega a hotéis, bares, restaurantes, guias e transporte. São Paulo concentra a maior parte das entradas, mas o Rio de Janeiro teve o maior aumento de desembarques, com a volta de voos internacionais ao Galeão."
+    ],
+    "src": "Ministério do Turismo, via g1",
+    "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/21/brasil-recebe-75-milhoes-de-turistas-estrangeiros-e-supera-meta-do-ano-com-dois-meses-de-antecedencia.ghtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-21",
     "title": "Amazon negocia comprar a startup de IA Decart por US$ 7,5 bilhões",
