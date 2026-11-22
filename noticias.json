@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-22",
+    "title": "Minério barato e frete caro levam mineradoras à pior margem em 5 anos",
+    "lead": "A tonelada do minério de ferro gira em torno de US$ 90, e o frete para a Ásia ainda está acima da média dos últimos anos.",
+    "body": [
+      "A margem das mineradoras de ferro, calculada pelo preço do minério menos o custo do frete, está no menor nível em cinco anos, segundo o Itaú BBA. A tonelada do minério tem ficado perto de US$ 90, abaixo da faixa de US$ 100 a US$ 110 dos últimos anos, porque a China produz menos aço. Ao mesmo tempo, o frete da rota Brasil-Ásia passou de US$ 20 para mais de US$ 43 por tonelada em setembro, com a guerra no Oriente Médio e a disputa por navios grandes. Em 17 de novembro, a rota entre o porto de Tubarão (ES) e a China custava US$ 35 por tonelada, contra uma média de US$ 23 entre 2024 e 2025.",
+      "No trimestre encerrado em setembro, a CSN teve prejuízo de R$ 1,25 bilhão, e o Ebitda da área de minério de ferro da Vale caiu 14% em relação ao trimestre anterior. Mineradoras médias, como Cedro, Itaminas e Cabo Verde, pararam a produção e deram férias coletivas. Para o Ibram, as exportações brasileiras não devem cair muito, porque as grandes empresas têm proteção contra a alta do frete."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/infraestrutura/2026/11/mineracao-vive-a-maior-crise-dos-ultimos-anos-com-frete-caro-e-precos-baixos.shtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-22",
     "title": "Justiça manda Keeta tirar Pizza Hut do app por venda sem contrato",
