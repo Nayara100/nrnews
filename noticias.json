@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-23",
+    "title": "Focus: mercado vê dólar a R$ 5,55 no fim do ano e Selic de 13% em 2027",
+    "lead": "Analistas também subiram a previsão de inflação e cortaram a de crescimento da economia.",
+    "body": [
+      "O boletim Focus, do Banco Central, mostrou nesta segunda-feira (23) que os analistas do mercado esperam o dólar a R$ 5,55 no fim de 2026. Na semana passada, a aposta era de R$ 5,40. Para 2027, a previsão passou de R$ 5,45 para R$ 5,50.",
+      "A projeção para a inflação oficial (IPCA) deste ano foi de 5,11% para 5,15%, e a de 2027 subiu de 5% para 5,12%. Com isso, o mercado agora espera que a Selic termine 2027 em 13% ao ano, e não mais em 12,75%: o corte dos juros seria menor. Para o fim de 2026, a taxa segue prevista em 13,75%. A estimativa de alta do PIB neste ano caiu de 1,72% para 1,70%."
+    ],
+    "src": "Banco Central, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-23",
     "title": "Jensen Huang volta ao comando da Nvidia e ação sobe mais de 28%",
