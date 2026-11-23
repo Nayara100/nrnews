@@ -1,5 +1,353 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-23",
+    "title": "Focus: mercado vê dólar a R$ 5,55 no fim do ano e Selic de 13% em 2027",
+    "lead": "Analistas também subiram a previsão de inflação e cortaram a de crescimento da economia.",
+    "body": [
+      "O boletim Focus, do Banco Central, mostrou nesta segunda-feira (23) que os analistas do mercado esperam o dólar a R$ 5,55 no fim de 2026. Na semana passada, a aposta era de R$ 5,40. Para 2027, a previsão passou de R$ 5,45 para R$ 5,50.",
+      "A projeção para a inflação oficial (IPCA) deste ano foi de 5,11% para 5,15%, e a de 2027 subiu de 5% para 5,12%. Com isso, o mercado agora espera que a Selic termine 2027 em 13% ao ano, e não mais em 12,75%: o corte dos juros seria menor. Para o fim de 2026, a taxa segue prevista em 13,75%. A estimativa de alta do PIB neste ano caiu de 1,72% para 1,70%."
+    ],
+    "src": "Banco Central, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-23",
+    "title": "Jensen Huang volta ao comando da Nvidia e ação sobe mais de 28%",
+    "lead": "O conselho reconduziu o fundador ao cargo de CEO menos de duas semanas depois da renúncia em meio a suspeitas de espionagem chinesa.",
+    "body": [
+      "A Nvidia anunciou nesta segunda-feira (23) que Jensen Huang voltou a ser CEO da empresa, com efeito imediato. O conselho de administração aprovou a decisão por unanimidade, e Huang também retoma o posto de presidente e a vaga no conselho. Ele tinha deixado os cargos em 12 de novembro, depois de reportagens apontarem que poderia ter sido alvo de agentes ligados à China em busca de informações.",
+      "Segundo a fabricante de chips, o conselho ouviu integrantes do alto escalão do governo dos Estados Unidos e concluiu que o retorno não representa risco à segurança nacional do país. A investigação independente aberta pela empresa continua. O mercado reagiu na hora: às 11h09 (horário de Brasília), a ação subia 28,26%, na faixa de US$ 161, depois de ter caído 14% na sexta-feira."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/acao-da-nvidia-salta-cerca-de-30-com-reintegracao-de-jensen-huang-como-ceo/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-23",
+    "title": "Orçamento de 2027 reserva R$ 8,8 bi para reajuste de servidores",
+    "lead": "A verba equivale a menos de 3% da folha do Executivo e fica abaixo da inflação projetada para 2026, que serve de base para a correção.",
+    "body": [
+      "O governo federal separou R$ 8,8 bilhões na proposta de Orçamento de 2027 para dar aumento aos servidores do Poder Executivo. Pelas contas da Folha, o valor cobre uma correção de menos de 3% sobre a folha de 2026. O Boletim Focus, do Banco Central, projeta o INPC, índice usado em negociações salariais, em 4,49% neste ano. Assim, a verba não garante a reposição da inflação para todas as categorias.",
+      "O Ministério da Gestão informou que o Orçamento autoriza R$ 361,5 bilhões em gastos com pessoal do Executivo, já incluídos os R$ 8,8 bilhões, e que os valores ainda dependem do Congresso. O texto prevê também R$ 3,3 bilhões para nomear aprovados em concursos. Entidades de servidores já dizem que vão pressionar por mais dinheiro, e o governo pode repetir reajustes diferentes por carreira."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/11/verba-para-reajustes-de-servidores-em-2027-e-insuficiente-para-repor-a-inflacao.shtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-22",
+    "title": "Ambev vai reformar 15 bares tradicionais para expandir a cerveja Original",
+    "lead": "O projeto Reduto Original começou pelo Beco do Rato, casa de samba da Lapa, no Rio, e chega a outros estados em 2027.",
+    "body": [
+      "A Ambev criou uma plataforma de marketing para a cerveja Original baseada em bares com história. O Reduto Original paga melhorias de estrutura, recupera elementos antigos dos espaços e apoia a programação cultural das casas. O primeiro escolhido foi o Beco do Rato, conhecido pelas rodas de samba na Lapa, que teve a fachada refeita a partir de um logotipo antigo achado no porão. A meta é levar o projeto a mais 15 bares em diferentes estados ao longo de 2027.",
+      "A aposta vem depois de a Original crescer cerca de 27% no trimestre sem campanhas publicitárias próprias, segundo a empresa. O segmento premium da Ambev teve alta de mais de 20% em volume no segundo trimestre. Além da imagem da marca, o objetivo é comercial: ganhar espaço nos cardápios, mais visibilidade no ponto de venda e novas ocasiões de consumo."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/empresas/marketing/noticia/2026/11/22/cerveja-original-vai-investir-na-revitalizacao-de-15-bares-em-2027.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-22",
+    "title": "Minério barato e frete caro levam mineradoras à pior margem em 5 anos",
+    "lead": "A tonelada do minério de ferro gira em torno de US$ 90, e o frete para a Ásia ainda está acima da média dos últimos anos.",
+    "body": [
+      "A margem das mineradoras de ferro, calculada pelo preço do minério menos o custo do frete, está no menor nível em cinco anos, segundo o Itaú BBA. A tonelada do minério tem ficado perto de US$ 90, abaixo da faixa de US$ 100 a US$ 110 dos últimos anos, porque a China produz menos aço. Ao mesmo tempo, o frete da rota Brasil-Ásia passou de US$ 20 para mais de US$ 43 por tonelada em setembro, com a guerra no Oriente Médio e a disputa por navios grandes. Em 17 de novembro, a rota entre o porto de Tubarão (ES) e a China custava US$ 35 por tonelada, contra uma média de US$ 23 entre 2024 e 2025.",
+      "No trimestre encerrado em setembro, a CSN teve prejuízo de R$ 1,25 bilhão, e o Ebitda da área de minério de ferro da Vale caiu 14% em relação ao trimestre anterior. Mineradoras médias, como Cedro, Itaminas e Cabo Verde, pararam a produção e deram férias coletivas. Para o Ibram, as exportações brasileiras não devem cair muito, porque as grandes empresas têm proteção contra a alta do frete."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/infraestrutura/2026/11/mineracao-vive-a-maior-crise-dos-ultimos-anos-com-frete-caro-e-precos-baixos.shtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-22",
+    "title": "Justiça manda Keeta tirar Pizza Hut do app por venda sem contrato",
+    "lead": "Sentença diz que o app usou marca e cardápio da rede sem contrato e abre caminho para ações de outras redes.",
+    "body": [
+      "A 3ª Vara Empresarial de São Paulo mandou a Keeta retirar a Pizza Hut do aplicativo, com multa diária de R$ 50 mil se não cumprir. O app chinês também foi condenado a pagar R$ 50 mil por danos morais e a indenizar a rede com base no que ganhou com os pedidos feitos com a marca, como taxas e comissões. O juiz citou que a loja da Pizza Hut em Santana tinha nota 3,2 na Keeta, contra 4,7 no iFood e 4,4 na 99Food. Cabe recurso.",
+      "No modelo chamado de compra intermediada, um entregador compra o produto no balcão da loja e leva ao cliente, sem acordo com o restaurante. Giraffas e Domino's, que também aparecem no app sem contrato, dizem que vão agir contra o uso da marca. A Keeta afirma que a prática existe porque o mercado está travado por contratos de exclusividade. Outra vara de São Paulo negou à Associação Nacional de Restaurantes um pedido para suspender o modelo, e o tema deve seguir no Tribunal de Justiça."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/empresas/noticia/2026/11/22/sem-contrato-mas-no-cardpio-a-disputa-da-keeta-com-as-grandes-redes.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-22",
+    "title": "Governo cobra dos EUA proposta para reabrir negociação do tarifaço",
+    "lead": "O Brasil espera o documento americano desde setembro e quer retomar as conversas antes do G20, em dezembro.",
+    "body": [
+      "O governo federal pediu ao escritório de comércio dos Estados Unidos (USTR) o documento que vai definir o que entra na negociação sobre as sobretaxas aplicadas às exportações brasileiras. O envio tinha sido prometido para o início de novembro, mas até agora não houve resposta. A meta é destravar as conversas antes da cúpula do G20, marcada para 14 e 15 de dezembro, em Miami.",
+      "Desde julho, os produtos brasileiros pagam uma tarifa extra de 25% para entrar nos EUA, além de outra de 12,5% que vale para 60 economias. Pelas contas do Ministério do Desenvolvimento, Indústria, Comércio e Serviços, cerca de US$ 6,6 bilhões em exportações (16,5% do que o Brasil vende aos EUA) pagam as duas taxas, que somam 37,5%. A prioridade do governo é reduzir a de 25% ou ampliar a lista de produtos isentos."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/brasil/governo-lula-cobra-dos-eua-documento-para-destravar-negociacoes-sobre-tarifaco/"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-22",
+    "title": "KaBuM! leva vendas com IA no WhatsApp a todos os clientes",
+    "lead": "No teste com empresas, o canal Compre com o Ninja faturou mais de R$ 2 milhões em cerca de dois meses.",
+    "body": [
+      "O KaBuM! liberou para qualquer consumidor o Compre com o Ninja, assistente de inteligência artificial no WhatsApp que indica produtos, tira dúvidas, recebe o pagamento e informa o andamento da entrega. Antes, a ferramenta foi testada por cerca de dois meses com mais de 2 mil clientes empresariais: foram mais de 45 mil conversas e mais de R$ 2 milhões em faturamento bruto, segundo a empresa.",
+      "No teste, a conversão chegou a ser seis vezes maior que a do site e do aplicativo, e o tíquete médio foi o dobro do registrado no site, segundo a varejista, que não informou os números absolutos. Menos de 10% das conversas precisam ser passadas para um atendente. A personalização pelo histórico de compras deve funcionar por completo a partir de janeiro de 2027."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/tecnologia/kabum-ninja-ia-whatsapp/"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-22",
+    "title": "Brasil passa de 7,5 milhões de turistas estrangeiros e bate meta de 2026",
+    "lead": "A marca do ano foi atingida em outubro, dois meses antes do prazo, e os gastos dos visitantes são os maiores já registrados.",
+    "body": [
+      "De janeiro a outubro, o Brasil recebeu mais de 7,5 milhões de visitantes de outros países, segundo o Ministério do Turismo. O número já supera a meta prevista para todo o ano de 2026. A Argentina segue como principal origem, seguida de Chile e Estados Unidos. A chegada de chineses cresceu mais de 80% em relação ao mesmo período de 2025.",
+      "Entre janeiro e setembro, os estrangeiros gastaram R$ 45,6 bilhões no país, valor recorde e 10% maior que o de um ano antes. O dinheiro chega a hotéis, bares, restaurantes, guias e transporte. São Paulo concentra a maior parte das entradas, mas o Rio de Janeiro teve o maior aumento de desembarques, com a volta de voos internacionais ao Galeão."
+    ],
+    "src": "Ministério do Turismo, via g1",
+    "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/21/brasil-recebe-75-milhoes-de-turistas-estrangeiros-e-supera-meta-do-ano-com-dois-meses-de-antecedencia.ghtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-21",
+    "title": "Amazon negocia comprar a startup de IA Decart por US$ 7,5 bilhões",
+    "lead": "Se sair, o negócio reforça a AWS na disputa com a Nvidia e fica entre as maiores compras da Amazon nos últimos anos.",
+    "body": [
+      "A Amazon está em conversas avançadas para comprar a Decart, startup criada em 2023 por três engenheiros israelenses, por US$ 7,5 bilhões, cerca de R$ 44,6 bilhões. A informação é do jornal Financial Times, e o acordo pode ser fechado já no começo da próxima semana, mas ainda pode não sair. Em maio, a Decart valia US$ 4 bilhões, depois de receber US$ 300 milhões de fundos como Sequoia e Benchmark e da própria Nvidia.",
+      "O software da Decart faz modelos de inteligência artificial rodarem gastando menos capacidade dos chips. A empresa foi uma das primeiras a usar o Trainium3, processador da Amazon que concorre com os da Nvidia. Para comparação, a Amazon pagou US$ 8,4 bilhões pelo estúdio MGM em 2022 e aceitou pagar US$ 11,5 bilhões pela operadora de satélites Globalstar neste ano. Amazon e Decart não comentaram."
+    ],
+    "src": "Financial Times, via InfoMoney",
+    "url": "https://www.infomoney.com.br/business/ft-amazon-negocia-compra-de-startup-de-ia-por-us-75-bilhoes-para-enfrentar-nvidia/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-21",
+    "title": "Aluguel, passagem aérea e venda de imóvel terão nota fiscal em 2027",
+    "lead": "A reforma tributária obriga condomínios, aéreas e locadores a emitir nota, mas MEIs e nanoempreendedores seguem dispensados em parte das operações.",
+    "body": [
+      "Com a reforma tributária, novos tipos de nota fiscal passam a valer em 2027. Em janeiro entram as notas de locação, de condomínios e de bens imateriais, como direitos autorais e licenças de marca e de software. Em março chegam o bilhete eletrônico de passagem aérea, a nota de venda de imóveis e a nota das plataformas digitais. O motivo é que, no novo sistema, todo imposto pago nas compras de uma empresa vira crédito, e para isso é preciso nota com o CNPJ de quem comprou. Só em passagens de viagens corporativas, as empresas pagam cerca de R$ 6 bilhões em tributos por ano, segundo a plataforma Paytrack.",
+      "Ficam fora da obrigação, pelo menos nos próximos dois anos, os MEIs nas vendas e serviços para pessoas físicas, transportadores autônomos e produtores rurais com faturamento de até R$ 3,6 milhões. Também está dispensado o nanoempreendedor, com renda de até R$ 55 mil por ano, limite que sobe para R$ 220 mil para motoristas e entregadores de aplicativo. Parte dos modelos de nota ainda não tem layout definido, o que tem dificultado a adaptação das empresas."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/negocios/2026/11/reforma-tributaria-exige-notas-fiscais-de-locacao-voos-e-imoveis-em-2027.shtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-21",
+    "title": "Bitcoin cai a US$ 55.533, menor valor desde setembro de 2024",
+    "lead": "A criptomoeda já vale menos da metade do pico de outubro de 2025, quando passou de US$ 126 mil.",
+    "body": [
+      "O bitcoin recuou 6% nos Estados Unidos na sexta-feira (20) e mais 5,7% nas negociações asiáticas deste sábado (21), chegando a US$ 55.533. É o menor preço em mais de dois anos e fica abaixo do valor de quando Donald Trump voltou à Casa Branca. Em 24 horas, cerca de US$ 2 bilhões em apostas de alta feitas com dinheiro emprestado foram encerradas à força, segundo a Coinglass, o que acelerou a queda.",
+      "A lista de motivos inclui o ataque hacker à Binance no fim de outubro, a vitória dos democratas nas eleições de meio de mandato, que reduz a chance de regras mais favoráveis ao setor, e a saída de mais de US$ 3 bilhões dos fundos de bitcoin negociados em bolsa neste ano. O dólar mais forte e a expectativa de nova alta de juros nos EUA também tiram o apetite por ativos de risco."
+    ],
+    "src": "Exame",
+    "url": "https://exame.com/future-of-money/bitcoin-perde-mais-da-metade-do-valor-e-volta-ao-menor-nivel-em-dois-anos-entenda/"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-21",
+    "title": "Orelhão volta como ponto de apoio a entregadores, pago com anúncios",
+    "lead": "O projeto quer instalar 5 mil cabines com micro-ondas e água grátis em três anos, com investimento previsto de R$ 150 milhões.",
+    "body": [
+      "A estrutura do antigo telefone público está sendo reaproveitada para atender motoristas de aplicativo e entregadores. O projeto \"O Orelhão Voltou\", criado por André Souza, presidente da Inesperado Ideias, oferece de graça micro-ondas para esquentar a comida e água para encher a garrafa. A primeira unidade foi lançada em 10 de novembro, num posto da rede Beija-Flor, em Belo Horizonte. As próximas devem ficar em postos de combustível, estacionamentos de atacarejos e perto de cozinhas de delivery, sempre em áreas privadas.",
+      "Quem paga a conta é a publicidade. Cada cabine custa cerca de R$ 30 mil, e a meta é chegar a 2 mil unidades em 12 meses (R$ 60 milhões) e 5 mil em três anos. O plano prevê que 31 empresas de mídia exterior comprem os equipamentos e vendam os anúncios, com cota principal a partir de R$ 6 mil por mês e até 15 anunciantes por unidade. A expectativa é de receita de R$ 20 mil mensais por cabine. Ainda não há marcas parceiras nem contratos assinados."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/empresas/marketing/noticia/2026/11/21/orelhao-esta-de-volta-mas-agora-oferece-micro-ondas-e-agua.ghtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-21",
+    "title": "GTA 6 fatura US$ 3,79 bilhões no 1º dia e bate recorde de estreia",
+    "lead": "Segundo a Rockstar, a receita do lançamento é mais de quatro vezes a do GTA 5, que estreou em 2013.",
+    "body": [
+      "O GTA 6 faturou US$ 3,79 bilhões (R$ 22,48 bilhões) no dia do lançamento, a quinta-feira (19), de acordo com a Rockstar Games. É o maior valor já registrado na estreia de um videogame. A marca anterior era do GTA 5, que somou US$ 815,7 milhões nas primeiras 24 horas, em 2013.",
+      "A desenvolvedora afirma que o jogo se tornou o maior lançamento da história do entretenimento: a receita do primeiro dia passa a bilheteria mundial de Vingadores: Ultimato (2019), de US$ 2,94 bilhões, segundo o Box Office Mojo. O game sai para PlayStation 5 e Xbox Series e custa a partir de R$ 449,90 no Brasil."
+    ],
+    "src": "Rockstar, via Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/tec/2026/11/gta-6-arrecada-us-379-bilhoes-no-lancamento-e-quebra-recorde-de-faturamento.shtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-21",
+    "title": "Segundo voto no STF mantém travada a privatização da Celepar",
+    "lead": "Moraes seguiu o relator Flávio Dino e disse que o Paraná ainda não garantiu a proteção dos dados guardados pela estatal de tecnologia.",
+    "body": [
+      "O ministro Alexandre de Moraes, do Supremo Tribunal Federal, votou para manter as restrições à venda da Celepar, empresa de tecnologia do governo do Paraná. Ele acompanhou, com ressalvas, o relator Flávio Dino. Cristiano Zanin votou para que o STF nem analise a ação, o que liberaria a venda se essa posição vencer. O julgamento no plenário virtual vai até 30 de novembro.",
+      "A Celepar guarda dados de moradores do estado, como prontuários do SUS, biometria e informações de segurança pública. Em fevereiro, Dino permitiu a venda só se o Paraná mantiver o controle das bases sensíveis, fiscalizar a empresa diretamente e enviar um relatório de impacto à Agência Nacional de Proteção de Dados. Para Moraes, o governo estadual ainda não cumpriu essas exigências."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/negocios/2026/11/moraes-vota-para-manter-restricoes-a-venda-da-celepar-e-cita-risco-a-protecao-de-dados-no-pr.shtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-20",
+    "title": "13º salário deve injetar R$ 399,1 bilhões na economia em 2026",
+    "lead": "O pagamento chega a cerca de 99,7 milhões de pessoas, com valor médio de R$ 3.720, segundo o Dieese.",
+    "body": [
+      "O 13º salário deve colocar R$ 399,1 bilhões na economia brasileira em 2026, o equivalente a 2,9% do PIB, segundo estimativa do Dieese. Em 2025, a projeção era de R$ 369,4 bilhões. Recebem o benefício trabalhadores com carteira assinada, incluindo domésticos, além de aposentados e pensionistas do INSS, da União, dos estados e dos municípios.",
+      "A primeira parcela precisa ser paga até 30 de novembro. A segunda vence em 20 de dezembro, mas como a data cai num domingo, o pagamento deve sair até o dia 18. Para o comércio, o dinheiro extra reforça as vendas de fim de ano, mas parte das famílias deve usar o valor para quitar dívidas."
+    ],
+    "src": "Dieese, via g1",
+    "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/20/quase-100-milhoes-de-brasileiros-comecam-a-receber-o-13o-salario-beneficio-deve-movimentar-r-400-bilhoes-na-economia.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-20",
+    "title": "Nike será a fornecedora oficial de roupas da Fórmula 1 a partir de 2027",
+    "lead": "Acordo de longo prazo inclui uniformes das equipes da categoria e produtos para os fãs.",
+    "body": [
+      "A Fórmula 1 fechou uma parceria de longo prazo com a Nike, que passa a ser a fornecedora oficial de vestuário e uniformes da categoria a partir de 2027. A marca vai vestir as equipes que trabalham nos eventos da F1 pelo mundo e vender calçados, roupas e acessórios para o público. O valor do contrato não foi revelado.",
+      "O acordo também vale para a F1 Academy, categoria de base só para mulheres, que vai receber roupas de desempenho da Nike. A estreia da parceria é uma coleção limitada ligada ao GP de Las Vegas, à venda nas lojas da marca na cidade. A F1 vem buscando acordos com marcas de moda e entretenimento para chegar a um público mais jovem."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://c-level.folha.uol.com.br/negocios/2026/11/nike-se-torna-a-fornecedora-oficial-de-vestuario-para-a-f1.shtml"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-20",
+    "title": "Copel vai investir R$ 21,1 bilhões até 2030, valor recorde",
+    "lead": "Dois terços do dinheiro vão para a rede de distribuição de energia no Paraná.",
+    "body": [
+      "A Copel aprovou um plano de investimentos de R$ 21,1 bilhões para 2027 a 2030, o maior da história da empresa. A distribuição fica com 67% do total, a geração com 24%, a transmissão com 7% e outros projetos com 2%. O plano anterior, de 2025, previa R$ 17,8 bilhões para 2026 a 2030, ou seja, um ano a mais.",
+      "Para 2027, a companhia prevê cerca de R$ 5,45 bilhões: R$ 2,94 bilhões na distribuição, para melhorar a qualidade do fornecimento, e R$ 2,41 bilhões em geração e transmissão. Parte desse valor vai para ampliar as usinas hidrelétricas de Foz do Areia e Segredo, no Paraná."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/empresas/noticia/2026/11/20/analise-copel-anuncia-investimento-recorde-com-foco-em-distribuicao-mas-traca-horizonte-para-geracao.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-20",
+    "title": "Governo abre consulta sobre regras para proteger indústria de importações",
+    "lead": "Empresas e entidades têm 15 dias para opinar sobre como o país vai investigar e aplicar salvaguardas em acordos comerciais.",
+    "body": [
+      "O Ministério da Indústria, Comércio e Serviços colocou em consulta pública, nesta sexta-feira (20), a minuta de uma portaria que define o passo a passo das investigações de salvaguardas bilaterais. Os interessados têm 15 dias para mandar comentários e sugestões.",
+      "A salvaguarda é uma proteção temporária que o Brasil pode adotar quando as importações com tarifa reduzida por um acordo comercial crescem muito e prejudicam a produção nacional. O texto trata de como pedir a medida, como as provas são analisadas e como os interessados participam. As regras valem para acordos já em vigor, como o Mercosul-União Europeia, e para os próximos. A portaria completa o Decreto nº 12.866, publicado em março."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/brasil/noticia/2026/11/20/ministrio-da-indstria-abre-consulta-pblica-sobre-salvaguardas-em-acordos-comerciais.ghtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-20",
+    "title": "Dólar fecha a R$ 5,93, maior valor desde abril de 2025",
+    "lead": "A moeda subiu pela sexta sessão seguida, mesmo com o Banco Central vendendo US$ 1 bilhão no mercado.",
+    "body": [
+      "O dólar comercial terminou a quinta-feira (19) cotado a R$ 5,932, alta de 1,1% no dia. Foi o fechamento mais alto desde 8 de abril de 2025. Na semana, mais curta por causa do feriado, a moeda acumulou alta de 4,95%. Em novembro, o avanço chega a 9,01%, e no ano, a 8,13%. O Banco Central vendeu US$ 1 bilhão no meio do dia, o que segurou a cotação só por alguns minutos.",
+      "O mercado pressiona por cortes no orçamento e aguarda as indicações para a equipe econômica. O pacote fiscal aprovado pelo Senado, com impacto acima de R$ 50 bilhões, será votado na Câmara na segunda-feira (23). Para quem importa produtos ou insumos, a alta encarece as compras em dólar. O Ibovespa caiu 0,69% no dia e 3,53% na semana."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-supera-r-593-e-fecha-no-maior-valor-desde-abril-de-2025"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-20",
+    "title": "Starbucks volta a crescer no Brasil e prevê 35 lojas novas em 2027",
+    "lead": "Sob a Zamp, a rede quer fechar 2026 com 30 aberturas e aposta em experiência e parcerias para atrair o cliente.",
+    "body": [
+      "A Starbucks retomou a expansão no Brasil depois da crise vivida sob a SouthRock Capital, antiga operadora da marca, que pediu recuperação judicial em 2023. Hoje a operação está com a Zamp, que reorganizou a rede com foco em eficiência. A meta é abrir mais 10 lojas até dezembro, somando 30 inaugurações em 2026, e outras 35 em 2027.",
+      "Em entrevista ao Meio & Mensagem, David Chiang, diretor-geral de licenciamento, marca, produtos e digital da Starbucks para a América Latina e o Caribe, disse que a marca quer ir além do produto e vender experiência. A estratégia, adotada desde 2024, se apoia em três pontos: qualidade do café, lojas onde o cliente queira ficar e atendimento que reconheça quem volta. Parcerias como a feita com Peanuts e ações ligadas a música e cinema servem para criar novos hábitos de consumo, de manhã e à tarde."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/starbucks-detalha-estrategia-de-retomada-e-expansao-no-brasil"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-19",
+    "title": "iFood sofre novo acesso indevido a dados, o segundo caso do ano",
+    "lead": "Entregadores foram os mais atingidos; senhas, cartões e dados de pagamento ficaram de fora, diz a empresa.",
+    "body": [
+      "O iFood informou nesta quinta-feira (19) que parte dos seus sistemas sofreu um acesso não autorizado no dia 14 de novembro, contido no mesmo dia. De clientes e usuários do iFood Benefícios, só o telefone foi exposto. De representantes de restaurantes, o telefone e/ou o CPF. Entre os entregadores, parte pode ter tido nome, e-mail, telefone, endereço, CPF e dados da conta usada para receber os repasses.",
+      "A empresa diz que senhas, cartões, saldos, extratos e dados biométricos não foram acessados, que avisou a ANPD e que não achou sinais de uso indevido dos dados. O número de afetados não foi divulgado. Em junho, o iFood já havia confirmado outro vazamento, de cerca de 1,2 milhão de usuários. A orientação é desconfiar de contatos que peçam senha, código ou pagamento."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/empresas/noticia/2026/11/19/ifood-registra-invasao-em-sistema-de-dados-de-usuarios-e-entregadores.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-19",
+    "title": "Decreto da escala 5x2 deixa a hora extra mais cara a partir de dezembro",
+    "lead": "Lula assinou as regras da nova jornada; com o mesmo salário dividido por menos horas, sobe o valor de cada hora trabalhada.",
+    "body": [
+      "O presidente Lula assinou nesta quinta-feira (19) o decreto que regulamenta a escala 5x2. A jornada máxima cai de 44 para 42 horas semanais em 16 de dezembro e para 40 horas em dezembro de 2027, sem corte de salário. Com isso, o número usado para calcular o valor da hora passa de 220 para 210 e, depois, para 200. Pelo exemplo do ministro do Trabalho, Luiz Marinho, quem ganha R$ 3.000 tem a hora de referência subindo de R$ 13,64 para R$ 14,29 e, em 2027, para R$ 15. Hora extra e outros adicionais seguem essa base.",
+      "Comércio, restaurantes, hospitais e indústrias continuam podendo abrir no fim de semana e 24 horas, desde que reorganizem os revezamentos para dar duas folgas por semana a cada funcionário. Onde isso não for possível, acordo coletivo pode distribuir as folgas ao longo do mês. A escala 12x36 continua, ajustada aos novos limites. Acordos coletivos seguem valendo, menos as cláusulas que conflitem com a nova jornada. O ministério vai publicar na próxima semana uma portaria e um guia de perguntas e respostas."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/veja-como-sera-o-calculo-da-hora-extra-com-escala-de-trabalho-5x2"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-19",
+    "title": "BNDES libera R$ 254 bi em crédito até setembro, alta de 9% no ano",
+    "lead": "Banco de fomento também teve lucro de R$ 20,3 bilhões nos nove primeiros meses de 2026, o segundo maior entre os bancos do país.",
+    "body": [
+      "O BNDES colocou R$ 254 bilhões em crédito na economia entre janeiro e setembro, 9% a mais que no mesmo período de 2025, sem descontar a inflação. O valor junta R$ 190,5 bilhões em financiamentos aprovados e R$ 63,6 bilhões em garantias que ajudam negócios menores a conseguir empréstimo em outros bancos. Do total aprovado, R$ 166,9 bilhões foram para micro, pequenas e médias empresas. Infraestrutura recebeu a maior fatia (R$ 75,7 bilhões), seguida de agropecuária (R$ 42,9 bilhões), indústria (R$ 40,8 bilhões) e comércio e serviços (R$ 31,1 bilhões).",
+      "O lucro do banco chegou a R$ 20,3 bilhões, 18% acima de um ano antes, atrás só do Itaú (R$ 36,3 bilhões) e à frente do Bradesco (R$ 19,2 bilhões). Parte do resultado veio da venda de ações da Petrobras e da Copel. Sem esses efeitos pontuais, o lucro foi de R$ 12,3 bilhões. A inadimplência ficou em 0,05%, contra 4,98% no sistema financeiro como um todo."
+    ],
+    "src": "BNDES, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bndes-injetou-r-254-bi-de-credito-na-economia-de-janeiro-setembro"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-19",
+    "title": "Mercado de creators deve somar US$ 116 bilhões em 2026, diz estudo",
+    "lead": "Valor é 15% maior que o de 2025, e o Brasil está entre os países onde o gasto com criadores mais cresce.",
+    "body": [
+      "Levantamento da consultoria Madison & Wall estima que anunciantes vão investir US$ 116 bilhões com criadores de conteúdo no mundo em 2026, alta de 15% sobre 2025, quando o setor somou US$ 101 bilhões. Em 2020, eram US$ 45 bilhões. A previsão é chegar a US$ 178 bilhões em 2030. A maior fatia, de US$ 52 bilhões (44%), vai para mídia: impulsionar posts e usar conteúdo de creators em campanhas pagas. Depois vêm o pagamento pelo alcance dos criadores, com US$ 33 bilhões, e a produção de conteúdo para as marcas, com US$ 14 bilhões.",
+      "O Brasil responde por 2% do total global e deve ter alta de 15% neste ano, a mesma dos Estados Unidos. Só a Índia, com 20%, cresce mais entre os países analisados um a um. Segundo o estudo, as empresas brasileiras gastam proporcionalmente mais com agências, ferramentas e produção de conteúdo do que a média global, porque as campanhas por aqui exigem mais gente na coordenação."
+    ],
+    "src": "Madison & Wall, via Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/midia/creator-economy-anunciantes-ampliam-investimentos-no-setor"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-19",
+    "title": "Anthropic levanta US$ 81 bi e faz o maior IPO da história",
+    "lead": "A dona do Claude passou a SpaceX e estreia nesta quinta na Nasdaq avaliada em cerca de US$ 1,5 trilhão.",
+    "body": [
+      "A Anthropic, empresa de inteligência artificial que criou o Claude, captou cerca de US$ 81 bilhões na abertura de capital, a maior já registrada. Cada ação saiu a US$ 83, acima da faixa prevista de US$ 70 a US$ 78. O recorde anterior era da SpaceX, que levantou US$ 75 bilhões em junho deste ano (US$ 85,7 bilhões com o lote suplementar).",
+      "A oferta avaliou a companhia em cerca de US$ 1,5 trilhão. As ações começam a ser negociadas nesta quinta-feira (19) na Nasdaq, com o código ANT. Além do IPO, a empresa fez uma venda privada de US$ 26 bilhões em ações para gigantes de tecnologia."
+    ],
+    "src": "Valor Econômico",
+    "url": "https://valor.globo.com/financas/noticia/2026/11/19/anthropic-assume-lideranca-dos-maiores-ipos-de-todos-os-tempos-veja-ranking.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-19",
+    "title": "Senado conclui ajuste fiscal e mantém trava a créditos das empresas",
+    "lead": "Oposição não conseguiu derrubar o limite ao uso de créditos tributários; o projeto vai à Câmara, que deve votá-lo na segunda (23).",
+    "body": [
+      "O Senado terminou nesta quarta-feira (18) a votação do projeto de ajuste das contas públicas, o chamado plano Moretti. Os senadores rejeitaram as mudanças mais pesadas pedidas pela oposição, entre elas a que tirava do texto a regra que permite ao governo limitar o uso de créditos tributários pelas empresas para pagar outros impostos. Esse foi o ponto mais criticado por entidades empresariais, porque pode obrigar as companhias a recolher mais tributos em dinheiro.",
+      "No fim, o relator Eduardo Braga (MDB-AM) deixou explícito que os créditos de PIS/Cofins continuam valendo para abater a CBS, o novo tributo federal da reforma. Num acordo com a oposição, o repasse anual aos estados pela Lei Kandir ficou em R$ 2 bilhões, e não R$ 1 bilhão, como previa a proposta original. O governo estima efeito de até R$ 56,1 bilhões nas contas de 2027. A Câmara deve votar o texto na segunda-feira (23)."
+    ],
+    "src": "Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/11/senado-retoma-analise-de-possiveis-mudancas-no-plano-moretti-de-ajuste-nas-contas.shtml"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-18",
+    "title": "Desemprego longo cai abaixo de 1 milhão pela 1ª vez, mostra IBGE",
+    "lead": "No 3º trimestre, 971 mil pessoas buscavam vaga havia dois anos ou mais, o menor número desde 2012.",
+    "body": [
+      "O total de brasileiros procurando trabalho há pelo menos dois anos chegou a 971 mil entre julho e setembro de 2026, segundo a Pnad Contínua divulgada pelo IBGE nesta quarta (18). É a primeira vez que esse grupo fica abaixo de 1 milhão desde o início da série, em 2012. A queda foi de 17,6% em um ano (eram 1,179 milhão) e de 8% frente ao 2º trimestre.",
+      "Quem procura emprego entre um e dois anos também chegou ao menor nível da série: 590 mil. Para o IBGE, o dado mostra um mercado de trabalho aquecido, que passa a contratar também quem está há mais tempo sem vaga. No pico da pandemia, em 2021, o desemprego longo passava de 3,5 milhões de pessoas. A taxa geral de desemprego do trimestre foi de 5,2%."
+    ],
+    "src": "IBGE, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/numero-de-desempregados-ha-dois-anos-ou-mais-e-o-menor-ja-registrado"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-18",
+    "title": "Itaú lidera pela 5ª vez ranking das marcas brasileiras mais valiosas",
+    "lead": "Marca do banco vale R$ 58,4 bilhões, segundo a Interbrand; iFood e Smart Fit entram na lista pela primeira vez.",
+    "body": [
+      "O valor da marca Itaú subiu 20,2% em um ano e chegou a R$ 58,4 bilhões, o que mantém o banco no 1º lugar do ranking Marcas Brasileiras Mais Valiosas, da consultoria Interbrand, pelo quinto ano seguido. O Bradesco vem em segundo, com R$ 28,2 bilhões. Das 25 marcas da lista, 15 ganharam valor, e o Nubank teve a maior alta: 58,2%, para R$ 8 bilhões.",
+      "Os bancos seguem com o maior peso: as oito marcas do setor financeiro somam cerca de 65% do valor total do ranking. Duas estreantes aparecem nesta edição, o iFood, em 11º, e a Smart Fit, em 21º. BTG Pactual e Localiza voltaram à lista. Para entrar, a marca precisa ser de origem brasileira; o método de cálculo é o mesmo do ranking global da consultoria."
+    ],
+    "src": "Interbrand, via Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/itau-e-a-marca-brasileira-mais-valiosa-pelo-5o-ano-consecutivo"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-18",
     "title": "Rede D'Or vende gestora da SulAmérica à BlackRock por R$ 850 milhões",

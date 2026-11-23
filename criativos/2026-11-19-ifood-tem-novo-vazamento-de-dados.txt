@@ -1,0 +1,8 @@
+O iFood confirmou um novo acesso indevido a dados de clientes, restaurantes e entregadores, o segundo caso divulgado neste ano. 🔐
+
+O ataque foi em 14 de novembro. De clientes, vazou só o telefone; de entregadores, parte pode ter tido nome, CPF, endereço e conta bancária de repasse expostos. A empresa diz que senhas, cartões e saldos ficaram de fora, avisou a ANPD e não informou quantas pessoas foram afetadas. Em junho, outro vazamento atingiu cerca de 1,2 milhão de usuários.
+
+Fonte: Valor Econômico
+Leia mais em nrnews.vercel.app
+
+#Negócios #iFood #SegurançaDigital #ProteçãoDeDados #nrnews
