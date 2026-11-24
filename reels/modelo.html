@@ -100,11 +100,12 @@ window.cenas = d => {
     const dur = c.duracao || DUR[c.tipo] || 4, cena = {c, el, t0, dur}; t0 += dur; return cena;
   });
   // textos longos: reduz a fonte até caber
-  for (const {el} of CENAS) for (const sel of [".gancho", ".texto", ".num"]) {
+  for (const {c, el} of CENAS) for (const sel of [".gancho", ".texto", ".num"]) {
     const h = el.querySelector(sel); if (!h) continue;
     let fs = parseFloat(getComputedStyle(h).fontSize);
     const cabe = () => sel === ".num" ? h.scrollWidth <= 900 : h.getBoundingClientRect().height <= (sel === ".gancho" ? 560 : 640);
-    h.textContent ||= "0";
+    // o contador é medido já com o valor final, o maior que ele vai mostrar
+    if (sel === ".num") h.textContent = (c.prefixo || "") + br(c.valor, c.casas ?? 0) + (c.sufixo || "");
     while (fs > 40 && !cabe()) { fs -= 2; h.style.setProperty("--fs", fs + "px"); }
   }
   return t0;
