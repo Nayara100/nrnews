@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-24",
+    "title": "Arrecadação federal soma R$ 294 bilhões e bate recorde para outubro",
+    "lead": "Receita Federal aponta alta real de 7,28% sobre outubro de 2025, puxada por atividade, salários e receitas extras.",
+    "body": [
+      "O governo federal arrecadou R$ 293,975 bilhões em outubro, segundo a Receita Federal. É o maior valor para o mês desde 1995, início da série, com alta real de 7,28% na comparação com outubro de 2025. De janeiro a outubro, o total chegou a R$ 2,645 trilhões, crescimento real de 7% e também recorde para o período.",
+      "A Receita atribui o resultado ao avanço da atividade econômica, ao aumento da massa salarial e a receitas atípicas. Só em outubro, essas receitas extras somaram R$ 5,91 bilhões: R$ 3 bilhões em pagamentos fora do padrão de IRPJ e CSLL e R$ 2,91 bilhões do imposto de exportação sobre petróleo. Entre os setores, as apostas recolheram R$ 12,1 bilhões no ano, contra R$ 8,3 bilhões no mesmo período de 2025."
+    ],
+    "src": "Receita Federal, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-24",
     "title": "Kaszek fecha fundo de US$ 650 milhões para startups de olho na IA",
