@@ -1,6 +1,54 @@
 [
   {
     "ed": "Negócios",
+    "date": "2026-11-25",
+    "title": "EUA propõem tarifa de 10% sobre aviões do Brasil, e Embraer cai na Bolsa",
+    "lead": "Hoje isentos, os aviões prontos passariam a pagar a taxa extra; a decisão depende de uma audiência marcada para 14 de janeiro.",
+    "body": [
+      "O escritório de comércio do governo americano (USTR) propôs nesta quarta-feira (25) acabar com a isenção dos aviões prontos fabricados no Brasil e cobrar sobre eles uma tarifa adicional de 10%. Segundo o governo dos EUA, esses aviões são o quarto produto que o Brasil mais vende para o país. A proposta também prevê tarifa extra sobre o açúcar brasileiro, sem percentual definido.",
+      "A medida ainda não está valendo. Empresas e entidades podem enviar comentários até 30 de dezembro, e a audiência pública está marcada para 14 de janeiro de 2027. Desde julho, os EUA já cobram 25% a mais sobre parte dos produtos brasileiros. Com o anúncio, as ações da Embraer caíam mais de 6% na manhã desta quarta, entre as maiores quedas do Ibovespa."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/embraer-embj3-acao-cai-forte-com-proposta-dos-eua-para-taxar-aeronaves-brasileiras/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-25",
+    "title": "Justiça restabelece teto de taxas do vale-refeição e alimentação",
+    "lead": "Decisão atende a recurso do governo e derruba liminar que livrava grandes operadoras das novas regras do PAT.",
+    "body": [
+      "As novas regras do Programa de Alimentação do Trabalhador (PAT) voltaram a valer para todo o setor. A decisão, divulgada na terça-feira (24), aceitou um recurso do governo e derrubou uma liminar da Justiça Federal no Distrito Federal, concedida no início de novembro, que beneficiava as associadas da ABBT, entidade que reúne operadoras como Alelo, Pluxee, VR e ValeShop.",
+      "Com isso, voltam a valer o teto de 3,6% para a taxa cobrada dos estabelecimentos, o limite de 2% para a tarifa de intercâmbio e o prazo máximo de 15 dias para o repasse do dinheiro aos lojistas. Também volta a obrigação de operadoras com mais de 500 mil trabalhadores migrarem para o arranjo aberto. A regra que obriga a maquininha a aceitar cartões de todas as bandeiras não tinha sido suspensa."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/11/25/justica-derruba-suspensao-e-restabelece-regras-para-vale-refeicao-e-alimentacao-entenda.ghtml"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-24",
+    "title": "Anúncios de Black Friday na TV somam R$ 101,3 mi, e Havan lidera",
+    "lead": "Levantamento da Tunad mostra que o gasto com comerciais da data mais que dobrou na primeira metade de novembro.",
+    "body": [
+      "As marcas investiram R$ 101,3 milhões em comerciais de Black Friday na TV aberta e paga entre 1º e 16 de novembro, segundo a Tunad, que monitora mais de 150 canais. É uma alta de cerca de 119% sobre o mesmo período de 2025. A Havan foi quem mais gastou, com R$ 11,9 milhões, à frente de Mercado Livre (R$ 10,2 milhões), Amazon (R$ 9,3 milhões), SKY (R$ 9 milhões) e Tim (R$ 6,7 milhões). Os valores são calculados pela tabela de preços das emissoras, sem descontos.",
+      "As redes de varejo concentram R$ 42,1 milhões, mais de cinco vezes o valor do ano passado. A Black Friday passou a responder por 8,1% de todo o investimento em TV, ante 3,1% em 2025. Para o mês inteiro, a Tunad projeta cerca de R$ 202 milhões, alta de 169%."
+    ],
+    "src": "Tunad, via Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/midia/havan-lidera-os-comerciais-da-black-friday-2026-na-tv"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-24",
+    "title": "Arrecadação federal soma R$ 294 bilhões e bate recorde para outubro",
+    "lead": "Receita Federal aponta alta real de 7,28% sobre outubro de 2025, puxada por atividade, salários e receitas extras.",
+    "body": [
+      "O governo federal arrecadou R$ 293,975 bilhões em outubro, segundo a Receita Federal. É o maior valor para o mês desde 1995, início da série, com alta real de 7,28% na comparação com outubro de 2025. De janeiro a outubro, o total chegou a R$ 2,645 trilhões, crescimento real de 7% e também recorde para o período.",
+      "A Receita atribui o resultado ao avanço da atividade econômica, ao aumento da massa salarial e a receitas atípicas. Só em outubro, essas receitas extras somaram R$ 5,91 bilhões: R$ 3 bilhões em pagamentos fora do padrão de IRPJ e CSLL e R$ 2,91 bilhões do imposto de exportação sobre petróleo. Entre os setores, as apostas recolheram R$ 12,1 bilhões no ano, contra R$ 8,3 bilhões no mesmo período de 2025."
+    ],
+    "src": "Receita Federal, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro"
+  },
+  {
+    "ed": "Negócios",
     "date": "2026-11-24",
     "title": "Kaszek fecha fundo de US$ 650 milhões para startups de olho na IA",
     "lead": "É o sétimo fundo de early stage da gestora, que quer investir em ao menos 25 empresas em três anos.",
