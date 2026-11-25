@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Marketing",
+    "date": "2026-11-25",
+    "title": "84% dos times de marketing ainda não estão prontos para a IA",
+    "lead": "Estudo da Makers e da Adobe com 115 CMOs mostra que só 11% das equipes se consideram preparadas.",
+    "body": [
+      "Uma pesquisa da Makers com a Adobe ouviu 115 diretores de marketing (CMOs) entre março e abril de 2026. A IA generativa aparece como o principal motor de mudança na área, citada por 73% deles, à frente da personalização em escala (53%) e da automação (40%). Mesmo assim, apenas 11% dizem ter times prontos para essa nova fase. Outros 66% percebem a mudança, mas ainda não têm estrutura ou repertório para acompanhá-la, e 18% admitem que estão despreparados.",
+      "O maior obstáculo é operacional: as empresas têm dificuldade de ligar as novas ferramentas aos sistemas que já usam, o que trava ganho de escala. A cultura interna também pesa, porque a tecnologia muda mais rápido do que as equipes conseguem absorver. O estudo recomenda montar a infraestrutura antes de ampliar o uso de IA, investir em formação e criar regras claras de governança."
+    ],
+    "src": "Makers e Adobe, via Propmark",
+    "url": "https://propmark.com.br/mercado/adocao-de-ia-ainda-e-entrave-para-o-marketing/"
+  },
+  {
     "ed": "Economia",
     "date": "2026-11-25",
     "title": "Subsídio aos combustíveis chega a R$ 75 bi, e diesel terá mais um mês",
