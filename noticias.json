@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-26",
+    "title": "Dólar cai 1,53% e fecha a R$ 5,818, e Ibovespa volta a subir",
+    "lead": "A queda veio com sinais de novas medidas de ajuste fiscal e com a discussão sobre quem vai comandar o Ministério da Fazenda.",
+    "body": [
+      "O dólar comercial terminou a quarta-feira (25) em queda de 1,53%, cotado a R$ 5,818. Logo na abertura, a moeda chegou a R$ 5,95, mas passou a cair ainda pela manhã. O Banco Central vendeu US$ 2 bilhões em leilão de linha, operação em que vende a moeda e se compromete a recomprá-la depois, para atender à procura que costuma crescer no fim do ano.",
+      "Os investidores reagiram a sinais de que o governo prepara mais medidas para conter gastos e à escolha do próximo ministro da Fazenda. O Ibovespa subiu 1,58%, aos 166,7 mil pontos, e encerrou uma série de quatro pregões em queda. Na semana passada, o dólar tinha fechado a R$ 5,93, o maior valor desde abril de 2025. Para empresas que importam ou têm custos em dólar, a moeda mais barata reduz o gasto com compras no exterior."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-para-r-581-em-meio-discussao-de-nomes-para-fazenda"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-25",
     "title": "Cosan negocia fatias de Rumo, Compass e Moove para cortar dívida",
