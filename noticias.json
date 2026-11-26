@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-26",
+    "title": "Bolsa sobe 6,07% e dólar cai a R$ 5,74 com Trabuco na Fazenda",
+    "lead": "Foi a segunda maior alta do Ibovespa em um só dia desde 2021, puxada pela escolha do presidente do conselho do Bradesco para o ministério.",
+    "body": [
+      "O Ibovespa fechou esta quinta-feira (26) com alta de 6,07%, a maior desde o pregão seguinte ao primeiro turno das eleições, em outubro. O dólar recuou 1,25% e terminou o dia a R$ 5,74. O motivo foi a expectativa de que Luiz Carlos Trabuco, presidente do conselho de administração do Bradesco, aceitasse comandar o Ministério da Fazenda no próximo mandato de Lula, o que se confirmou depois do fechamento.",
+      "A alta foi quase geral: só uma ação do índice caiu, e 14 subiram mais de 10%, com destaque para MRV (15,37%), Localiza (15,18%) e RD Saúde (13,16%). Para investidores, o nome de Trabuco sinaliza mais controle dos gastos públicos. O governo também prepara uma PEC com novas medidas de ajuste fiscal."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/26/trabuco-ibovespa-fazenda-dolar.ghtml"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-26",
     "title": "Pix supera o cartão nas vendas online de PMEs no início da Black Week",
