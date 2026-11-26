@@ -30,7 +30,8 @@ Todo push na branch `main` publica o site sozinho na Vercel (1–2 min). Não ex
 A rotina agendada fica na conta do Claude da Nayara (claude.ai/code/routines), às 7h, 11h, 14h, 17h,
 20h e 23h de Brasília (`0 2,10,14,17,20,23 * * *` em UTC). Ela publica no site **e** no Instagram.
 Nas execuções das 11h e das 17h, a notícia vai só para o site e fica reservada para virar Reels, que
-é feito pelo chat e só é postado com a aprovação da Nayara (veja "Execuções de Reels" no `AUTOMACAO.md`).
+é feito às 11h40 e 17h40 numa conversa agendada e postado sozinho, sem aprovação (pedido da Nayara em 26/11/2026;
+veja "Execuções de Reels" no `AUTOMACAO.md`).
 
 ## Regras de ouro
 
@@ -38,7 +39,8 @@ Nas execuções das 11h e das 17h, a notícia vai só para o site e fica reserva
 2. **Nunca** coloque as notícias de volta dentro do `index.html`. O site precisa continuar lendo
    `noticias.json`, senão a rotina publica e o site não mostra.
 3. **Nunca** imprima, peça no chat ou grave em arquivo o `INSTAGRAM_ACCESS_TOKEN`.
-4. **Nada vai para o Instagram sem a pessoa confirmar no chat.** Post publicado não pode ser editado
+4. **Nada vai para o Instagram sem a pessoa confirmar no chat**, exceto as notícias da rotina e os Reels das 11h40 e 17h40,
+   que a Nayara autorizou a postar sozinhos. Post publicado não pode ser editado
    nem apagado pela API, só pelo app. Mostre o criativo e a legenda antes.
 5. Não rode a rotina manualmente ("run now") perto de um horário agendado (7h, 11h, 14h, 17h, 20h, 23h): gera
    notícia e post em dobro.
@@ -107,6 +109,6 @@ ambiente → Environment variables. Não há nada a mudar no repositório.
 1. Escolha a notícia (nas execuções das 11h e 17h a rotina já reserva uma: commit `Publica notícia (Reels): ...`).
 2. Monte `reels.json` (formato no topo de `automacao/reels.py`): gancho, número de destaque, comparação
    em barras e/ou uma frase de contexto, só com dados da notícia. Rode `python3 automacao/reels.py reels.json`.
-3. Mostre o vídeo e a legenda. Com o ok: commit + push do `.mp4` e `.txt`,
+3. Confira os quadros do vídeo. Commit + push só do `.mp4` e `.txt` (a partir de um worktree limpo da `main`),
    `python3 automacao/postar_instagram.py criativos/<arquivo>.mp4`, e depois apague o `.mp4` com outro commit.
 4. Não commite o `reels.json`. A API não apaga posts: se precisar trocar, a pessoa apaga pelo app.
