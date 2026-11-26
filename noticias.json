@@ -1,6 +1,54 @@
 [
   {
     "ed": "Marketing",
+    "date": "2026-11-26",
+    "title": "Sem as bets, clubes precisam repor patrocínios de até R$ 268,5 milhões",
+    "lead": "A proibição das apostas tirou das camisas os maiores anunciantes do futebol, e o mercado ainda não sabe quem vai pagar o mesmo preço.",
+    "body": [
+      "Desde que o governo proibiu as plataformas de apostas, em setembro, os clubes da Série A estão trocando as marcas que ocupavam o espaço principal das camisas. Os valores eram altos: a Betano pagava R$ 268,5 milhões ao Flamengo, e a Sportingbet, R$ 100 milhões ao Palmeiras. Antes das bets, a Crefisa pagava cerca de R$ 81 milhões fixos por ano ao clube paulista. Alguns times já acharam substitutos, como o Santos, que fechou com o Agibank, e a Chapecoense, com a Premium Lindoia.",
+      "A CBF também perde: segundo informações do jornal O Globo, são R$ 215 milhões em receitas contratadas e não recebidas neste ano, e mais de R$ 2 bilhões até 2030. O Flamengo anunciou corte de despesas nos próximos 60 dias. Especialistas em marketing esportivo dizem que nenhum outro setor deve pagar os mesmos valores, e que os clubes vão precisar de patrocínios menores, de mais setores, e de propostas melhores para atrair as marcas."
+    ],
+    "src": "Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/sem-bets-clubes-tentam-recuperar-patrocinio-nas-camisas"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-26",
+    "title": "Dólar cai 1,53% e fecha a R$ 5,818, e Ibovespa volta a subir",
+    "lead": "A queda veio com sinais de novas medidas de ajuste fiscal e com a discussão sobre quem vai comandar o Ministério da Fazenda.",
+    "body": [
+      "O dólar comercial terminou a quarta-feira (25) em queda de 1,53%, cotado a R$ 5,818. Logo na abertura, a moeda chegou a R$ 5,95, mas passou a cair ainda pela manhã. O Banco Central vendeu US$ 2 bilhões em leilão de linha, operação em que vende a moeda e se compromete a recomprá-la depois, para atender à procura que costuma crescer no fim do ano.",
+      "Os investidores reagiram a sinais de que o governo prepara mais medidas para conter gastos e à escolha do próximo ministro da Fazenda. O Ibovespa subiu 1,58%, aos 166,7 mil pontos, e encerrou uma série de quatro pregões em queda. Na semana passada, o dólar tinha fechado a R$ 5,93, o maior valor desde abril de 2025. Para empresas que importam ou têm custos em dólar, a moeda mais barata reduz o gasto com compras no exterior."
+    ],
+    "src": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-para-r-581-em-meio-discussao-de-nomes-para-fazenda"
+  },
+  {
+    "ed": "Negócios",
+    "date": "2026-11-25",
+    "title": "Cosan negocia fatias de Rumo, Compass e Moove para cortar dívida",
+    "lead": "O grupo quer vender participações minoritárias nas três empresas, sem perder o controle.",
+    "body": [
+      "A Cosan está negociando a venda de participações minoritárias em três de suas empresas: a Rumo, de ferrovias, a Compass, de gás natural, e a Moove, de lubrificantes. O objetivo é reduzir a dívida do grupo, que fechou o terceiro trimestre em R$ 9,5 bilhões, R$ 300 milhões a mais que no trimestre anterior. O BTG Pactual foi contratado para cuidar das vendas na Rumo e na Compass. Na Moove, a conversa é direta com possíveis compradores.",
+      "Grupo México, Cofco, Bunge e Ultra, que já disputaram uma fatia da Rumo antes, voltaram a mostrar interesse. Na Compass, a Cosan tem cerca de 75% e quer diminuir essa parte sem abrir mão do comando. As conversas ainda estão no começo e podem não resultar em acordo. A Cosan não comentou."
+    ],
+    "src": "InfoMoney",
+    "url": "https://www.infomoney.com.br/business/cosan-negocia-venda-de-participacoes-na-rumo-compass-e-moove-para-reduzir-divida/"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-25",
+    "title": "CMN manda cortar limite do cartão de quem usa o rotativo com frequência",
+    "lead": "Pacote contra o endividamento das famílias também muda a contratação de empréstimos e começa a valer em julho de 2027.",
+    "body": [
+      "O Conselho Monetário Nacional, formado pelos ministérios da Fazenda e do Planejamento e pelo Banco Central, aprovou nesta quarta-feira (25) novas regras para frear o endividamento. A principal atinge o cartão de crédito: quem, nos últimos seis meses, deixou de pagar a fatura inteira três ou mais vezes e jogou o saldo para o rotativo terá o limite reduzido aos poucos. A restrição acaba quando o cliente pagar seis faturas completas seguidas ou quitar a dívida do rotativo. Os bancos vão olhar os cartões e dívidas do cliente em todo o sistema, não só os seus, e o corte precisa estar previsto em contrato e ser avisado.",
+      "Outras mudanças: empréstimos poderão ser oferecidos por telefone ou aplicativo de mensagem, mas só serão fechados no aplicativo, no internet banking ou no atendimento presencial do banco. Clientes com dívidas sem garantia atrasadas há 90 dias ou mais não poderão receber novo crédito desse tipo. Quem tiver a dívida vendida a fundos ou outras empresas mantém os mesmos direitos, como quitação antecipada e portabilidade. A maior parte das regras vale a partir de 1º de julho de 2027; a da venda de dívidas, em 1º de novembro de 2027."
+    ],
+    "src": "CMN, via g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/25/cmn-anuncia-medidas-para-conter-o-endividamento-das-familias.ghtml"
+  },
+  {
+    "ed": "Marketing",
     "date": "2026-11-25",
     "title": "84% dos times de marketing ainda não estão prontos para a IA",
     "lead": "Estudo da Makers e da Adobe com 115 CMOs mostra que só 11% das equipes se consideram preparadas.",
