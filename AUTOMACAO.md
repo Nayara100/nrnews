@@ -120,7 +120,7 @@ Reels. Nelas:
 - Publique no site normalmente (passos 5 a 8), com a mensagem de commit
   `Publica notícia (Reels): <título curto>`.
 - **Não poste a arte no Instagram** (pule o passo 9). Essa notícia vai virar Reels: o vídeo é feito
-  depois, numa conversa com a Nayara, e só é postado depois que ela aprovar. A arte não é postada
+  depois, às 11h40 e às 17h40, numa conversa agendada, e postado sozinho. A arte não é postada
   para o feed não repetir a mesma notícia.
 - No resumo final, diga que a notícia ficou reservada para o Reels.
 
