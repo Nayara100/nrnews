@@ -37,7 +37,7 @@ html,body{margin:0;background:var(--bg)}
 .barras{width:100%}
 .barra{margin:0 0 70px;text-align:left}
 .barra .linha{display:flex;justify-content:space-between;font-size:40px;margin:0 0 18px}
-.barra .linha b{font-weight:700}
+.barra .linha b{font-weight:700;white-space:nowrap;margin-left:24px}
 .barra .trilho{height:34px;border-radius:17px;background:rgba(196,160,245,.16);overflow:hidden}
 .barra .fill{height:100%;border-radius:17px;background:var(--c);width:0}
 .barra:not(:last-child) .fill{opacity:.55}
@@ -100,11 +100,12 @@ window.cenas = d => {
     const dur = c.duracao || DUR[c.tipo] || 4, cena = {c, el, t0, dur}; t0 += dur; return cena;
   });
   // textos longos: reduz a fonte até caber
-  for (const {el} of CENAS) for (const sel of [".gancho", ".texto", ".num"]) {
+  for (const {c, el} of CENAS) for (const sel of [".gancho", ".texto", ".num"]) {
     const h = el.querySelector(sel); if (!h) continue;
     let fs = parseFloat(getComputedStyle(h).fontSize);
     const cabe = () => sel === ".num" ? h.scrollWidth <= 900 : h.getBoundingClientRect().height <= (sel === ".gancho" ? 560 : 640);
-    h.textContent ||= "0";
+    // o contador é medido já com o valor final, o maior que ele vai mostrar
+    if (sel === ".num") h.textContent = (c.prefixo || "") + br(c.valor, c.casas ?? 0) + (c.sufixo || "");
     while (fs > 40 && !cabe()) { fs -= 2; h.style.setProperty("--fs", fs + "px"); }
   }
   return t0;
