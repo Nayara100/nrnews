@@ -1,6 +1,54 @@
 [
   {
     "ed": "Negócios",
+    "date": "2026-11-27",
+    "title": "Raízen estuda vender a área de distribuição de combustíveis",
+    "lead": "A venda faria parte de um plano de desinvestimento da empresa, que deve cerca de R$ 65 bilhões.",
+    "body": [
+      "A Raízen avalia vender o negócio de distribuição de combustíveis. A informação foi dada nesta sexta-feira (27) por Rubens Ometto, acionista fundador da Cosan, que controla a Raízen junto com a Shell. Segundo ele, há interessados olhando a operação, mas ainda não existe um processo formal de venda. Ometto não citou nomes nem o valor esperado.",
+      "A empresa está em recuperação extrajudicial, aprovada pelos acionistas no fim de outubro, com dívida de cerca de R$ 65 bilhões, a maior já registrada nesse tipo de processo no país. Ometto também disse que ainda não decidiu se vai colocar dinheiro novo na companhia, numa reestruturação que diminuiria a participação dele."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/27/raizen-avalia-venda-de-sua-divisao-de-distribuicao-de-combustiveis.ghtml"
+  },
+  {
+    "ed": "Política",
+    "date": "2026-11-27",
+    "title": "Banco Central prepara regras contra golpes e ofensas no Pix para 2027",
+    "lead": "Agenda prevê alerta de fraude em tempo real, ajustes no Pix Automático e um jeito mais fácil de reaver dinheiro enviado por engano.",
+    "body": [
+      "O Banco Central apresentou na quinta-feira (26), no Fórum Pix, a lista de mudanças que pretende fazer no sistema em 2027. A principal novidade na segurança é um índice que vai medir, em tempo real, a chance de cada transferência ser golpe. Bancos e instituições de pagamento vão receber esse dado e poderão usá-lo para aprovar ou barrar a operação antes de o dinheiro sair da conta. O BC também vai criar regras e ferramentas contra ameaças e ofensas escritas no campo de mensagem das transferências.",
+      "Para as empresas, a mudança mais direta é no Pix Automático, usado para cobrar mensalidades e assinaturas sem que o cliente autorize cada pagamento. O BC quer que mais cobranças sejam concluídas e que surjam novos modelos de negócio com a ferramenta. Também está nos planos um recurso para quem fez um Pix por engano recuperar o valor com mais facilidade, ainda sem data nem detalhes. As medidas dependem de etapas de implementação e não devem chegar todas no começo do ano."
+    ],
+    "src": "Banco Central, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-tera-novas-regras-de-seguranca-e-melhorias-em-2027"
+  },
+  {
+    "ed": "Marketing",
+    "date": "2026-11-26",
+    "title": "GTA 6 e onda de calor puxam buscas por consoles e ventiladores na Black Friday",
+    "lead": "Dados do Google mostram alta de 171% na procura pelo PlayStation 5 Pro e de 84% por ventiladores na semana da data.",
+    "body": [
+      "O lançamento do GTA 6 e o calor em várias regiões do país mudaram o que o brasileiro procura no Google às vésperas da Black Friday. As buscas pelo PlayStation 5 Pro subiram 171% nos últimos dias e, na comparação com a Black Friday de 2025, a alta chega a 303%. A procura por ar-condicionado e aparelhos de ventilação cresceu 87% nesta semana em relação à anterior, e por ventiladores, 84%.",
+      "Os itens clássicos da data também ganharam força: as buscas por geladeira e por notebook subiram 32% na semana, e por iPhone, 12%. Segundo o Google, 49% de quem comprou no 11/11 pretende voltar a comprar na Black Friday, agora com foco em produtos de valor mais alto, como eletrodomésticos, TVs e celulares."
+    ],
+    "src": "Google, via Meio & Mensagem",
+    "url": "https://www.meioemensagem.com.br/marketing/febre-do-gta-e-calor-podem-impactar-a-black-friday"
+  },
+  {
+    "ed": "Economia",
+    "date": "2026-11-26",
+    "title": "Bolsa sobe 6,07% e dólar cai a R$ 5,74 com Trabuco na Fazenda",
+    "lead": "Foi a segunda maior alta do Ibovespa em um só dia desde 2021, puxada pela escolha do presidente do conselho do Bradesco para o ministério.",
+    "body": [
+      "O Ibovespa fechou esta quinta-feira (26) com alta de 6,07%, a maior desde o pregão seguinte ao primeiro turno das eleições, em outubro. O dólar recuou 1,25% e terminou o dia a R$ 5,74. O motivo foi a expectativa de que Luiz Carlos Trabuco, presidente do conselho de administração do Bradesco, aceitasse comandar o Ministério da Fazenda no próximo mandato de Lula, o que se confirmou depois do fechamento.",
+      "A alta foi quase geral: só uma ação do índice caiu, e 14 subiram mais de 10%, com destaque para MRV (15,37%), Localiza (15,18%) e RD Saúde (13,16%). Para investidores, o nome de Trabuco sinaliza mais controle dos gastos públicos. O governo também prepara uma PEC com novas medidas de ajuste fiscal."
+    ],
+    "src": "g1",
+    "url": "https://g1.globo.com/economia/noticia/2026/11/26/trabuco-ibovespa-fazenda-dolar.ghtml"
+  },
+  {
+    "ed": "Negócios",
     "date": "2026-11-26",
     "title": "Pix supera o cartão nas vendas online de PMEs no início da Black Week",
     "lead": "Nas lojas da Nuvemshop, o Pix pagou quase metade dos pedidos e o faturamento cresceu 39,72% sobre 2025.",
