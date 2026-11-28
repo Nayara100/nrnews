@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Economia",
+    "date": "2026-11-28",
+    "title": "Conta de luz segue sem cobrança extra em dezembro, com bandeira verde",
+    "lead": "A Aneel manteve a bandeira verde, que vale desde outubro, por causa das chuvas e dos reservatórios mais cheios.",
+    "body": [
+      "A Agência Nacional de Energia Elétrica (Aneel) anunciou nesta sexta-feira (27) que a bandeira tarifária de dezembro será verde. Com isso, a conta de luz de casas, comércios e indústrias não terá acréscimo no mês. A bandeira está verde desde outubro.",
+      "Segundo a Aneel, o período de chuvas encheu os reservatórios e melhorou a geração das hidrelétricas, o que reduz a necessidade de ligar as termelétricas, cuja energia é mais cara. Quando essas usinas precisam ser acionadas, entram as bandeiras amarela ou vermelha, que encarecem a conta de acordo com o consumo."
+    ],
+    "src": "Aneel, via Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/com-bandeira-tarifaria-verde-energia-nao-tera-custo-extra-em-dezembro"
+  },
+  {
     "ed": "Negócios",
     "date": "2026-11-27",
     "title": "B3 e seis bancos criam a Open BRL, stablecoin atrelada ao real",
