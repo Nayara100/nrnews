@@ -1,5 +1,17 @@
 [
   {
+    "ed": "Negócios",
+    "date": "2026-11-27",
+    "title": "B3 e seis bancos criam a Open BRL, stablecoin atrelada ao real",
+    "lead": "O projeto quer criar uma rede comum para instituições financeiras trocarem ativos digitais entre si.",
+    "body": [
+      "A B3 se juntou a Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander e XP para desenvolver a Open BRL, uma stablecoin com valor ligado ao real. Junto com a moeda digital, o grupo vai montar uma infraestrutura compartilhada para que bancos movimentem ativos digitais entre si, mesmo usando sistemas diferentes.",
+      "A B3 cuidará da operação da tecnologia, e o Banco B3 fará a emissão da stablecoin. Os outros participantes vão trabalhar nas integrações e estudar usos para a ferramenta, como transferências de valores e liquidação de operações. O projeto ainda está no começo e, por enquanto, foca na estrutura e na conexão entre as instituições."
+    ],
+    "src": "Startups",
+    "url": "https://startups.com.br/negocios/cripto/b3-lanca-stablecoin-em-parceria-com-bancos/"
+  },
+  {
     "ed": "Política",
     "date": "2026-11-27",
     "title": "São Paulo tira 149 produtos da substituição tributária do ICMS",
